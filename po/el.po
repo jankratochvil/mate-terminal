@@ -2,7 +2,7 @@
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the mate-terminal package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # alexandros_ <alexandros.venn@gmail.com>, 2018
 # Le Pa <lepa.22@hotmail.com>, 2018
@@ -15,23 +15,23 @@
 # anvo <fragos.george@hotmail.com>, 2020
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Efstathios Iosifidis <iefstathios@gmail.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-terminal 1.27.1\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-terminal/issues\n"
-"POT-Creation-Date: 2023-09-10 09:13+0200\n"
+"POT-Creation-Date: 2024-04-17 14:24-0400\n"
 "PO-Revision-Date: 2018-03-12 08:42+0000\n"
 "Last-Translator: Efstathios Iosifidis <iefstathios@gmail.com>, 2021\n"
 "Language-Team: Greek (https://app.transifex.com/mate/teams/13566/el/)\n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: mate-terminal.appdata.xml.in.in:7 mate-terminal.desktop.in.in:3
-#: src/terminal-options.c:189 src/terminal-window.c:4531
+#: src/terminal-options.c:193 src/terminal-window.c:4546
 msgid "MATE Terminal"
 msgstr "Τερματικό MATE"
 
@@ -41,8 +41,8 @@ msgstr "Προσομοιωτής τερματικού για το περιβάλ
 
 #: mate-terminal.appdata.xml.in.in:10
 msgid ""
-"MATE Terminal is a terminal emulation application that you can use to access"
-" a UNIX shell in the MATE environment. MATE Terminal emulates the xterm "
+"MATE Terminal is a terminal emulation application that you can use to access "
+"a UNIX shell in the MATE environment. MATE Terminal emulates the xterm "
 "program developed by the X Consortium. It supports translucent backgrounds, "
 "opening multiple terminals in a single window (tabs) and clickable URLs."
 msgstr ""
@@ -55,7 +55,7 @@ msgid ""
 msgstr ""
 
 #: mate-terminal.desktop.in.in:4 src/terminal-accels.c:351 src/terminal.c:517
-#: src/terminal-profile.c:161 src/terminal-window.c:2287
+#: src/terminal-profile.c:161 src/terminal-window.c:2280
 msgid "Terminal"
 msgstr "Τερματικό"
 
@@ -68,47 +68,47 @@ msgstr "Χρήση γραμμής εντολών"
 msgid "_Cancel"
 msgstr "Α_κύρωση"
 
-#: src/confirm-close-dialog.ui:56 src/terminal-window.c:2223
-#: src/terminal-window.c:3719
+#: src/confirm-close-dialog.ui:56 src/terminal-window.c:2216
+#: src/terminal-window.c:3735
 msgid "C_lose Window"
 msgstr "_Κλείσιμο παραθύρου"
 
-#: src/confirm-close-dialog.ui:119 src/terminal-window.c:3718
+#: src/confirm-close-dialog.ui:119 src/terminal-window.c:3734
 msgid "Close this window?"
 msgstr "Κλείσιμο παραθύρου;"
 
-#: src/confirm-close-dialog.ui:138 src/terminal-window.c:3708
+#: src/confirm-close-dialog.ui:138 src/terminal-window.c:3724
 msgid ""
 "There is still a process running in this terminal.\n"
 "Closing the terminal will kill it."
 msgstr ""
 
-#: src/mate-submodules/libegg/eggsmclient.c:234
+#: src/mate-submodules/libegg/eggsmclient.c:233
 msgid "Disable connection to session manager"
 msgstr "Απενεργοποίηση σύνδεσης με τον διαχειριστή συνεδρίας"
 
-#: src/mate-submodules/libegg/eggsmclient.c:239
+#: src/mate-submodules/libegg/eggsmclient.c:238
 msgid "Specify file containing saved configuration"
 msgstr "Καθορισμός του αρχείου που περιέχει τις αποθηκευμένες ρυθμίσεις"
 
-#: src/mate-submodules/libegg/eggsmclient.c:239 src/terminal-options.c:962
-#: src/terminal-options.c:971
+#: src/mate-submodules/libegg/eggsmclient.c:238 src/terminal-options.c:990
+#: src/terminal-options.c:999
 msgid "FILE"
 msgstr "ΑΡΧΕΙΟ"
 
-#: src/mate-submodules/libegg/eggsmclient.c:244
+#: src/mate-submodules/libegg/eggsmclient.c:243
 msgid "Specify session management ID"
 msgstr "Καθορισμός ID διαχείρισης συνεδρίας"
 
-#: src/mate-submodules/libegg/eggsmclient.c:244
+#: src/mate-submodules/libegg/eggsmclient.c:243
 msgid "ID"
 msgstr "ID"
 
-#: src/mate-submodules/libegg/eggsmclient.c:270
+#: src/mate-submodules/libegg/eggsmclient.c:269
 msgid "Session management options:"
 msgstr "Επιλογές διαχείρισης συνεδρίας"
 
-#: src/mate-submodules/libegg/eggsmclient.c:271
+#: src/mate-submodules/libegg/eggsmclient.c:270
 msgid "Show session management options"
 msgstr "Εμφάνιση επιλογών διαχείρισης συνεδρίας"
 
@@ -118,13 +118,12 @@ msgstr "Προσθήκη ή αφαίρεση κωδικοποιήσεων τερ
 
 #: src/encodings-dialog.ui:41 src/keybinding-editor.ui:41
 #: src/profile-manager.ui:58 src/profile-preferences.ui:262
-#: src/terminal-window.c:1956
+#: src/terminal-window.c:1949
 msgid "_Help"
 msgstr "_Βοήθεια"
 
-#: src/encodings-dialog.ui:59 src/find-dialog.ui:42
-#: src/keybinding-editor.ui:59 src/profile-manager.ui:76
-#: src/profile-preferences.ui:279
+#: src/encodings-dialog.ui:59 src/find-dialog.ui:42 src/keybinding-editor.ui:59
+#: src/profile-manager.ui:76 src/profile-preferences.ui:279
 msgid "_Close"
 msgstr "_Κλείσιμο"
 
@@ -345,8 +344,7 @@ msgstr "Προφίλ που χρησιμοποιείται για νέα τερ�
 
 #: src/org.mate.terminal.gschema.xml.in:55
 msgid ""
-"Profile to be used when opening a new window or tab. Must be in "
-"profile_list."
+"Profile to be used when opening a new window or tab. Must be in profile_list."
 msgstr ""
 "Προφίλ που χρησιμοποιείται όταν ανοίγει νέο παράθυρο ή καρτέλα. Πρέπει να "
 "περιλαμβάνεται στο profile_list."
@@ -358,8 +356,8 @@ msgstr "Αν η γραμμή μενού θα διαθέτει πλήκτρα π�
 #: src/org.mate.terminal.gschema.xml.in:60
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
-"with some applications run inside the terminal so it's possible to turn them"
-" off."
+"with some applications run inside the terminal so it's possible to turn them "
+"off."
 msgstr ""
 "Αν θα ισχύουν τα πλήκτρα πρόσβασης Alt+γράμμα για τη γραμμή μενού. Η "
 "απενεργοποίησή τους επιτρέπεται, γιατί υπάρχει κίνδυνος συγκρούσεων με "
@@ -454,8 +452,8 @@ msgid ""
 "True if the menubar should be shown in new windows, for windows/tabs with "
 "this profile."
 msgstr ""
-"Αληθές, αν επιθυμείτε η γραμμή μενού να εμφανίζεται στα νέα "
-"παράθυρα/καρτέλες αυτού του προφίλ."
+"Αληθές, αν επιθυμείτε η γραμμή μενού να εμφανίζεται στα νέα παράθυρα/"
+"καρτέλες αυτού του προφίλ."
 
 #: src/org.mate.terminal.gschema.xml.in:103
 msgid "Default color of text in the terminal"
@@ -463,8 +461,8 @@ msgstr "Προεπιλεγμένο χρώμα κειμένου για το τε�
 
 #: src/org.mate.terminal.gschema.xml.in:104
 msgid ""
-"Default color of text in the terminal, as a color specification (can be "
-"HTML-style hex digits, or a color name such as \"red\")."
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as \"red\")."
 msgstr ""
 "Προεπιλεγμένο χρώμα κειμένου για το τερματικό (μπορεί να είναι δεκαεξαδικό "
 "αριθμητικό τύπου HTML ή όνομα χρώματος όπως \"red\")."
@@ -487,9 +485,9 @@ msgstr "Προεπιλεγμένο χρώμα έντονου κειμένου γ
 
 #: src/org.mate.terminal.gschema.xml.in:114
 msgid ""
-"Default color of bold text in the terminal, as a color specification (can be"
-" HTML-style hex digits, or a color name such as \"red\"). This is ignored if"
-" bold_color_same_as_fg is true."
+"Default color of bold text in the terminal, as a color specification (can be "
+"HTML-style hex digits, or a color name such as \"red\"). This is ignored if "
+"bold_color_same_as_fg is true."
 msgstr ""
 "Προεπιλεγμένο χρώμα έντονου κειμένου για το τερματικό (μπορεί να είναι "
 "δεκαεξαδικό αριθμητικό τύπου HTML ή όνομα χρώματος όπως \"red\"). Το χρώμα "
@@ -514,13 +512,13 @@ msgstr "Είδος ενέργειας όταν υπάρχει δυναμικός
 #: src/org.mate.terminal.gschema.xml.in:124
 msgid ""
 "If the application in the terminal sets the title (most typically people "
-"have their shell set up to do this), the dynamically-set title can erase the"
-" configured title, go before it, go after it, or replace it. The possible "
+"have their shell set up to do this), the dynamically-set title can erase the "
+"configured title, go before it, go after it, or replace it. The possible "
 "values are \"replace\", \"before\", \"after\", and \"ignore\"."
 msgstr ""
-"Αν η εφαρμογή στο τερματικό ορίζει τον τίτλο του τερματικού (οι περισσότεροι"
-" χρήστες χρησιμοποιούν αυτή την επιλογή), ο δυναμικά ορισμένος τίτλος μπορεί"
-" να σβήσει τον αρχικό τίτλο, να εμφανιστεί πριν ή μετά από αυτόν, ή να τον "
+"Αν η εφαρμογή στο τερματικό ορίζει τον τίτλο του τερματικού (οι περισσότεροι "
+"χρήστες χρησιμοποιούν αυτή την επιλογή), ο δυναμικά ορισμένος τίτλος μπορεί "
+"να σβήσει τον αρχικό τίτλο, να εμφανιστεί πριν ή μετά από αυτόν, ή να τον "
 "αντικαταστήσει. Οι πιθανές τιμές είναι \"replace\", \"before\", \"after\", "
 "και\"ignore\"."
 
@@ -581,8 +579,8 @@ msgstr "Χαρακτήρες που θεωρούνται \"μέρος λέξης
 #: src/org.mate.terminal.gschema.xml.in:149
 msgid ""
 "When selecting text by word, sequences of these characters are considered "
-"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing"
-" a range) should be the first character given."
+"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
+"a range) should be the first character given."
 msgstr ""
 "Όταν γίνεται επιλογή κειμένου ανά λέξη, οι ακολουθίες που περιέχουν αυτούς "
 "τους χαρακτήρες θεωρούνται ξεχωριστές λέξεις. Διατυπώσεις του τύπου \"A-Z\" "
@@ -600,8 +598,7 @@ msgid ""
 "default_size_columns and default_size_rows."
 msgstr ""
 "Αν είναι αληθές, τα καινούρια παράθυρα τερματικού θα έχουν προσαρμοσμένο "
-"μέγεθος που καθορίζεται από το default_size_columns και το "
-"default_size_rows."
+"μέγεθος που καθορίζεται από το default_size_columns και το default_size_rows."
 
 #: src/org.mate.terminal.gschema.xml.in:158
 msgid "Default number of columns"
@@ -624,8 +621,8 @@ msgid ""
 "Number of rows in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
 msgstr ""
-"Αριθμός γραμμών σε νέα παράθυρα τερματικού. Δεν έχει αποτέλεσμα αν δεν είναι"
-" ενεργοποιημένο το use_custom_default_size."
+"Αριθμός γραμμών σε νέα παράθυρα τερματικού. Δεν έχει αποτέλεσμα αν δεν είναι "
+"ενεργοποιημένο το use_custom_default_size."
 
 #: src/org.mate.terminal.gschema.xml.in:168
 msgid "Position of the scrollbar"
@@ -646,13 +643,13 @@ msgstr "Αριθμός γραμμών που εμφανίζονται κατά �
 #: src/org.mate.terminal.gschema.xml.in:174
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
-"terminal by this number of lines; lines that don't fit in the scrollback are"
-" discarded. If scrollback_unlimited is true, this value is ignored."
+"terminal by this number of lines; lines that don't fit in the scrollback are "
+"discarded. If scrollback_unlimited is true, this value is ignored."
 msgstr ""
 "Αριθμός γραμμών που διατηρούνται στη μνήμη. Μπορείτε να κυλίσετε προς τα "
 "πάνω το τερματικό για τον συγκεκριμένο αριθμό γραμμών. Τυχόν επιπλέον "
-"γραμμές απαλείφονται από τη μνήμη. Εάν το scrollback_unlimited είναι αληθές,"
-" αυτή η τιμή παραβλέπεται."
+"γραμμές απαλείφονται από τη μνήμη. Εάν το scrollback_unlimited είναι αληθές, "
+"αυτή η τιμή παραβλέπεται."
 
 #: src/org.mate.terminal.gschema.xml.in:178
 msgid "Whether an unlimited number of lines should be kept in scrollback"
@@ -662,14 +659,14 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:179
 msgid ""
-"If true, scrollback lines will never be discarded. The scrollback history is"
-" stored on disk temporarily, so this may cause the system to run out of disk"
-" space if there is a lot of output to the terminal."
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
 msgstr ""
 "Αν είναι αληθές, οι γραμμές που εμφανίζονται κατά την κύλιση προς τα πάνω "
 "δεν θα απορρίπτονται ποτέ. Το ιστορικό της κύλισης προς τα πίσω θα "
-"αποθηκεύεται προσωρινά στον δίσκο. Αυτό ίσως να κάνει το σύστημα να ξεμείνει"
-" από ελεύθερο χώρο στο δίσκο, αν υπάρχουν πολλά αποτελέσματα στο τερματικό."
+"αποθηκεύεται προσωρινά στον δίσκο. Αυτό ίσως να κάνει το σύστημα να ξεμείνει "
+"από ελεύθερο χώρο στο δίσκο, αν υπάρχουν πολλά αποτελέσματα στο τερματικό."
 
 #: src/org.mate.terminal.gschema.xml.in:183
 msgid "Whether to scroll to the bottom when a key is pressed"
@@ -679,13 +676,12 @@ msgstr ""
 #: src/org.mate.terminal.gschema.xml.in:184
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr ""
-"Αν είναι αληθές, το πάτημα οποιουδήποτε πλήκτρου αναγκάζει τη γραμμή κύλισης"
-" να μεταβεί στο τέλος."
+"Αν είναι αληθές, το πάτημα οποιουδήποτε πλήκτρου αναγκάζει τη γραμμή κύλισης "
+"να μεταβεί στο τέλος."
 
 #: src/org.mate.terminal.gschema.xml.in:188
 msgid "Whether to scroll to the bottom when there's new output"
-msgstr ""
-"Αν θα γίνεται κύλιση μέχρι το τέλος όταν εμφανίζονται νέα αποτελέσματα"
+msgstr "Αν θα γίνεται κύλιση μέχρι το τέλος όταν εμφανίζονται νέα αποτελέσματα"
 
 #: src/org.mate.terminal.gschema.xml.in:189
 msgid ""
@@ -703,8 +699,8 @@ msgid ""
 "Possible values are \"close\" to close the terminal, and \"restart\" to "
 "restart the command."
 msgstr ""
-"Οι πιθανές τιμές είναι \"close\" για κλείσιμο του τερματικού και \"restart\""
-" για επανεκκίνηση της εντολής."
+"Οι πιθανές τιμές είναι \"close\" για κλείσιμο του τερματικού και \"restart\" "
+"για επανεκκίνηση της εντολής."
 
 #: src/org.mate.terminal.gschema.xml.in:198
 msgid "Whether to launch the command in the terminal as a login shell"
@@ -795,7 +791,8 @@ msgstr "Γραμματοσειρά"
 
 #: src/org.mate.terminal.gschema.xml.in:234
 msgid "An Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
-msgstr "Ένα όνομα γραμματοσειράς Pango. Π.χ. \"Sans 12\" ή \"Monospace Bold 14\"."
+msgstr ""
+"Ένα όνομα γραμματοσειράς Pango. Π.χ. \"Sans 12\" ή \"Monospace Bold 14\"."
 
 #: src/org.mate.terminal.gschema.xml.in:238
 msgid "Background type"
@@ -862,10 +859,9 @@ msgid ""
 msgstr ""
 "Καθορίζει τον κωδικό που στέλνεται από το πλήκτρο Backspace. Οι δυνατές "
 "τιμές είναι: \"ascii-del\" για το χαρακτήρα ASCII DEL, \"control-h\" για "
-"Control-H (γνωστό και ως χαρακτήρα ASCII BS), \"ακολουθία διαφυγής\" για την"
-" ακολουθία εξόδου που συνήθως αντιστοιχεί στο backspace ή το delete. "
-"Συνήθως, το \"ascii-del\" θεωρείται η σωστή ρύθμιση για το πλήκτρο "
-"Backspace."
+"Control-H (γνωστό και ως χαρακτήρα ASCII BS), \"ακολουθία διαφυγής\" για την "
+"ακολουθία εξόδου που συνήθως αντιστοιχεί στο backspace ή το delete. Συνήθως, "
+"το \"ascii-del\" θεωρείται η σωστή ρύθμιση για το πλήκτρο Backspace."
 
 #: src/org.mate.terminal.gschema.xml.in:263
 msgid "Effect of the Delete key"
@@ -880,10 +876,10 @@ msgid ""
 "setting for the Delete key."
 msgstr ""
 "Καθορίζει τον κωδικό που στέλνεται από το πλήκτρο Delete. Οι δυνατές τιμές "
-"είναι: \"ascii-del\" για το χαρακτήρα ASCII DEL, \"control-h\" για Control-H"
-" (γνωστό και ως χαρακτήρα ASCII BS), \"ακολουθία διαφυγής\" για την "
-"ακολουθία εξόδου που συνήθως αντιστοιχεί στο backspace ή το delete. Συνήθως,"
-" η \"ακολουθία διαφυγής\" θεωρείται η σωστή ρύθμιση για το πλήκτρο Delete."
+"είναι: \"ascii-del\" για το χαρακτήρα ASCII DEL, \"control-h\" για Control-H "
+"(γνωστό και ως χαρακτήρα ASCII BS), \"ακολουθία διαφυγής\" για την ακολουθία "
+"εξόδου που συνήθως αντιστοιχεί στο backspace ή το delete. Συνήθως, η "
+"\"ακολουθία διαφυγής\" θεωρείται η σωστή ρύθμιση για το πλήκτρο Delete."
 
 #: src/org.mate.terminal.gschema.xml.in:268
 msgid "Whether to use the colors from the theme for the terminal widget"
@@ -932,8 +928,8 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:284
 msgid ""
-"If true, URLs under mouse pointer are highlighted and can be opened by mouse"
-" click together with control key or used in context menu."
+"If true, URLs under mouse pointer are highlighted and can be opened by mouse "
+"click together with control key or used in context menu."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:290
@@ -948,9 +944,8 @@ msgid ""
 "this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για το άνοιγμα νέας καρτέλας. Εκφράζεται ως "
-"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή"
-" \"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την "
-"ενέργεια."
+"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
+"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:295
 msgid "Keyboard shortcut to open a new window"
@@ -958,15 +953,14 @@ msgstr "Συντόμευση για το άνοιγμα νέου παραθύρ�
 
 #: src/org.mate.terminal.gschema.xml.in:296
 msgid ""
-"Keyboard shortcut key for opening a new window. Expressed as a string in the"
-" same format used for GTK+ resource files. If you set the option to the "
+"Keyboard shortcut key for opening a new window. Expressed as a string in the "
+"same format used for GTK+ resource files. If you set the option to the "
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για το άνοιγμα νέου παραθύρου. Εκφράζεται ως "
-"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή"
-" \"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την "
-"ενέργεια."
+"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
+"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:300
 msgid "Keyboard shortcut to create a new profile"
@@ -976,8 +970,8 @@ msgstr "Συντόμευση για τη δημιουργία νέου προφ�
 msgid ""
 "Keyboard shortcut key for bringing up the dialog for profile creation. "
 "Expressed as a string in the same format used for GTK+ resource files. If "
-"you set the option to the special string \"disabled\", then there will be no"
-" keyboard shortcut for this action."
+"you set the option to the special string \"disabled\", then there will be no "
+"keyboard shortcut for this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για την εμφάνιση του διαλόγου δημιουργίας προφίλ. "
 "Εκφράζεται ως αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν "
@@ -1010,12 +1004,11 @@ msgstr "Συντόμευση για το κλείσιμο καρτέλας"
 msgid ""
 "Keyboard shortcut key for closing a tab. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για το κλείσιμο καρτέλας. Εκφράζεται ως αλφαριθμητικό "
-"της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή \"disabled\","
-" τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
+"της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή \"disabled\", "
+"τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:315
 msgid "Keyboard shortcut to close a window"
@@ -1029,8 +1022,8 @@ msgid ""
 "this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για το κλείσιμο παραθύρου. Εκφράζεται ως αλφαριθμητικό "
-"της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή \"disabled\","
-" τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
+"της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή \"disabled\", "
+"τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:320
 msgid "Keyboard shortcut to copy text"
@@ -1043,8 +1036,8 @@ msgid ""
 "option to the special string \"disabled\", then there will be no keyboard "
 "shortcut for this action."
 msgstr ""
-"Πλήκτρο συντόμευσης για την αντιγραφή του επιλεγμένου κειμένου στο πρόχειρο."
-" Εκφράζεται ως αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν "
+"Πλήκτρο συντόμευσης για την αντιγραφή του επιλεγμένου κειμένου στο πρόχειρο. "
+"Εκφράζεται ως αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν "
 "χρησιμοποιήσετε την τιμή \"disabled\", τότε δεν θα υπάρχει συνδυασμός "
 "πλήκτρων για αυτή την ενέργεια."
 
@@ -1060,8 +1053,8 @@ msgid ""
 "will be no keyboard shortcut for this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για την επικόλληση των περιεχομένων του προχείρου στο "
-"τερματικό. Εκφράζεται ως αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν"
-" χρησιμοποιήσετε την τιμή \"disabled\", τότε δεν θα υπάρχει συνδυασμός "
+"τερματικό. Εκφράζεται ως αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν "
+"χρησιμοποιήσετε την τιμή \"disabled\", τότε δεν θα υπάρχει συνδυασμός "
 "πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:330
@@ -1078,8 +1071,8 @@ msgstr ""
 "Πλήκτρο συντόμευσης πληκτρολογίου για την επιλογή όλου του κειμένου στο "
 "τερματικό. Εκφράζεται ως συμβολοσειρά με την ίδια μορφή που χρησιμοποιείται "
 "για αρχεία πόρων GTK +. Αν ορίσετε την επιλογή με την ειδική συμβολοσειρά "
-"\"απενεργοποιημένη\", τότε δεν θα υπάρξει συντόμευση πληκτρολογίου για αυτήν"
-" την ενέργεια."
+"\"απενεργοποιημένη\", τότε δεν θα υπάρξει συντόμευση πληκτρολογίου για αυτήν "
+"την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:335
 msgid "Keyboard shortcut to show the find dialog"
@@ -1096,8 +1089,8 @@ msgstr ""
 "Πλήκτρο συντόμευσης πληκτρολογίου για την εμφάνιση του διαλόγου εύρεσης. "
 "Εκφράζεται ως συμβολοσειρά με την ίδια μορφή που χρησιμοποιείται για αρχεία "
 "πόρων GTK +. Αν ορίσετε την επιλογή με την ειδική συμβολοσειρά "
-"\"απενεργοποιημένη\", τότε δεν θα υπάρξει συντόμευση πληκτρολογίου για αυτήν"
-" την ενέργεια."
+"\"απενεργοποιημένη\", τότε δεν θα υπάρξει συντόμευση πληκτρολογίου για αυτήν "
+"την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:340
 msgid "Keyboard shortcut to find the next occurrence of the search term"
@@ -1126,16 +1119,16 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:346
 msgid ""
-"Keyboard shortcut key for finding the previous occurrence of the search term"
-" in the terminal. Expressed as a string in the same format used for GTK+ "
+"Keyboard shortcut key for finding the previous occurrence of the search term "
+"in the terminal. Expressed as a string in the same format used for GTK+ "
 "resource files. If you set the option to the special string \"disabled\", "
 "then there will be no keyboard shortcut for this action."
 msgstr ""
 "Πλήκτρο συντόμευσης πληκτρολογίου για την εύρεση της προηγούμενης εμφάνισης "
 "του όρου αναζήτησης στο τερματικό. Εκφράζεται ως συμβολοσειρά με την ίδια "
 "μορφή που χρησιμοποιείται για αρχεία πόρων GTK +. Αν ορίσετε την επιλογή με "
-"την ειδική συμβολοσειρά \"απενεργοποιημένη\", τότε δεν θα υπάρξει συντόμευση"
-" πληκτρολογίου για αυτήν την ενέργεια."
+"την ειδική συμβολοσειρά \"απενεργοποιημένη\", τότε δεν θα υπάρξει συντόμευση "
+"πληκτρολογίου για αυτήν την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:350
 msgid "Keyboard shortcut to toggle full screen mode"
@@ -1145,8 +1138,8 @@ msgstr "Συντόμευση για εναλλαγή της λειτουργία
 msgid ""
 "Keyboard shortcut key for toggling full screen mode. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για εναλλαγή της λειτουργίας πλήρους οθόνης. Εκφράζεται "
 "ως αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την "
@@ -1181,9 +1174,8 @@ msgid ""
 "this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για τον ορισμό του τίτλου του τερματικού. Εκφράζεται ως "
-"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή"
-" \"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την "
-"ενέργεια."
+"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
+"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:365
 msgid "Keyboard shortcut to reset the terminal"
@@ -1197,9 +1189,8 @@ msgid ""
 "this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για τον καθαρισμό του τερματικού. Εκφράζεται ως "
-"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή"
-" \"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την "
-"ενέργεια."
+"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
+"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:370
 msgid "Keyboard shortcut to reset and clear the terminal"
@@ -1207,10 +1198,10 @@ msgstr "Συντόμευση για την επαναφορά και τον κα
 
 #: src/org.mate.terminal.gschema.xml.in:371
 msgid ""
-"Keyboard shortcut key to reset and clear the terminal. Expressed as a string"
-" in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"Keyboard shortcut key to reset and clear the terminal. Expressed as a string "
+"in the same format used for GTK+ resource files. If you set the option to "
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για την επαναφορά και τον καθαρισμό του τερματικού. "
 "Εκφράζεται ως αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν "
@@ -1225,13 +1216,12 @@ msgstr "Συντόμευση για μετάβαση στην προηγούμε
 msgid ""
 "Keyboard shortcut key to switch to the previous tab. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για μετάβαση στην προηγούμενη καρτέλα. Εκφράζεται ως "
-"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή"
-" \"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την "
-"ενέργεια."
+"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
+"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:380
 msgid "Keyboard shortcut to switch to the next tab"
@@ -1245,9 +1235,8 @@ msgid ""
 "this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για μετάβαση στην επόμενη καρτέλα. Εκφράζεται ως "
-"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή"
-" \"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την "
-"ενέργεια."
+"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
+"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:385
 msgid "Keyboard shortcut to switch to the previous profile"
@@ -1261,9 +1250,8 @@ msgid ""
 "shortcut for this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για μετάβαση στο προηγούμενο προφίλ. Εκφράζεται ως "
-"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή"
-" \"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την "
-"ενέργεια."
+"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
+"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:390
 msgid "Keyboard shortcut to switch to the next profile"
@@ -1273,13 +1261,12 @@ msgstr "Συντόμευση για μετάβαση στο επόμενο πρ�
 msgid ""
 "Keyboard shortcut key to switch to the next profile. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για μετάβαση στο επόμενο προφίλ. Εκφράζεται ως "
-"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή"
-" \"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την "
-"ενέργεια."
+"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
+"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:395
 msgid "Accelerator to move the current tab to the left."
@@ -1324,9 +1311,8 @@ msgid ""
 "string \"disabled\", then there will be no keybinding for this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για την απόσπαση της τρέχουσας καρτέλας. Εκφράζεται ως "
-"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή"
-" \"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την "
-"ενέργεια."
+"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
+"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:410
 msgid "Keyboard shortcut to switch to tab 1"
@@ -1334,14 +1320,13 @@ msgstr "Συντόμευση για μετάβαση στην καρτέλα 1"
 
 #: src/org.mate.terminal.gschema.xml.in:411
 msgid ""
-"Keyboard shortcut key for switch to tab 1. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 1. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 1. Εκφράζεται ως αλφαριθμητικό"
-" της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
-"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
+"Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 1. Εκφράζεται ως αλφαριθμητικό "
+"της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή \"disabled\", "
+"τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:415
 msgid "Keyboard shortcut to switch to tab 2"
@@ -1349,14 +1334,13 @@ msgstr "Συντόμευση για μετάβαση στην καρτέλα 2"
 
 #: src/org.mate.terminal.gschema.xml.in:416
 msgid ""
-"Keyboard shortcut key for switch to tab 2. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 2. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 2. Εκφράζεται ως αλφαριθμητικό"
-" της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
-"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
+"Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 2. Εκφράζεται ως αλφαριθμητικό "
+"της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή \"disabled\", "
+"τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:420
 msgid "Keyboard shortcut to switch to tab 3"
@@ -1364,14 +1348,13 @@ msgstr "Συντόμευση για μετάβαση στην καρτέλα 3"
 
 #: src/org.mate.terminal.gschema.xml.in:421
 msgid ""
-"Keyboard shortcut key for switch to tab 3. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 3. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 3. Εκφράζεται ως αλφαριθμητικό"
-" της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
-"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
+"Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 3. Εκφράζεται ως αλφαριθμητικό "
+"της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή \"disabled\", "
+"τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:425
 msgid "Keyboard shortcut to switch to tab 4"
@@ -1379,14 +1362,13 @@ msgstr "Συντόμευση για μετάβαση στην καρτέλα 4"
 
 #: src/org.mate.terminal.gschema.xml.in:426
 msgid ""
-"Keyboard shortcut key for switch to tab 4. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 4. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 4. Εκφράζεται ως αλφαριθμητικό"
-" της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
-"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
+"Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 4. Εκφράζεται ως αλφαριθμητικό "
+"της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή \"disabled\", "
+"τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:430
 msgid "Keyboard shortcut to switch to tab 5"
@@ -1394,14 +1376,13 @@ msgstr "Συντόμευση για μετάβαση στην καρτέλα 5"
 
 #: src/org.mate.terminal.gschema.xml.in:431
 msgid ""
-"Keyboard shortcut key for switch to tab 5. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 5. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 5. Εκφράζεται ως αλφαριθμητικό"
-" της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
-"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
+"Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 5. Εκφράζεται ως αλφαριθμητικό "
+"της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή \"disabled\", "
+"τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:435
 msgid "Keyboard shortcut to switch to tab 6"
@@ -1409,14 +1390,13 @@ msgstr "Συντόμευση για μετάβαση στην καρτέλα 6"
 
 #: src/org.mate.terminal.gschema.xml.in:436
 msgid ""
-"Keyboard shortcut key for switch to tab 6. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 6. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 6. Εκφράζεται ως αλφαριθμητικό"
-" της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
-"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
+"Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 6. Εκφράζεται ως αλφαριθμητικό "
+"της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή \"disabled\", "
+"τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:440
 msgid "Keyboard shortcut to switch to tab 7"
@@ -1424,14 +1404,13 @@ msgstr "Συντόμευση για μετάβαση στην καρτέλα 7"
 
 #: src/org.mate.terminal.gschema.xml.in:441
 msgid ""
-"Keyboard shortcut key for switch to tab 7. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 7. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 7. Εκφράζεται ως αλφαριθμητικό"
-" της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
-"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
+"Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 7. Εκφράζεται ως αλφαριθμητικό "
+"της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή \"disabled\", "
+"τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:445
 msgid "Keyboard shortcut to switch to tab 8"
@@ -1439,14 +1418,13 @@ msgstr "Συντόμευση για μετάβαση στην καρτέλα 8"
 
 #: src/org.mate.terminal.gschema.xml.in:446
 msgid ""
-"Keyboard shortcut key for switch to tab 8. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 8. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 8. Εκφράζεται ως αλφαριθμητικό"
-" της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
-"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
+"Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 8. Εκφράζεται ως αλφαριθμητικό "
+"της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή \"disabled\", "
+"τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:450
 msgid "Keyboard shortcut to switch to tab 9"
@@ -1454,14 +1432,13 @@ msgstr "Συντόμευση για μετάβαση στην καρτέλα 9"
 
 #: src/org.mate.terminal.gschema.xml.in:451
 msgid ""
-"Keyboard shortcut key for switch to tab 9. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 9. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 9. Εκφράζεται ως αλφαριθμητικό"
-" της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
-"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
+"Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 9. Εκφράζεται ως αλφαριθμητικό "
+"της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή \"disabled\", "
+"τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:455
 msgid "Keyboard shortcut to switch to tab 10"
@@ -1475,9 +1452,8 @@ msgid ""
 "this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 10. Εκφράζεται ως "
-"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή"
-" \"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την "
-"ενέργεια."
+"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
+"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:460
 msgid "Keyboard shortcut to switch to tab 11"
@@ -1491,9 +1467,8 @@ msgid ""
 "this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 11. Εκφράζεται ως "
-"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή"
-" \"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την "
-"ενέργεια."
+"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
+"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:465
 msgid "Keyboard shortcut to switch to tab 12"
@@ -1507,9 +1482,8 @@ msgid ""
 "this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για μετάβαση στην καρτέλα 12. Εκφράζεται ως "
-"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή"
-" \"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την "
-"ενέργεια."
+"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
+"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:470
 msgid "Keyboard shortcut to launch help"
@@ -1519,13 +1493,11 @@ msgstr "Συντόμευση για την εκκίνηση της βοήθει�
 msgid ""
 "Keyboard shortcut key for launching help. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για την εκκίνηση της βοήθειας. Εκφράζεται ως "
-"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή"
-" \"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την "
-"ενέργεια."
+"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
+"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:475
 msgid "Keyboard shortcut to make font larger"
@@ -1539,9 +1511,8 @@ msgid ""
 "this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για τη μεγέθυνση της γραμματοσειράς. Εκφράζεται ως "
-"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή"
-" \"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την "
-"ενέργεια."
+"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
+"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:480
 msgid "Keyboard shortcut to make font smaller"
@@ -1555,9 +1526,8 @@ msgid ""
 "this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για τη σμίκρυνση της γραμματοσειράς. Εκφράζεται ως "
-"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή"
-" \"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την "
-"ενέργεια."
+"αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν χρησιμοποιήσετε την τιμή "
+"\"disabled\", τότε δεν θα υπάρχει συνδυασμός πλήκτρων για αυτή την ενέργεια."
 
 #: src/org.mate.terminal.gschema.xml.in:485
 msgid "Keyboard shortcut to make font normal-size"
@@ -1565,10 +1535,10 @@ msgstr "Συντόμευση για την επαναφορά της γραμμ�
 
 #: src/org.mate.terminal.gschema.xml.in:486
 msgid ""
-"Keyboard shortcut key for making font the normal size. Expressed as a string"
-" in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"Keyboard shortcut key for making font the normal size. Expressed as a string "
+"in the same format used for GTK+ resource files. If you set the option to "
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "Πλήκτρο συντόμευσης για την επαναφορά της γραμματοσειράς στο κανονικό "
 "μέγεθος. Εκφράζεται ως αλφαριθμητικό της μορφής των αρχείων πηγής GTK+. Αν "
@@ -1595,14 +1565,12 @@ msgstr "Πράσινο σε μαύρο"
 msgid "White on black"
 msgstr "Λευκό σε μαύρο"
 
-#. Translators: "Solarized" is the name of a colour scheme, "light" can be
-#. translated
+#. Translators: "Solarized" is the name of a colour scheme, "light" can be translated
 #: src/profile-editor.c:70
 msgid "Solarized light"
 msgstr "Ηλιακό φως"
 
-#. Translators: "Solarized" is the name of a colour scheme, "dark" can be
-#. translated
+#. Translators: "Solarized" is the name of a colour scheme, "dark" can be translated
 #: src/profile-editor.c:75
 msgid "Solarized dark"
 msgstr "Ηλιακό σκούρο"
@@ -1919,8 +1887,8 @@ msgstr "Κύλιση"
 msgid ""
 "<small><i><b>Note:</b> These options may cause some applications to behave "
 "incorrectly.  They are only here to allow you to work around certain "
-"applications and operating systems that expect different terminal "
-"behavior.</i></small>"
+"applications and operating systems that expect different terminal behavior.</"
+"i></small>"
 msgstr ""
 "<small><i><b>Σημείωση:</b> Αυτές οι επιλογές μπορεί να προκαλέσουν "
 "λανθασμένη συμπεριφορά σε ορισμένες εφαρμογές. Χρησιμεύουν μόνο για την "
@@ -2149,8 +2117,7 @@ msgstr "Βοήθεια"
 #: src/terminal-accels.c:856
 #, c-format
 msgid "The shortcut key “%s” is already bound to the “%s” action"
-msgstr ""
-"Το πλήκτρο συντόμευσης “%s” χρησιμοποιείται ήδη, για την ενέργεια “%s”"
+msgstr "Το πλήκτρο συντόμευσης “%s” χρησιμοποιείται ήδη, για την ενέργεια “%s”"
 
 #: src/terminal-accels.c:1012
 msgid "_Action"
@@ -2190,17 +2157,17 @@ msgstr ""
 msgid "Choose base profile"
 msgstr "Επιλέξτε βασικό προφίλ"
 
-#: src/terminal-app.c:1837
+#: src/terminal-app.c:1845
 #, c-format
 msgid "No such profile \"%s\", using default profile\n"
 msgstr "Δεν υπάρχει το προφίλ \"%s\". Θα χρησιμοποιηθεί το προεπιλεγμένο\n"
 
-#: src/terminal-app.c:1864
+#: src/terminal-app.c:1872
 #, c-format
 msgid "Invalid geometry string \"%s\"\n"
 msgstr "Μη έγκυρο αλφαριθμητικό γεωμετρίας \"%s\"\n"
 
-#: src/terminal-app.c:2070
+#: src/terminal-app.c:2078
 msgid "User Defined"
 msgstr "Καθορισμένη από το χρήστη"
 
@@ -2358,7 +2325,7 @@ msgstr "_Κωδικοποίηση"
 msgid "Current Locale"
 msgstr "Τρέχουσα εντοπιότητα"
 
-#: src/terminal-options.c:177
+#: src/terminal-options.c:181
 #, c-format
 msgid ""
 "Option \"%s\" is no longer supported in this version of mate-terminal; you "
@@ -2369,39 +2336,38 @@ msgstr ""
 "terminal. Μπορείτε να δημιουργήσετε ένα προφίλ με την επιθυμητή ρύθμιση και "
 "να χρησιμοποιήσετε τη νέα επιλογή '--profile'\n"
 
-#: src/terminal-options.c:209
+#: src/terminal-options.c:213
 #, c-format
 msgid "Argument to \"%s\" is not a valid command: %s"
 msgstr "Το όρισμα του \"%s\" δεν είναι έγκυρη εντολή: %s"
 
-#: src/terminal-options.c:347
+#: src/terminal-options.c:351
 msgid "Two roles given for one window"
 msgstr "Δόθηκαν δύο ρόλοι στο ίδιο παράθυρο"
 
-#: src/terminal-options.c:368 src/terminal-options.c:401
+#: src/terminal-options.c:372 src/terminal-options.c:405
 #, c-format
 msgid "\"%s\" option given twice for the same window\n"
 msgstr "Η επιλογή \"%s\" έχει δοθεί δύο φορές για το ίδιο παράθυρο\n"
 
-#: src/terminal-options.c:600
+#: src/terminal-options.c:625
 #, c-format
 msgid "\"%s\" is not a valid zoom factor"
 msgstr "Το \"%s\" δεν είναι έγκυρος συντελεστής μεγέθυνσης"
 
-#: src/terminal-options.c:607
+#: src/terminal-options.c:632
 #, c-format
 msgid "Zoom factor \"%g\" is too small, using %g\n"
 msgstr ""
 "Ο συντελεστής μεγέθυνσης \"%g\" είναι πολύ μικρός, θα χρησιμοποιηθεί το %g\n"
 
-#: src/terminal-options.c:615
+#: src/terminal-options.c:640
 #, c-format
 msgid "Zoom factor \"%g\" is too large, using %g\n"
 msgstr ""
-"Ο συντελεστής μεγέθυνσης \"%g\" είναι πολύ μεγάλος, θα χρησιμοποιηθεί το "
-"%g\n"
+"Ο συντελεστής μεγέθυνσης \"%g\" είναι πολύ μεγάλος, θα χρησιμοποιηθεί το %g\n"
 
-#: src/terminal-options.c:650
+#: src/terminal-options.c:675
 #, c-format
 msgid ""
 "Option \"%s\" requires specifying the command to run on the rest of the "
@@ -2410,15 +2376,15 @@ msgstr ""
 "Η επιλογή \"%s\" απαιτεί να οριστεί η εντολή που θα εκτελεστεί στο υπόλοιπο "
 "της γραμμής εντολών"
 
-#: src/terminal-options.c:811
+#: src/terminal-options.c:837
 msgid "Not a valid terminal config file."
 msgstr "Μη έγκυρο αρχείο ρυθμίσεων τερματικού."
 
-#: src/terminal-options.c:824
+#: src/terminal-options.c:850
 msgid "Incompatible terminal config file version."
 msgstr "Μη συμβατή έκδοση αρχείου ρυθμίσεων τερματικού."
 
-#: src/terminal-options.c:952
+#: src/terminal-options.c:980
 msgid ""
 "Do not register with the activation nameserver, do not re-use an active "
 "terminal"
@@ -2426,111 +2392,121 @@ msgstr ""
 "Να μη γίνεται εγγραφή στον activation nameserver, να μην "
 "επαναχρησιμοποιείται το ενεργό τερματικό"
 
-#: src/terminal-options.c:961
+#: src/terminal-options.c:989
 msgid "Load a terminal configuration file"
 msgstr "Φόρτωση αρχείου ρυθμίσεων τερματικού"
 
-#: src/terminal-options.c:970
+#: src/terminal-options.c:998
 msgid "Save the terminal configuration to a file"
 msgstr "Αποθήκευση σε αρχείο των ρυθμίσεων του τερματικού"
 
-#: src/terminal-options.c:985
+#: src/terminal-options.c:1013
 msgid "Open a new window containing a tab with the default profile"
 msgstr ""
 "Άνοιγμα νέου παραθύρου, που να περιλαμβάνει μία καρτέλα με το προεπιλεγμένο "
 "προφίλ"
 
-#: src/terminal-options.c:994
+#: src/terminal-options.c:1022
 msgid "Open a new tab in the last-opened window with the default profile"
 msgstr ""
 "Άνοιγμα νέας καρτέλας στο τελευταίο παράθυρο που ανοίχθηκε με το "
 "προεπιλεγμένο προφίλ"
 
-#: src/terminal-options.c:1008
+#: src/terminal-options.c:1036
 msgid "Turn on the menubar"
 msgstr "Ενεργοποίηση γραμμής μενού"
 
-#: src/terminal-options.c:1017
+#: src/terminal-options.c:1045
 msgid "Turn off the menubar"
 msgstr "Απενεργοποίηση γραμμής μενού"
 
-#: src/terminal-options.c:1026
+#: src/terminal-options.c:1054
 msgid "Maximize the window"
 msgstr "Μεγιστοποίηση παραθύρου"
 
-#: src/terminal-options.c:1035
+#: src/terminal-options.c:1063
 msgid "Full-screen the window"
 msgstr "Εμφάνιση του παραθύρου σε πλήρη οθόνη"
 
-#: src/terminal-options.c:1044
+#: src/terminal-options.c:1072
 msgid ""
 "Set the window size; for example: 80x24, or 80x24+200+200 (COLSxROWS+X+Y)"
 msgstr ""
 "Ορισμός μεγέθους παραθύρου. Για παράδειγμα: 80x24, ή 80x24+200+200 "
 "(ΧΡΩΜΑΤΑxΓΡΑΜΜΕΣ+X+Y)"
 
-#: src/terminal-options.c:1045
+#: src/terminal-options.c:1073
 msgid "GEOMETRY"
 msgstr "ΓΕΩΜΕΤΡΙΑ"
 
-#: src/terminal-options.c:1053
+#: src/terminal-options.c:1081
 msgid "Set the window role"
 msgstr "Ορισμός του ρόλου του παραθύρου"
 
-#: src/terminal-options.c:1054
+#: src/terminal-options.c:1082
 msgid "ROLE"
 msgstr "ΡΟΛΟΣ"
 
-#: src/terminal-options.c:1062
+#: src/terminal-options.c:1090
+#, fuzzy
+#| msgid "Set the window role"
+msgid "Set the window icon"
+msgstr "Ορισμός του ρόλου του παραθύρου"
+
+#: src/terminal-options.c:1091
+msgid "ICON"
+msgstr ""
+
+#: src/terminal-options.c:1099
 msgid "Set the last specified tab as the active one in its window"
 msgstr ""
 "Ορισμός της τελευταίας καθορισμένης καρτέλας ως ενεργής στο παράθυρό της"
 
-#: src/terminal-options.c:1076
+#: src/terminal-options.c:1113
 msgid "Execute the argument to this option inside the terminal"
 msgstr "Εκτέλεση του ορίσματος αυτής της επιλογής μέσα στο τερματικό"
 
-#: src/terminal-options.c:1085
+#: src/terminal-options.c:1122
 msgid "Use the given profile instead of the default profile"
 msgstr "Χρήση αυτού του προφίλ αντί του προεπιλεγμένου"
 
-#: src/terminal-options.c:1086
+#: src/terminal-options.c:1123
 msgid "PROFILE-NAME"
 msgstr "ΟΝΟΜΑ-ΠΡΟΦΙΛ"
 
-#: src/terminal-options.c:1094
+#: src/terminal-options.c:1131
 msgid "Set the terminal title"
 msgstr "Ορισμός του τίτλου του τερματικού"
 
-#: src/terminal-options.c:1095
+#: src/terminal-options.c:1132
 msgid "TITLE"
 msgstr "ΤΙΤΛΟΣ"
 
-#: src/terminal-options.c:1103
+#: src/terminal-options.c:1140
 msgid "Set the working directory"
 msgstr "Ορισμός του καταλόγου εργασίας του τερματικού"
 
-#: src/terminal-options.c:1104
+#: src/terminal-options.c:1141
 msgid "DIRNAME"
 msgstr "ΟΝΟΜΑΚΑΤΑΛΟΓΟΥ"
 
-#: src/terminal-options.c:1112
+#: src/terminal-options.c:1149
 msgid "Set the terminal's zoom factor (1.0 = normal size)"
 msgstr "Ορισμός του συντελεστή μεγέθυνσης τερματικού (1.0 = κανονικό μέγεθος)"
 
-#: src/terminal-options.c:1113
+#: src/terminal-options.c:1150
 msgid "ZOOM"
 msgstr "ΜΕΓΕΘΥΝΣΗ"
 
-#: src/terminal-options.c:1364 src/terminal-options.c:1367
+#: src/terminal-options.c:1401 src/terminal-options.c:1404
 msgid "MATE Terminal Emulator"
 msgstr "Προσομοίωση τερματικού MATE"
 
-#: src/terminal-options.c:1368
+#: src/terminal-options.c:1405
 msgid "Show MATE Terminal options"
 msgstr "Προβολή επιλογών τερματικού MATE"
 
-#: src/terminal-options.c:1378
+#: src/terminal-options.c:1415
 msgid ""
 "Options to open new windows or terminal tabs; more than one of these may be "
 "specified:"
@@ -2538,11 +2514,11 @@ msgstr ""
 "Επιλογές για το άνοιγμα νέων παραθύρων ή καρτελών τερματικού. Επιτρέπεται ο "
 "ορισμός πολλαπλών επιλογών:"
 
-#: src/terminal-options.c:1379
+#: src/terminal-options.c:1416
 msgid "Show terminal options"
 msgstr "Προβολή επιλογών τερματικού"
 
-#: src/terminal-options.c:1387
+#: src/terminal-options.c:1424
 msgid ""
 "Window options; if used before the first --window or --tab argument, sets "
 "the default for all windows:"
@@ -2550,11 +2526,11 @@ msgstr ""
 "Επιλογές παραθύρων. Αν προηγούνται του πρώτου ορίσματος --window ή --tab, "
 "ορίζονται ως προεπιλογές για όλα τα παράθυρα:"
 
-#: src/terminal-options.c:1388
+#: src/terminal-options.c:1425
 msgid "Show per-window options"
 msgstr "Προβολή επιλογών ανά παράθυρο"
 
-#: src/terminal-options.c:1396
+#: src/terminal-options.c:1433
 msgid ""
 "Terminal options; if used before the first --window or --tab argument, sets "
 "the default for all terminals:"
@@ -2562,7 +2538,7 @@ msgstr ""
 "Επιλογές τερματικών. Αν προηγούνται του πρώτου ορίσματος --window ή --tab, "
 "ορίζονται ως προεπιλογές για όλα τα τερματικά:"
 
-#: src/terminal-options.c:1397
+#: src/terminal-options.c:1434
 msgid "Show per-terminal options"
 msgstr "Προβολή επιλογών ανά τερματικό"
 
@@ -2629,20 +2605,20 @@ msgstr ""
 
 #: src/terminal-util.c:330
 msgid ""
-"MATE Terminal is distributed in the hope that it will be useful, but WITHOUT"
-" ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"MATE Terminal is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
 msgstr ""
 "Το Τερματικό MATE διανέμεται με την ελπίδα ότι θα είναι χρήσιμο, αλλά ΧΩΡΙΣ "
 "ΚΑΜΙΑ ΑΠΟΛΥΤΩΣ ΕΓΓΥΗΣΗ· χωρίς ακόμη και τη σιωπηρή εγγύηση ΕΜΠΟΡΕΥΣΙΜΟΤΗΤΑΣ "
-"Η ΚΑΤΑΛΛΗΛΟΤΗΤΑΣ ΓΙΑ ΣΥΓΓΕΚΡΙΜΕΝΟ ΣΚΟΠΟ. Δείτε για περισσότερες λεπτομέρειες"
-" ·την GNU General Public License."
+"Η ΚΑΤΑΛΛΗΛΟΤΗΤΑΣ ΓΙΑ ΣΥΓΓΕΚΡΙΜΕΝΟ ΣΚΟΠΟ. Δείτε για περισσότερες λεπτομέρειες "
+"·την GNU General Public License."
 
 #: src/terminal-util.c:334
 msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" MATE Terminal; if not, write to the Free Software Foundation, Inc., 51 "
+"You should have received a copy of the GNU General Public License along with "
+"MATE Terminal; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin St, Fifth Floor, Boston, MA  02110-1301 USA"
 msgstr ""
 "Θα πρέπει να έχετε λάβει ένα αντίγραφο της GNU General Public License μαζί "
@@ -2652,7 +2628,8 @@ msgstr ""
 #. Translators: This is the label of a menu item to choose a profile.
 #. * _%d is used as the accelerator (with d between 1 and 9), and
 #. * the %s is the name of the terminal profile.
-#: src/terminal-window.c:619
+#.
+#: src/terminal-window.c:612
 #, c-format
 msgid "_%d. %s"
 msgstr "_%d. %s"
@@ -2660,279 +2637,280 @@ msgstr "_%d. %s"
 #. Translators: This is the label of a menu item to choose a profile.
 #. * _%c is used as the accelerator (it will be a character between A and Z),
 #. * and the %s is the name of the terminal profile.
-#: src/terminal-window.c:625
+#.
+#: src/terminal-window.c:618
 #, c-format
 msgid "_%c. %s"
 msgstr "_%c. %s"
 
-#: src/terminal-window.c:1948
+#: src/terminal-window.c:1941
 msgid "_File"
 msgstr "_Αρχείο"
 
-#: src/terminal-window.c:1949 src/terminal-window.c:1962
-#: src/terminal-window.c:2213
+#: src/terminal-window.c:1942 src/terminal-window.c:1955
+#: src/terminal-window.c:2206
 msgid "Open _Terminal"
 msgstr "Άνοιγμα _τερματικού"
 
-#: src/terminal-window.c:1950 src/terminal-window.c:1967
-#: src/terminal-window.c:2218
+#: src/terminal-window.c:1943 src/terminal-window.c:1960
+#: src/terminal-window.c:2211
 msgid "Open Ta_b"
 msgstr "Άνοιγμα _καρτέλας"
 
-#: src/terminal-window.c:1951
+#: src/terminal-window.c:1944
 msgid "_Edit"
 msgstr "_Επεξεργασία"
 
-#: src/terminal-window.c:1952
+#: src/terminal-window.c:1945
 msgid "_View"
 msgstr "_Προβολή"
 
-#: src/terminal-window.c:1953
+#: src/terminal-window.c:1946
 msgid "_Search"
 msgstr "_Αναζήτηση"
 
-#: src/terminal-window.c:1954
+#: src/terminal-window.c:1947
 msgid "_Terminal"
 msgstr "_Τερματικό"
 
-#: src/terminal-window.c:1955
+#: src/terminal-window.c:1948
 msgid "Ta_bs"
 msgstr "_Καρτέλες"
 
-#: src/terminal-window.c:1972
+#: src/terminal-window.c:1965
 msgid "New _Profile…"
 msgstr "Νέο _προφίλ…"
 
-#: src/terminal-window.c:1977
+#: src/terminal-window.c:1970
 msgid "_Save Contents"
 msgstr "_Αποθήκευση περιεχομένου"
 
-#: src/terminal-window.c:1982 src/terminal-window.c:2228
+#: src/terminal-window.c:1975 src/terminal-window.c:2221
 msgid "C_lose Tab"
 msgstr "Κ_λείσιμο καρτέλας"
 
-#: src/terminal-window.c:1987
+#: src/terminal-window.c:1980
 msgid "_Close Window"
 msgstr "_Κλείσιμο παραθύρου"
 
-#: src/terminal-window.c:1994 src/terminal-window.c:2198
+#: src/terminal-window.c:1987 src/terminal-window.c:2191
 msgid "_Copy"
 msgstr "_Αντιγραφή"
 
-#: src/terminal-window.c:1999 src/terminal-window.c:2203
+#: src/terminal-window.c:1992 src/terminal-window.c:2196
 msgid "_Paste"
 msgstr "Επι_κόλληση"
 
-#: src/terminal-window.c:2004 src/terminal-window.c:2208
+#: src/terminal-window.c:1997 src/terminal-window.c:2201
 msgid "Paste _Filenames"
 msgstr "Επικόλληση _ονομάτων αρχείων"
 
-#: src/terminal-window.c:2009
+#: src/terminal-window.c:2002
 msgid "Select _All"
 msgstr "Επιλογή ό_λων"
 
-#: src/terminal-window.c:2014
+#: src/terminal-window.c:2007
 msgid "P_rofiles…"
 msgstr "Π_ροφίλ…"
 
-#: src/terminal-window.c:2019
+#: src/terminal-window.c:2012
 msgid "_Keyboard Shortcuts…"
 msgstr "_Συντομεύσεις πληκτρολογίου…"
 
-#: src/terminal-window.c:2024
+#: src/terminal-window.c:2017
 msgid "Pr_ofile Preferences"
 msgstr "_Προτιμήσεις προφίλ"
 
-#: src/terminal-window.c:2031
+#: src/terminal-window.c:2024
 msgid "Zoom _In"
 msgstr "_Μεγέθυνση"
 
-#: src/terminal-window.c:2036
+#: src/terminal-window.c:2029
 msgid "Zoom _Out"
 msgstr "Σ_μίκρυνση"
 
-#: src/terminal-window.c:2041
+#: src/terminal-window.c:2034
 msgid "_Normal Size"
 msgstr "Κα_νονικό μέγεθος"
 
-#: src/terminal-window.c:2048
+#: src/terminal-window.c:2041
 msgid "_Find..."
 msgstr "Εύ_ρεση"
 
-#: src/terminal-window.c:2053
+#: src/terminal-window.c:2046
 msgid "Find Ne_xt"
 msgstr "Εύρεση ε_πόμενου"
 
-#: src/terminal-window.c:2058
+#: src/terminal-window.c:2051
 msgid "Find Pre_vious"
 msgstr "Εύρεση προη_γούμενου"
 
-#: src/terminal-window.c:2063
+#: src/terminal-window.c:2056
 msgid "_Clear Highlight"
 msgstr "Εκκα_θάριση επισήμανσης"
 
-#: src/terminal-window.c:2069
+#: src/terminal-window.c:2062
 msgid "Go to _Line..."
 msgstr "Μετά_βαση στη γραμμή…"
 
-#: src/terminal-window.c:2074
+#: src/terminal-window.c:2067
 msgid "_Incremental Search..."
 msgstr "Αυ_ξητική αναζήτηση…"
 
-#: src/terminal-window.c:2081
+#: src/terminal-window.c:2074
 msgid "Change _Profile"
 msgstr "Αλλαγή _προφίλ"
 
-#: src/terminal-window.c:2083
+#: src/terminal-window.c:2076
 msgid "_Previous Profile"
 msgstr "_Προηγούμενο Προφίλ"
 
-#: src/terminal-window.c:2088
+#: src/terminal-window.c:2081
 msgid "_Next Profile"
 msgstr "_Επόμενο Προφίλ"
 
-#: src/terminal-window.c:2093
+#: src/terminal-window.c:2086
 msgid "_Set Title…"
 msgstr "_Ορισμός τίτλου…"
 
-#: src/terminal-window.c:2097
+#: src/terminal-window.c:2090
 msgid "Set _Character Encoding"
 msgstr "Ορισμός κωδικοποίησης _χαρακτήρων"
 
-#: src/terminal-window.c:2099
+#: src/terminal-window.c:2092
 msgid "_Reset"
 msgstr "Επαναφο_ρά"
 
-#: src/terminal-window.c:2104
+#: src/terminal-window.c:2097
 msgid "Reset and C_lear"
 msgstr "Επαναφορά και καθαρι_σμός"
 
-#: src/terminal-window.c:2111
+#: src/terminal-window.c:2104
 msgid "_Add or Remove…"
 msgstr "_Προσθήκη ή αφαίρεση…"
 
-#: src/terminal-window.c:2118
+#: src/terminal-window.c:2111
 msgid "_Previous Tab"
 msgstr "_Προηγούμενη καρτέλα"
 
-#: src/terminal-window.c:2123
+#: src/terminal-window.c:2116
 msgid "_Next Tab"
 msgstr "_Επόμενη καρτέλα"
 
-#: src/terminal-window.c:2128
+#: src/terminal-window.c:2121
 msgid "Move Tab _Left"
 msgstr "Μετακίνηση καρτέλας στα α_ριστερά"
 
-#: src/terminal-window.c:2133
+#: src/terminal-window.c:2126
 msgid "Move Tab _Right"
 msgstr "Μετακίνηση καρτέλας στα _δεξιά"
 
-#: src/terminal-window.c:2138
+#: src/terminal-window.c:2131
 msgid "_Detach tab"
 msgstr "_Απόσπαση καρτέλας"
 
-#: src/terminal-window.c:2145
+#: src/terminal-window.c:2138
 msgid "_Contents"
 msgstr "_Περιεχόμενα"
 
-#: src/terminal-window.c:2150
+#: src/terminal-window.c:2143
 msgid "_About"
 msgstr "Πε_ρί"
 
-#: src/terminal-window.c:2157
+#: src/terminal-window.c:2150
 msgid "_Open Hyperlink"
 msgstr ""
 
-#: src/terminal-window.c:2162
+#: src/terminal-window.c:2155
 msgid "_Copy Hyperlink Address"
 msgstr ""
 
-#: src/terminal-window.c:2167
+#: src/terminal-window.c:2160
 msgid "_Send Mail To…"
 msgstr "_Αποστολή μηνύματος προς…"
 
-#: src/terminal-window.c:2172
+#: src/terminal-window.c:2165
 msgid "_Copy E-mail Address"
 msgstr "Αντιγρα_φή ηλεκτρονικής διεύθυνσης"
 
-#: src/terminal-window.c:2177
+#: src/terminal-window.c:2170
 msgid "C_all To…"
 msgstr "_Κλήση…"
 
-#: src/terminal-window.c:2182
+#: src/terminal-window.c:2175
 msgid "_Copy Call Address"
 msgstr "_Αντιγραφή διεύθυνσης κλήσης"
 
-#: src/terminal-window.c:2187
+#: src/terminal-window.c:2180
 msgid "_Open Link"
 msgstr "Ά_νοιγμα δεσμού"
 
-#: src/terminal-window.c:2192
+#: src/terminal-window.c:2185
 msgid "_Copy Link Address"
 msgstr "Αντι_γραφή διεύθυνσης δεσμού"
 
-#: src/terminal-window.c:2196
+#: src/terminal-window.c:2189
 msgid "P_rofiles"
 msgstr "_Προφίλ"
 
-#: src/terminal-window.c:2233
+#: src/terminal-window.c:2226
 msgid "L_eave Full Screen"
 msgstr "Έ_ξοδος από την πλήρη οθόνη"
 
-#: src/terminal-window.c:2237
+#: src/terminal-window.c:2230
 msgid "_Input Methods"
 msgstr "Μέθοδοι ε_ισαγωγής"
 
-#: src/terminal-window.c:2244
+#: src/terminal-window.c:2237
 msgid "Show _Menubar"
 msgstr "Εμφάνιση γραμμής _μενού"
 
-#: src/terminal-window.c:2250
+#: src/terminal-window.c:2243
 msgid "_Full Screen"
 msgstr "_Πλήρης οθόνη"
 
-#: src/terminal-window.c:3705
+#: src/terminal-window.c:3721
 msgid ""
 "There are still processes running in some terminals in this window.\n"
 "Closing the window will kill all of them."
 msgstr ""
 
-#: src/terminal-window.c:3711
+#: src/terminal-window.c:3727
 msgid "There are multiple tabs open in this window."
 msgstr ""
 
-#: src/terminal-window.c:3721
+#: src/terminal-window.c:3737
 msgid "Close this terminal?"
 msgstr "Κλείσιμο τερματικού;"
 
-#: src/terminal-window.c:3722
+#: src/terminal-window.c:3738
 msgid "C_lose Terminal"
 msgstr "Κλείσιμο τε_ρματικού"
 
-#: src/terminal-window.c:3792
+#: src/terminal-window.c:3808
 msgid "Could not save contents"
 msgstr "Αδύνατη η αποθήκευση του περιεχομένου"
 
-#: src/terminal-window.c:3816
+#: src/terminal-window.c:3832
 msgid "Save as..."
 msgstr "Αποθήκευση ως…"
 
-#: src/terminal-window.c:4511
+#: src/terminal-window.c:4526
 msgid "Contributors:"
 msgstr "Συντελεστές:"
 
-#: src/terminal-window.c:4527
+#: src/terminal-window.c:4542
 #, c-format
 msgid ""
 "MATE Terminal is a terminal emulator for the MATE Desktop Environment.\n"
 "Powered by Virtual TErminal %d.%d.%d"
 msgstr ""
 
-#: src/terminal-window.c:4533
+#: src/terminal-window.c:4548
 msgid "About MATE Terminal"
 msgstr ""
 
-#: src/terminal-window.c:4534
+#: src/terminal-window.c:4549
 msgid ""
 "Copyright © 2002–2004 Havoc Pennington\n"
 "Copyright © 2003–2004, 2007 Mariano Suárez-Alvarez\n"
@@ -2942,7 +2920,7 @@ msgid ""
 "Copyright © 2012-2021 MATE developers"
 msgstr ""
 
-#: src/terminal-window.c:4546
+#: src/terminal-window.c:4561
 msgid "translator-credits"
 msgstr ""
 "Ελληνική μεταφραστική ομάδα MATE\n"

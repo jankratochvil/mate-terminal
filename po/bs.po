@@ -2,27 +2,28 @@
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the mate-terminal package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Sky Lion <xskylionx@gmail.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-terminal 1.27.1\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-terminal/issues\n"
-"POT-Creation-Date: 2023-09-10 09:13+0200\n"
+"POT-Creation-Date: 2024-04-17 14:24-0400\n"
 "PO-Revision-Date: 2018-03-12 08:42+0000\n"
 "Last-Translator: Sky Lion <xskylionx@gmail.com>, 2021\n"
 "Language-Team: Bosnian (https://app.transifex.com/mate/teams/13566/bs/)\n"
+"Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bs\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: mate-terminal.appdata.xml.in.in:7 mate-terminal.desktop.in.in:3
-#: src/terminal-options.c:189 src/terminal-window.c:4531
+#: src/terminal-options.c:193 src/terminal-window.c:4546
 msgid "MATE Terminal"
 msgstr "MATE terminal"
 
@@ -32,8 +33,8 @@ msgstr "Emulator terminala za MATE desktop."
 
 #: mate-terminal.appdata.xml.in.in:10
 msgid ""
-"MATE Terminal is a terminal emulation application that you can use to access"
-" a UNIX shell in the MATE environment. MATE Terminal emulates the xterm "
+"MATE Terminal is a terminal emulation application that you can use to access "
+"a UNIX shell in the MATE environment. MATE Terminal emulates the xterm "
 "program developed by the X Consortium. It supports translucent backgrounds, "
 "opening multiple terminals in a single window (tabs) and clickable URLs."
 msgstr ""
@@ -46,7 +47,7 @@ msgid ""
 msgstr ""
 
 #: mate-terminal.desktop.in.in:4 src/terminal-accels.c:351 src/terminal.c:517
-#: src/terminal-profile.c:161 src/terminal-window.c:2287
+#: src/terminal-profile.c:161 src/terminal-window.c:2280
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -59,47 +60,47 @@ msgstr "Koristite komandnu liniju"
 msgid "_Cancel"
 msgstr ""
 
-#: src/confirm-close-dialog.ui:56 src/terminal-window.c:2223
-#: src/terminal-window.c:3719
+#: src/confirm-close-dialog.ui:56 src/terminal-window.c:2216
+#: src/terminal-window.c:3735
 msgid "C_lose Window"
 msgstr ""
 
-#: src/confirm-close-dialog.ui:119 src/terminal-window.c:3718
+#: src/confirm-close-dialog.ui:119 src/terminal-window.c:3734
 msgid "Close this window?"
 msgstr ""
 
-#: src/confirm-close-dialog.ui:138 src/terminal-window.c:3708
+#: src/confirm-close-dialog.ui:138 src/terminal-window.c:3724
 msgid ""
 "There is still a process running in this terminal.\n"
 "Closing the terminal will kill it."
 msgstr ""
 
-#: src/mate-submodules/libegg/eggsmclient.c:234
+#: src/mate-submodules/libegg/eggsmclient.c:233
 msgid "Disable connection to session manager"
 msgstr "Onemogući spajanje sa upraviteljem sesije"
 
-#: src/mate-submodules/libegg/eggsmclient.c:239
+#: src/mate-submodules/libegg/eggsmclient.c:238
 msgid "Specify file containing saved configuration"
 msgstr ""
 
-#: src/mate-submodules/libegg/eggsmclient.c:239 src/terminal-options.c:962
-#: src/terminal-options.c:971
+#: src/mate-submodules/libegg/eggsmclient.c:238 src/terminal-options.c:990
+#: src/terminal-options.c:999
 msgid "FILE"
 msgstr "FAJL"
 
-#: src/mate-submodules/libegg/eggsmclient.c:244
+#: src/mate-submodules/libegg/eggsmclient.c:243
 msgid "Specify session management ID"
 msgstr "Navedi ID upravitelja sesije"
 
-#: src/mate-submodules/libegg/eggsmclient.c:244
+#: src/mate-submodules/libegg/eggsmclient.c:243
 msgid "ID"
 msgstr "ID"
 
-#: src/mate-submodules/libegg/eggsmclient.c:270
+#: src/mate-submodules/libegg/eggsmclient.c:269
 msgid "Session management options:"
 msgstr ""
 
-#: src/mate-submodules/libegg/eggsmclient.c:271
+#: src/mate-submodules/libegg/eggsmclient.c:270
 msgid "Show session management options"
 msgstr ""
 
@@ -109,13 +110,12 @@ msgstr "Dodaj ili ukloni kodiranja za terminal"
 
 #: src/encodings-dialog.ui:41 src/keybinding-editor.ui:41
 #: src/profile-manager.ui:58 src/profile-preferences.ui:262
-#: src/terminal-window.c:1956
+#: src/terminal-window.c:1949
 msgid "_Help"
 msgstr "_Pomoć"
 
-#: src/encodings-dialog.ui:59 src/find-dialog.ui:42
-#: src/keybinding-editor.ui:59 src/profile-manager.ui:76
-#: src/profile-preferences.ui:279
+#: src/encodings-dialog.ui:59 src/find-dialog.ui:42 src/keybinding-editor.ui:59
+#: src/profile-manager.ui:76 src/profile-preferences.ui:279
 msgid "_Close"
 msgstr "_Zatvori"
 
@@ -333,8 +333,7 @@ msgstr "Profil koji će se koristiti za nove terminale"
 
 #: src/org.mate.terminal.gschema.xml.in:55
 msgid ""
-"Profile to be used when opening a new window or tab. Must be in "
-"profile_list."
+"Profile to be used when opening a new window or tab. Must be in profile_list."
 msgstr ""
 "Profil koji će se koristiti pri otvaranju novog prozora ili kartice. Mora "
 "biti u profile_list."
@@ -346,8 +345,8 @@ msgstr "Da li traka menija ima kraticu tastature"
 #: src/org.mate.terminal.gschema.xml.in:60
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
-"with some applications run inside the terminal so it's possible to turn them"
-" off."
+"with some applications run inside the terminal so it's possible to turn them "
+"off."
 msgstr ""
 "Da li imati kratice Alt+slovo za traku menija. Moguće je da se miješaju sa "
 "aplikacijama koje su pokrenute u terminalu te ih je zato moguće isključiti."
@@ -441,8 +440,8 @@ msgstr "Uobičajena boja teksta u terminalu"
 
 #: src/org.mate.terminal.gschema.xml.in:104
 msgid ""
-"Default color of text in the terminal, as a color specification (can be "
-"HTML-style hex digits, or a color name such as \"red\")."
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as \"red\")."
 msgstr ""
 "Uobičajena boja teksta u terminalu, izražena kao specifikacija boje (može "
 "biti heksadecimalne cifre u HTML stilu ili ime boje kao npr. \"red\")."
@@ -465,9 +464,9 @@ msgstr "Uobičajena boja boldiranog teksta u terminalu"
 
 #: src/org.mate.terminal.gschema.xml.in:114
 msgid ""
-"Default color of bold text in the terminal, as a color specification (can be"
-" HTML-style hex digits, or a color name such as \"red\"). This is ignored if"
-" bold_color_same_as_fg is true."
+"Default color of bold text in the terminal, as a color specification (can be "
+"HTML-style hex digits, or a color name such as \"red\"). This is ignored if "
+"bold_color_same_as_fg is true."
 msgstr ""
 "Uobičajena boja boldiranog teksta u terminalu, izražena kao specifikacija "
 "boje (može biti heksadecimalne cifre u HTML stilu ili ime boje kao npr. "
@@ -489,15 +488,15 @@ msgstr "Šta činiti sa dinamičkim naslovom"
 #: src/org.mate.terminal.gschema.xml.in:124
 msgid ""
 "If the application in the terminal sets the title (most typically people "
-"have their shell set up to do this), the dynamically-set title can erase the"
-" configured title, go before it, go after it, or replace it. The possible "
+"have their shell set up to do this), the dynamically-set title can erase the "
+"configured title, go before it, go after it, or replace it. The possible "
 "values are \"replace\", \"before\", \"after\", and \"ignore\"."
 msgstr ""
 "Ako aplikacija u terminalu postavlja naslov (ljudi uglavnom biraju ovu "
 "postavku u shellu), dinamički postavljen naslov može izbrisati prvobitni "
 "naslov, biti postavljen prije, biti postavljen poslije ili zamijeniti "
-"prvobitni naslov. Moguće vrijednosti su \"replace\", \"before\", \"after\" i"
-" \"ignore\"."
+"prvobitni naslov. Moguće vrijednosti su \"replace\", \"before\", \"after\" i "
+"\"ignore\"."
 
 #: src/org.mate.terminal.gschema.xml.in:127
 msgctxt "title"
@@ -525,8 +524,8 @@ msgstr "Da li dopustiti masni tekst"
 #: src/org.mate.terminal.gschema.xml.in:134
 msgid "If true, allow applications in the terminal to make text boldface."
 msgstr ""
-"Ako je postavljeno, dopusti aplikacijama u terminalu korištenje masnih slova"
-" u tekstu."
+"Ako je postavljeno, dopusti aplikacijama u terminalu korištenje masnih slova "
+"u tekstu."
 
 #: src/org.mate.terminal.gschema.xml.in:138
 msgid "Whether to silence terminal bell"
@@ -555,8 +554,8 @@ msgstr "Znakovi koji se smatraju dijelom riječi"
 #: src/org.mate.terminal.gschema.xml.in:149
 msgid ""
 "When selecting text by word, sequences of these characters are considered "
-"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing"
-" a range) should be the first character given."
+"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
+"a range) should be the first character given."
 msgstr ""
 "Kada se tekst bira riječima, sekvence ovih znakova se smatraju zasebnim "
 "riječima. Rasponi mogu biti dani kao \"A-Z\". Crtica (koja ne izražava "
@@ -609,8 +608,8 @@ msgstr "Broj linija za pomjeranje ispisa unazad"
 #: src/org.mate.terminal.gschema.xml.in:174
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
-"terminal by this number of lines; lines that don't fit in the scrollback are"
-" discarded. If scrollback_unlimited is true, this value is ignored."
+"terminal by this number of lines; lines that don't fit in the scrollback are "
+"discarded. If scrollback_unlimited is true, this value is ignored."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:178
@@ -619,9 +618,9 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:179
 msgid ""
-"If true, scrollback lines will never be discarded. The scrollback history is"
-" stored on disk temporarily, so this may cause the system to run out of disk"
-" space if there is a lot of output to the terminal."
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:183
@@ -727,8 +726,8 @@ msgid ""
 "names. Color names should be in hex format e.g. \"#FF00FF\""
 msgstr ""
 "Terminali imaju paletu sa 16 boja koje aplikacije unutar terminala mogu "
-"koristiti. Ovo je ta paleta, u obliku liste imena boja odvojenih dvotačkama."
-" Imena boja trebaju biti u heksadecimalnom obliku npr. \"#FF00FF\"."
+"koristiti. Ovo je ta paleta, u obliku liste imena boja odvojenih dvotačkama. "
+"Imena boja trebaju biti u heksadecimalnom obliku npr. \"#FF00FF\"."
 
 #: src/org.mate.terminal.gschema.xml.in:233
 msgid "Font"
@@ -782,8 +781,8 @@ msgid ""
 msgstr ""
 "Vrijednost između 0.0 i 1.0 koja označava koliko će se zatamniti slika "
 "pozadine. 0.0 označava bez zatamnjivanja, 1.0 označava potpuno zatamnjeno. "
-"Trenutna implementacija sadrži samo dva moguća nivoa zatamnjivanja što znači"
-" da se postavka ponaša buleanski gdje 0.0 isključuje efekat zatamnjivanja."
+"Trenutna implementacija sadrži samo dva moguća nivoa zatamnjivanja što znači "
+"da se postavka ponaša buleanski gdje 0.0 isključuje efekat zatamnjivanja."
 
 #: src/org.mate.terminal.gschema.xml.in:258
 msgid "Effect of the Backspace key"
@@ -799,8 +798,8 @@ msgid ""
 msgstr ""
 "Postavlja koji kod proizvodi tipka za brisanje. Moguće vrijednosti su "
 "\"ascii-del\" za ASCII DEL znak, \"control-h\" za Control-H (AKA ASCII BS "
-"znak), \"escape-sequence\" za escape sekvencu koja je obično vezana za tipku"
-" za brisanje ili tipku Delete. \"ascii-del\" se obično smatra ispravnom "
+"znak), \"escape-sequence\" za escape sekvencu koja je obično vezana za tipku "
+"za brisanje ili tipku Delete. \"ascii-del\" se obično smatra ispravnom "
 "postavkom za tipku za brisanje."
 
 #: src/org.mate.terminal.gschema.xml.in:263
@@ -861,8 +860,8 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:284
 msgid ""
-"If true, URLs under mouse pointer are highlighted and can be opened by mouse"
-" click together with control key or used in context menu."
+"If true, URLs under mouse pointer are highlighted and can be opened by mouse "
+"click together with control key or used in context menu."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:290
@@ -886,8 +885,8 @@ msgstr "Kratica tastature za otvaranje novog prozora"
 
 #: src/org.mate.terminal.gschema.xml.in:296
 msgid ""
-"Keyboard shortcut key for opening a new window. Expressed as a string in the"
-" same format used for GTK+ resource files. If you set the option to the "
+"Keyboard shortcut key for opening a new window. Expressed as a string in the "
+"same format used for GTK+ resource files. If you set the option to the "
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
@@ -903,8 +902,8 @@ msgstr "Kratica tastature za stvaranje novog profila"
 msgid ""
 "Keyboard shortcut key for bringing up the dialog for profile creation. "
 "Expressed as a string in the same format used for GTK+ resource files. If "
-"you set the option to the special string \"disabled\", then there will be no"
-" keyboard shortcut for this action."
+"you set the option to the special string \"disabled\", then there will be no "
+"keyboard shortcut for this action."
 msgstr ""
 "Kratica tastature za otvaranje dijaloga za pravljenje profila. Izraženo kao "
 "string u istom formatu koji se koristi za GTK+ resursne datoteke. Ako "
@@ -931,11 +930,10 @@ msgstr "Kratica tastature za zatvaranje kartice"
 msgid ""
 "Keyboard shortcut key for closing a tab. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Kratica tastature za zatvaranje kartice. Izraženo kao string u istom formatu"
-" koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
+"Kratica tastature za zatvaranje kartice. Izraženo kao string u istom formatu "
+"koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
 "specijalan string \"disabled\", onda neće biti kratica za ovu radnju."
 
 #: src/org.mate.terminal.gschema.xml.in:315
@@ -949,8 +947,8 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"Kratica tastature za zatvaranje prozora. Izraženo kao string u istom formatu"
-" koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
+"Kratica tastature za zatvaranje prozora. Izraženo kao string u istom formatu "
+"koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
 "specijalan string \"disabled\", onda neće biti kratica za ovu radnju."
 
 #: src/org.mate.terminal.gschema.xml.in:320
@@ -1023,8 +1021,8 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:346
 msgid ""
-"Keyboard shortcut key for finding the previous occurrence of the search term"
-" in the terminal. Expressed as a string in the same format used for GTK+ "
+"Keyboard shortcut key for finding the previous occurrence of the search term "
+"in the terminal. Expressed as a string in the same format used for GTK+ "
 "resource files. If you set the option to the special string \"disabled\", "
 "then there will be no keyboard shortcut for this action."
 msgstr ""
@@ -1037,8 +1035,8 @@ msgstr "Kratica tastature za prikaz preko cijelog ekrana"
 msgid ""
 "Keyboard shortcut key for toggling full screen mode. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "Kratica tastature za prikaz preko cijelog ekrana. Izraženo kao string u "
 "istom formatu koji se koristi za GTK+ resursne datoteke. Ako postavite "
@@ -1097,13 +1095,13 @@ msgstr "Kratica tastature za resetovanje i čišćenje terminala"
 
 #: src/org.mate.terminal.gschema.xml.in:371
 msgid ""
-"Keyboard shortcut key to reset and clear the terminal. Expressed as a string"
-" in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"Keyboard shortcut key to reset and clear the terminal. Expressed as a string "
+"in the same format used for GTK+ resource files. If you set the option to "
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
-"Kratica tastature za resetovanje i čišćenje terminala. Izraženo kao string u"
-" istom formatu koji se koristi za GTK+ resursne datoteke. Ako postavite "
+"Kratica tastature za resetovanje i čišćenje terminala. Izraženo kao string u "
+"istom formatu koji se koristi za GTK+ resursne datoteke. Ako postavite "
 "opciju na specijalan string \"disabled\", onda neće biti kratica za ovu "
 "radnju."
 
@@ -1115,8 +1113,8 @@ msgstr "Kratica tastature za biranje prethodne kartice"
 msgid ""
 "Keyboard shortcut key to switch to the previous tab. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "Kratica tastature za biranje prethodne kartice. Izraženo kao string u istom "
 "formatu koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
@@ -1157,8 +1155,8 @@ msgstr ""
 msgid ""
 "Keyboard shortcut key to switch to the next profile. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:395
@@ -1202,10 +1200,9 @@ msgstr "Kratica tastature za biranje kartice 1"
 
 #: src/org.mate.terminal.gschema.xml.in:411
 msgid ""
-"Keyboard shortcut key for switch to tab 1. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 1. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Kratica tastature za biranje prve kartice. Izraženo kao string u istom "
 "formatu koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
@@ -1217,10 +1214,9 @@ msgstr "Kratica tastature za biranje kartice 2"
 
 #: src/org.mate.terminal.gschema.xml.in:416
 msgid ""
-"Keyboard shortcut key for switch to tab 2. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 2. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Kratica tastature za biranje kartice 2. Izraženo kao string u istom formatu "
 "koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
@@ -1232,10 +1228,9 @@ msgstr "Kratica tastature za biranje kartice 3"
 
 #: src/org.mate.terminal.gschema.xml.in:421
 msgid ""
-"Keyboard shortcut key for switch to tab 3. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 3. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Kratica tastature za biranje kartice 3. Izraženo kao string u istom formatu "
 "koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
@@ -1247,10 +1242,9 @@ msgstr "Kratica tastature za biranje kartice 4"
 
 #: src/org.mate.terminal.gschema.xml.in:426
 msgid ""
-"Keyboard shortcut key for switch to tab 4. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 4. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Kratica tastature za biranje kartice 4. Izraženo kao string u istom formatu "
 "koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
@@ -1262,10 +1256,9 @@ msgstr "Kratica tastature za biranje kartice 5"
 
 #: src/org.mate.terminal.gschema.xml.in:431
 msgid ""
-"Keyboard shortcut key for switch to tab 5. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 5. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Kratica tastature za biranje kartice 5. Izraženo kao string u istom formatu "
 "koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
@@ -1277,10 +1270,9 @@ msgstr "Kratica tastature za biranje kartice 6"
 
 #: src/org.mate.terminal.gschema.xml.in:436
 msgid ""
-"Keyboard shortcut key for switch to tab 6. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 6. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Kratica tastature za biranje kartice 6. Izraženo kao string u istom formatu "
 "koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
@@ -1292,10 +1284,9 @@ msgstr "Kratica tastature za biranje kartice 7"
 
 #: src/org.mate.terminal.gschema.xml.in:441
 msgid ""
-"Keyboard shortcut key for switch to tab 7. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 7. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Kratica tastature za biranje kartice 7. Izraženo kao string u istom formatu "
 "koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
@@ -1307,10 +1298,9 @@ msgstr "Kratica tastature za biranje kartice 8"
 
 #: src/org.mate.terminal.gschema.xml.in:446
 msgid ""
-"Keyboard shortcut key for switch to tab 8. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 8. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Kratica tastature za biranje kartice 8. Izraženo kao string u istom formatu "
 "koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
@@ -1322,10 +1312,9 @@ msgstr "Kratica tastature za biranje kartice 9"
 
 #: src/org.mate.terminal.gschema.xml.in:451
 msgid ""
-"Keyboard shortcut key for switch to tab 9. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 9. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Kratica tastature za biranje kartice 9. Izraženo kao string u istom formatu "
 "koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
@@ -1342,8 +1331,8 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"Kratica tastature za biranje kartice 10. Izraženo kao string u istom formatu"
-" koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
+"Kratica tastature za biranje kartice 10. Izraženo kao string u istom formatu "
+"koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
 "specijalan string \"disabled\", onda neće biti kratica za ovu radnju."
 
 #: src/org.mate.terminal.gschema.xml.in:460
@@ -1357,8 +1346,8 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"Kratica tastature za biranje kartice 11. Izraženo kao string u istom formatu"
-" koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
+"Kratica tastature za biranje kartice 11. Izraženo kao string u istom formatu "
+"koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
 "specijalan string \"disabled\", onda neće biti kratica za ovu radnju."
 
 #: src/org.mate.terminal.gschema.xml.in:465
@@ -1372,8 +1361,8 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"Kratica tastature za biranje kartice 12. Izraženo kao string u istom formatu"
-" koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
+"Kratica tastature za biranje kartice 12. Izraženo kao string u istom formatu "
+"koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
 "specijalan string \"disabled\", onda neće biti kratica za ovu radnju."
 
 #: src/org.mate.terminal.gschema.xml.in:470
@@ -1384,8 +1373,7 @@ msgstr "Kratica tastature za pokretanje pomoći"
 msgid ""
 "Keyboard shortcut key for launching help. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Kratica tastature za pokretanje pomoći. Izraženo kao string u istom formatu "
 "koji se koristi za GTK+ resursne datoteke. Ako postavite opciju na "
@@ -1427,10 +1415,10 @@ msgstr "Kratica tastature za postavljanje fonta na normalnu veličinu"
 
 #: src/org.mate.terminal.gschema.xml.in:486
 msgid ""
-"Keyboard shortcut key for making font the normal size. Expressed as a string"
-" in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"Keyboard shortcut key for making font the normal size. Expressed as a string "
+"in the same format used for GTK+ resource files. If you set the option to "
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "Kratica tastature za postavljanje fonta na normalnu veličinu. Izraženo kao "
 "string u istom formatu koji se koristi za GTK+ resursne datoteke. Ako "
@@ -1457,14 +1445,12 @@ msgstr "Zeleno na crnom"
 msgid "White on black"
 msgstr "Bijelo na crnom"
 
-#. Translators: "Solarized" is the name of a colour scheme, "light" can be
-#. translated
+#. Translators: "Solarized" is the name of a colour scheme, "light" can be translated
 #: src/profile-editor.c:70
 msgid "Solarized light"
 msgstr ""
 
-#. Translators: "Solarized" is the name of a colour scheme, "dark" can be
-#. translated
+#. Translators: "Solarized" is the name of a colour scheme, "dark" can be translated
 #: src/profile-editor.c:75
 msgid "Solarized dark"
 msgstr ""
@@ -1779,8 +1765,8 @@ msgstr "Klizanje"
 msgid ""
 "<small><i><b>Note:</b> These options may cause some applications to behave "
 "incorrectly.  They are only here to allow you to work around certain "
-"applications and operating systems that expect different terminal "
-"behavior.</i></small>"
+"applications and operating systems that expect different terminal behavior.</"
+"i></small>"
 msgstr ""
 
 #: src/profile-preferences.ui:2327
@@ -2040,17 +2026,17 @@ msgstr ""
 msgid "Choose base profile"
 msgstr "Izaberite osnovni profil"
 
-#: src/terminal-app.c:1837
+#: src/terminal-app.c:1845
 #, c-format
 msgid "No such profile \"%s\", using default profile\n"
 msgstr ""
 
-#: src/terminal-app.c:1864
+#: src/terminal-app.c:1872
 #, c-format
 msgid "Invalid geometry string \"%s\"\n"
 msgstr "Nevažeći string za geometriju \"%s\"\n"
 
-#: src/terminal-app.c:2070
+#: src/terminal-app.c:2078
 msgid "User Defined"
 msgstr "definirano od korisnika"
 
@@ -2208,7 +2194,7 @@ msgstr "_Kodiranje"
 msgid "Current Locale"
 msgstr "Trenutne lokalne postavke"
 
-#: src/terminal-options.c:177
+#: src/terminal-options.c:181
 #, c-format
 msgid ""
 "Option \"%s\" is no longer supported in this version of mate-terminal; you "
@@ -2216,51 +2202,51 @@ msgid ""
 "profile' option\n"
 msgstr ""
 
-#: src/terminal-options.c:209
+#: src/terminal-options.c:213
 #, c-format
 msgid "Argument to \"%s\" is not a valid command: %s"
 msgstr ""
 
-#: src/terminal-options.c:347
+#: src/terminal-options.c:351
 msgid "Two roles given for one window"
 msgstr ""
 
-#: src/terminal-options.c:368 src/terminal-options.c:401
+#: src/terminal-options.c:372 src/terminal-options.c:405
 #, c-format
 msgid "\"%s\" option given twice for the same window\n"
 msgstr "\"%s\" opcija je navedena dvaput za isti prozor\n"
 
-#: src/terminal-options.c:600
+#: src/terminal-options.c:625
 #, c-format
 msgid "\"%s\" is not a valid zoom factor"
 msgstr ""
 
-#: src/terminal-options.c:607
+#: src/terminal-options.c:632
 #, c-format
 msgid "Zoom factor \"%g\" is too small, using %g\n"
 msgstr "Faktor uvećanja \"%g\" je premali, koristim %g\n"
 
-#: src/terminal-options.c:615
+#: src/terminal-options.c:640
 #, c-format
 msgid "Zoom factor \"%g\" is too large, using %g\n"
 msgstr "Faktor uvećanja \"%g\" je prevelik, koristim %g\n"
 
-#: src/terminal-options.c:650
+#: src/terminal-options.c:675
 #, c-format
 msgid ""
 "Option \"%s\" requires specifying the command to run on the rest of the "
 "command line"
 msgstr ""
 
-#: src/terminal-options.c:811
+#: src/terminal-options.c:837
 msgid "Not a valid terminal config file."
 msgstr ""
 
-#: src/terminal-options.c:824
+#: src/terminal-options.c:850
 msgid "Incompatible terminal config file version."
 msgstr ""
 
-#: src/terminal-options.c:952
+#: src/terminal-options.c:980
 msgid ""
 "Do not register with the activation nameserver, do not re-use an active "
 "terminal"
@@ -2268,130 +2254,138 @@ msgstr ""
 "Bez registriranja aktivnog imena na serveru, nemoj ponovo koristiti aktivni "
 "terminal"
 
-#: src/terminal-options.c:961
+#: src/terminal-options.c:989
 msgid "Load a terminal configuration file"
 msgstr ""
 
-#: src/terminal-options.c:970
+#: src/terminal-options.c:998
 msgid "Save the terminal configuration to a file"
 msgstr ""
 
-#: src/terminal-options.c:985
+#: src/terminal-options.c:1013
 msgid "Open a new window containing a tab with the default profile"
 msgstr ""
 
-#: src/terminal-options.c:994
+#: src/terminal-options.c:1022
 msgid "Open a new tab in the last-opened window with the default profile"
 msgstr ""
 
-#: src/terminal-options.c:1008
+#: src/terminal-options.c:1036
 msgid "Turn on the menubar"
 msgstr ""
 
-#: src/terminal-options.c:1017
+#: src/terminal-options.c:1045
 msgid "Turn off the menubar"
 msgstr ""
 
-#: src/terminal-options.c:1026
+#: src/terminal-options.c:1054
 msgid "Maximize the window"
 msgstr ""
 
-#: src/terminal-options.c:1035
+#: src/terminal-options.c:1063
 msgid "Full-screen the window"
 msgstr ""
 
-#: src/terminal-options.c:1044
+#: src/terminal-options.c:1072
 msgid ""
 "Set the window size; for example: 80x24, or 80x24+200+200 (COLSxROWS+X+Y)"
 msgstr ""
 
-#: src/terminal-options.c:1045
+#: src/terminal-options.c:1073
 msgid "GEOMETRY"
 msgstr "GEOMETRIJA"
 
-#: src/terminal-options.c:1053
+#: src/terminal-options.c:1081
 msgid "Set the window role"
 msgstr ""
 
-#: src/terminal-options.c:1054
+#: src/terminal-options.c:1082
 msgid "ROLE"
 msgstr "ULOGA"
 
-#: src/terminal-options.c:1062
+#: src/terminal-options.c:1090
+msgid "Set the window icon"
+msgstr ""
+
+#: src/terminal-options.c:1091
+msgid "ICON"
+msgstr ""
+
+#: src/terminal-options.c:1099
 msgid "Set the last specified tab as the active one in its window"
 msgstr "Postavi zadnju navedenu karticu kao aktivnu u svom prozoru"
 
-#: src/terminal-options.c:1076
+#: src/terminal-options.c:1113
 msgid "Execute the argument to this option inside the terminal"
 msgstr ""
 
-#: src/terminal-options.c:1085
+#: src/terminal-options.c:1122
 msgid "Use the given profile instead of the default profile"
 msgstr ""
 
-#: src/terminal-options.c:1086
+#: src/terminal-options.c:1123
 msgid "PROFILE-NAME"
 msgstr ""
 
-#: src/terminal-options.c:1094
+#: src/terminal-options.c:1131
 msgid "Set the terminal title"
 msgstr ""
 
-#: src/terminal-options.c:1095
+#: src/terminal-options.c:1132
 msgid "TITLE"
 msgstr "NASLOV"
 
-#: src/terminal-options.c:1103
+#: src/terminal-options.c:1140
 msgid "Set the working directory"
 msgstr ""
 
-#: src/terminal-options.c:1104
+#: src/terminal-options.c:1141
 msgid "DIRNAME"
 msgstr "IMEDIREKTORIJA"
 
-#: src/terminal-options.c:1112
+#: src/terminal-options.c:1149
 msgid "Set the terminal's zoom factor (1.0 = normal size)"
 msgstr "Postavi faktor uvećanja za terminal (1.0 = normalan veličina)"
 
-#: src/terminal-options.c:1113
+#: src/terminal-options.c:1150
 msgid "ZOOM"
 msgstr ""
 
-#: src/terminal-options.c:1364 src/terminal-options.c:1367
+#: src/terminal-options.c:1401 src/terminal-options.c:1404
 msgid "MATE Terminal Emulator"
 msgstr ""
 
-#: src/terminal-options.c:1368
+#: src/terminal-options.c:1405
 msgid "Show MATE Terminal options"
 msgstr ""
 
-#: src/terminal-options.c:1378
+#: src/terminal-options.c:1415
 msgid ""
 "Options to open new windows or terminal tabs; more than one of these may be "
 "specified:"
 msgstr ""
 
-#: src/terminal-options.c:1379
+#: src/terminal-options.c:1416
 msgid "Show terminal options"
 msgstr ""
 
-#: src/terminal-options.c:1387
+#: src/terminal-options.c:1424
 msgid ""
 "Window options; if used before the first --window or --tab argument, sets "
 "the default for all windows:"
 msgstr ""
 
-#: src/terminal-options.c:1388
+#: src/terminal-options.c:1425
 msgid "Show per-window options"
 msgstr ""
 
-#: src/terminal-options.c:1396
+#: src/terminal-options.c:1433
 msgid ""
 "Terminal options; if used before the first --window or --tab argument, sets "
 "the default for all terminals:"
 msgstr ""
 
-#: src/terminal-options.c:1397
+#: src/terminal-options.c:1434
 msgid "Show per-terminal options"
 msgstr ""
 
@@ -2452,23 +2446,24 @@ msgstr ""
 
 #: src/terminal-util.c:330
 msgid ""
-"MATE Terminal is distributed in the hope that it will be useful, but WITHOUT"
-" ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"MATE Terminal is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
 msgstr ""
 
 #: src/terminal-util.c:334
 msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" MATE Terminal; if not, write to the Free Software Foundation, Inc., 51 "
+"You should have received a copy of the GNU General Public License along with "
+"MATE Terminal; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin St, Fifth Floor, Boston, MA  02110-1301 USA"
 msgstr ""
 
 #. Translators: This is the label of a menu item to choose a profile.
 #. * _%d is used as the accelerator (with d between 1 and 9), and
 #. * the %s is the name of the terminal profile.
-#: src/terminal-window.c:619
+#.
+#: src/terminal-window.c:612
 #, c-format
 msgid "_%d. %s"
 msgstr "_%d. %s"
@@ -2476,279 +2471,280 @@ msgstr "_%d. %s"
 #. Translators: This is the label of a menu item to choose a profile.
 #. * _%c is used as the accelerator (it will be a character between A and Z),
 #. * and the %s is the name of the terminal profile.
-#: src/terminal-window.c:625
+#.
+#: src/terminal-window.c:618
 #, c-format
 msgid "_%c. %s"
 msgstr "_%c. %s"
 
-#: src/terminal-window.c:1948
+#: src/terminal-window.c:1941
 msgid "_File"
 msgstr "_Fajl"
 
-#: src/terminal-window.c:1949 src/terminal-window.c:1962
-#: src/terminal-window.c:2213
+#: src/terminal-window.c:1942 src/terminal-window.c:1955
+#: src/terminal-window.c:2206
 msgid "Open _Terminal"
 msgstr "Otvori _terminal"
 
-#: src/terminal-window.c:1950 src/terminal-window.c:1967
-#: src/terminal-window.c:2218
+#: src/terminal-window.c:1943 src/terminal-window.c:1960
+#: src/terminal-window.c:2211
 msgid "Open Ta_b"
 msgstr "Otvori ka_rticu"
 
-#: src/terminal-window.c:1951
+#: src/terminal-window.c:1944
 msgid "_Edit"
 msgstr "_Ured"
 
-#: src/terminal-window.c:1952
+#: src/terminal-window.c:1945
 msgid "_View"
 msgstr "_Pogled"
 
-#: src/terminal-window.c:1953
+#: src/terminal-window.c:1946
 msgid "_Search"
 msgstr "_Traži"
 
-#: src/terminal-window.c:1954
+#: src/terminal-window.c:1947
 msgid "_Terminal"
 msgstr "_Terminal"
 
-#: src/terminal-window.c:1955
+#: src/terminal-window.c:1948
 msgid "Ta_bs"
 msgstr "_Kartice"
 
-#: src/terminal-window.c:1972
+#: src/terminal-window.c:1965
 msgid "New _Profile…"
 msgstr ""
 
-#: src/terminal-window.c:1977
+#: src/terminal-window.c:1970
 msgid "_Save Contents"
 msgstr ""
 
-#: src/terminal-window.c:1982 src/terminal-window.c:2228
+#: src/terminal-window.c:1975 src/terminal-window.c:2221
 msgid "C_lose Tab"
 msgstr "_Zatvori karticu"
 
-#: src/terminal-window.c:1987
+#: src/terminal-window.c:1980
 msgid "_Close Window"
 msgstr "_Zatvori prozor"
 
-#: src/terminal-window.c:1994 src/terminal-window.c:2198
+#: src/terminal-window.c:1987 src/terminal-window.c:2191
 msgid "_Copy"
 msgstr "_Kopiraj"
 
-#: src/terminal-window.c:1999 src/terminal-window.c:2203
+#: src/terminal-window.c:1992 src/terminal-window.c:2196
 msgid "_Paste"
 msgstr "_Umetni"
 
-#: src/terminal-window.c:2004 src/terminal-window.c:2208
+#: src/terminal-window.c:1997 src/terminal-window.c:2201
 msgid "Paste _Filenames"
 msgstr ""
 
-#: src/terminal-window.c:2009
+#: src/terminal-window.c:2002
 msgid "Select _All"
 msgstr "Izaberi _sve"
 
-#: src/terminal-window.c:2014
+#: src/terminal-window.c:2007
 msgid "P_rofiles…"
 msgstr ""
 
-#: src/terminal-window.c:2019
+#: src/terminal-window.c:2012
 msgid "_Keyboard Shortcuts…"
 msgstr ""
 
-#: src/terminal-window.c:2024
+#: src/terminal-window.c:2017
 msgid "Pr_ofile Preferences"
 msgstr ""
 
-#: src/terminal-window.c:2031
+#: src/terminal-window.c:2024
 msgid "Zoom _In"
 msgstr "_Uvećaj"
 
-#: src/terminal-window.c:2036
+#: src/terminal-window.c:2029
 msgid "Zoom _Out"
 msgstr "U_manji"
 
-#: src/terminal-window.c:2041
+#: src/terminal-window.c:2034
 msgid "_Normal Size"
 msgstr "_Normalna veličina"
 
-#: src/terminal-window.c:2048
+#: src/terminal-window.c:2041
 msgid "_Find..."
 msgstr "_Nađi..."
 
-#: src/terminal-window.c:2053
+#: src/terminal-window.c:2046
 msgid "Find Ne_xt"
 msgstr "Pronađi s_ljedeći"
 
-#: src/terminal-window.c:2058
+#: src/terminal-window.c:2051
 msgid "Find Pre_vious"
 msgstr "Pronađi Prethod_no"
 
-#: src/terminal-window.c:2063
+#: src/terminal-window.c:2056
 msgid "_Clear Highlight"
 msgstr ""
 
-#: src/terminal-window.c:2069
+#: src/terminal-window.c:2062
 msgid "Go to _Line..."
 msgstr "Idi na _liniju..."
 
-#: src/terminal-window.c:2074
+#: src/terminal-window.c:2067
 msgid "_Incremental Search..."
 msgstr ""
 
-#: src/terminal-window.c:2081
+#: src/terminal-window.c:2074
 msgid "Change _Profile"
 msgstr "Promijeni _profil"
 
-#: src/terminal-window.c:2083
+#: src/terminal-window.c:2076
 msgid "_Previous Profile"
 msgstr ""
 
-#: src/terminal-window.c:2088
+#: src/terminal-window.c:2081
 msgid "_Next Profile"
 msgstr ""
 
-#: src/terminal-window.c:2093
+#: src/terminal-window.c:2086
 msgid "_Set Title…"
 msgstr ""
 
-#: src/terminal-window.c:2097
+#: src/terminal-window.c:2090
 msgid "Set _Character Encoding"
 msgstr "Postavi kodiranje _znakova"
 
-#: src/terminal-window.c:2099
+#: src/terminal-window.c:2092
 msgid "_Reset"
 msgstr "_Resetuj"
 
-#: src/terminal-window.c:2104
+#: src/terminal-window.c:2097
 msgid "Reset and C_lear"
 msgstr "Resetuj i oč_isti"
 
-#: src/terminal-window.c:2111
+#: src/terminal-window.c:2104
 msgid "_Add or Remove…"
 msgstr ""
 
-#: src/terminal-window.c:2118
+#: src/terminal-window.c:2111
 msgid "_Previous Tab"
 msgstr "_Prethodna kartica"
 
-#: src/terminal-window.c:2123
+#: src/terminal-window.c:2116
 msgid "_Next Tab"
 msgstr "_Sljedeća kartica"
 
-#: src/terminal-window.c:2128
+#: src/terminal-window.c:2121
 msgid "Move Tab _Left"
 msgstr ""
 
-#: src/terminal-window.c:2133
+#: src/terminal-window.c:2126
 msgid "Move Tab _Right"
 msgstr ""
 
-#: src/terminal-window.c:2138
+#: src/terminal-window.c:2131
 msgid "_Detach tab"
 msgstr ""
 
-#: src/terminal-window.c:2145
+#: src/terminal-window.c:2138
 msgid "_Contents"
 msgstr "_Sadržaj"
 
-#: src/terminal-window.c:2150
+#: src/terminal-window.c:2143
 msgid "_About"
 msgstr "_O"
 
-#: src/terminal-window.c:2157
+#: src/terminal-window.c:2150
 msgid "_Open Hyperlink"
 msgstr ""
 
-#: src/terminal-window.c:2162
+#: src/terminal-window.c:2155
 msgid "_Copy Hyperlink Address"
 msgstr ""
 
-#: src/terminal-window.c:2167
+#: src/terminal-window.c:2160
 msgid "_Send Mail To…"
 msgstr ""
 
-#: src/terminal-window.c:2172
+#: src/terminal-window.c:2165
 msgid "_Copy E-mail Address"
 msgstr ""
 
-#: src/terminal-window.c:2177
+#: src/terminal-window.c:2170
 msgid "C_all To…"
 msgstr ""
 
-#: src/terminal-window.c:2182
+#: src/terminal-window.c:2175
 msgid "_Copy Call Address"
 msgstr ""
 
-#: src/terminal-window.c:2187
+#: src/terminal-window.c:2180
 msgid "_Open Link"
 msgstr "_Otvori link"
 
-#: src/terminal-window.c:2192
+#: src/terminal-window.c:2185
 msgid "_Copy Link Address"
 msgstr "_Kopiraj adresu linka"
 
-#: src/terminal-window.c:2196
+#: src/terminal-window.c:2189
 msgid "P_rofiles"
 msgstr ""
 
-#: src/terminal-window.c:2233
+#: src/terminal-window.c:2226
 msgid "L_eave Full Screen"
 msgstr ""
 
-#: src/terminal-window.c:2237
+#: src/terminal-window.c:2230
 msgid "_Input Methods"
 msgstr "_Ulazne metode"
 
-#: src/terminal-window.c:2244
+#: src/terminal-window.c:2237
 msgid "Show _Menubar"
 msgstr "Pokaži traku _menija"
 
-#: src/terminal-window.c:2250
+#: src/terminal-window.c:2243
 msgid "_Full Screen"
 msgstr "_Cijeli ekran"
 
-#: src/terminal-window.c:3705
+#: src/terminal-window.c:3721
 msgid ""
 "There are still processes running in some terminals in this window.\n"
 "Closing the window will kill all of them."
 msgstr ""
 
-#: src/terminal-window.c:3711
+#: src/terminal-window.c:3727
 msgid "There are multiple tabs open in this window."
 msgstr ""
 
-#: src/terminal-window.c:3721
+#: src/terminal-window.c:3737
 msgid "Close this terminal?"
 msgstr ""
 
-#: src/terminal-window.c:3722
+#: src/terminal-window.c:3738
 msgid "C_lose Terminal"
 msgstr ""
 
-#: src/terminal-window.c:3792
+#: src/terminal-window.c:3808
 msgid "Could not save contents"
 msgstr ""
 
-#: src/terminal-window.c:3816
+#: src/terminal-window.c:3832
 msgid "Save as..."
 msgstr ""
 
-#: src/terminal-window.c:4511
+#: src/terminal-window.c:4526
 msgid "Contributors:"
 msgstr ""
 
-#: src/terminal-window.c:4527
+#: src/terminal-window.c:4542
 #, c-format
 msgid ""
 "MATE Terminal is a terminal emulator for the MATE Desktop Environment.\n"
 "Powered by Virtual TErminal %d.%d.%d"
 msgstr ""
 
-#: src/terminal-window.c:4533
+#: src/terminal-window.c:4548
 msgid "About MATE Terminal"
 msgstr ""
 
-#: src/terminal-window.c:4534
+#: src/terminal-window.c:4549
 msgid ""
 "Copyright © 2002–2004 Havoc Pennington\n"
 "Copyright © 2003–2004, 2007 Mariano Suárez-Alvarez\n"
@@ -2758,6 +2754,6 @@ msgid ""
 "Copyright © 2012-2021 MATE developers"
 msgstr ""
 
-#: src/terminal-window.c:4546
+#: src/terminal-window.c:4561
 msgid "translator-credits"
 msgstr "Prevoditelji"

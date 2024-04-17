@@ -2,27 +2,28 @@
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the mate-terminal package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # umesh agarwal <umesh.agarwal1@gmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-terminal 1.27.1\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-terminal/issues\n"
-"POT-Creation-Date: 2023-09-10 09:13+0200\n"
+"POT-Creation-Date: 2024-04-17 14:24-0400\n"
 "PO-Revision-Date: 2018-03-12 08:42+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
-"Language-Team: Bengali (India) (https://app.transifex.com/mate/teams/13566/bn_IN/)\n"
+"Language-Team: Bengali (India) (https://app.transifex.com/mate/teams/13566/"
+"bn_IN/)\n"
+"Language: bn_IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bn_IN\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: mate-terminal.appdata.xml.in.in:7 mate-terminal.desktop.in.in:3
-#: src/terminal-options.c:189 src/terminal-window.c:4531
+#: src/terminal-options.c:193 src/terminal-window.c:4546
 msgid "MATE Terminal"
 msgstr "MATE Terminal"
 
@@ -32,8 +33,8 @@ msgstr ""
 
 #: mate-terminal.appdata.xml.in.in:10
 msgid ""
-"MATE Terminal is a terminal emulation application that you can use to access"
-" a UNIX shell in the MATE environment. MATE Terminal emulates the xterm "
+"MATE Terminal is a terminal emulation application that you can use to access "
+"a UNIX shell in the MATE environment. MATE Terminal emulates the xterm "
 "program developed by the X Consortium. It supports translucent backgrounds, "
 "opening multiple terminals in a single window (tabs) and clickable URLs."
 msgstr ""
@@ -46,7 +47,7 @@ msgid ""
 msgstr ""
 
 #: mate-terminal.desktop.in.in:4 src/terminal-accels.c:351 src/terminal.c:517
-#: src/terminal-profile.c:161 src/terminal-window.c:2287
+#: src/terminal-profile.c:161 src/terminal-window.c:2280
 msgid "Terminal"
 msgstr "টার্মিন্যাল"
 
@@ -59,47 +60,47 @@ msgstr "কমান্ড লাইন ব্যবহার করুন"
 msgid "_Cancel"
 msgstr "বাতিল (_C)"
 
-#: src/confirm-close-dialog.ui:56 src/terminal-window.c:2223
-#: src/terminal-window.c:3719
+#: src/confirm-close-dialog.ui:56 src/terminal-window.c:2216
+#: src/terminal-window.c:3735
 msgid "C_lose Window"
 msgstr "উইন্ডো বন্ধ করুন (_l)"
 
-#: src/confirm-close-dialog.ui:119 src/terminal-window.c:3718
+#: src/confirm-close-dialog.ui:119 src/terminal-window.c:3734
 msgid "Close this window?"
 msgstr "এই উইন্ডো বন্ধ করা হবে কি?"
 
-#: src/confirm-close-dialog.ui:138 src/terminal-window.c:3708
+#: src/confirm-close-dialog.ui:138 src/terminal-window.c:3724
 msgid ""
 "There is still a process running in this terminal.\n"
 "Closing the terminal will kill it."
 msgstr ""
 
-#: src/mate-submodules/libegg/eggsmclient.c:234
+#: src/mate-submodules/libegg/eggsmclient.c:233
 msgid "Disable connection to session manager"
 msgstr "সেশান পরিচালনব্যবস্থার সাথে সংযোগ বিচ্ছিন্ন করা হবে"
 
-#: src/mate-submodules/libegg/eggsmclient.c:239
+#: src/mate-submodules/libegg/eggsmclient.c:238
 msgid "Specify file containing saved configuration"
 msgstr "সংরক্ষিত কনফিগারেশন ধারণকারী ফাইল উল্লেখ করুন"
 
-#: src/mate-submodules/libegg/eggsmclient.c:239 src/terminal-options.c:962
-#: src/terminal-options.c:971
+#: src/mate-submodules/libegg/eggsmclient.c:238 src/terminal-options.c:990
+#: src/terminal-options.c:999
 msgid "FILE"
 msgstr "FILE"
 
-#: src/mate-submodules/libegg/eggsmclient.c:244
+#: src/mate-submodules/libegg/eggsmclient.c:243
 msgid "Specify session management ID"
 msgstr "সেশান পরিচালনার ID উল্লেখ করুন"
 
-#: src/mate-submodules/libegg/eggsmclient.c:244
+#: src/mate-submodules/libegg/eggsmclient.c:243
 msgid "ID"
 msgstr "ID"
 
-#: src/mate-submodules/libegg/eggsmclient.c:270
+#: src/mate-submodules/libegg/eggsmclient.c:269
 msgid "Session management options:"
 msgstr "সেশান পরিচালনা সংক্রান্ত বিকল্প:"
 
-#: src/mate-submodules/libegg/eggsmclient.c:271
+#: src/mate-submodules/libegg/eggsmclient.c:270
 msgid "Show session management options"
 msgstr "সেশান পরিচালনা সংক্রান্ত বিকল্প প্রদর্শন করা হবে"
 
@@ -109,13 +110,12 @@ msgstr "টার্মিন্যালে ব্যবহারযোগ্�
 
 #: src/encodings-dialog.ui:41 src/keybinding-editor.ui:41
 #: src/profile-manager.ui:58 src/profile-preferences.ui:262
-#: src/terminal-window.c:1956
+#: src/terminal-window.c:1949
 msgid "_Help"
 msgstr "সাহায্য (_H)"
 
-#: src/encodings-dialog.ui:59 src/find-dialog.ui:42
-#: src/keybinding-editor.ui:59 src/profile-manager.ui:76
-#: src/profile-preferences.ui:279
+#: src/encodings-dialog.ui:59 src/find-dialog.ui:42 src/keybinding-editor.ui:59
+#: src/profile-manager.ui:76 src/profile-preferences.ui:279
 msgid "_Close"
 msgstr "বন্ধ করুন (_C)"
 
@@ -308,8 +308,7 @@ msgstr "কি-বোর্ড শর্টকাট"
 #: src/keybinding-editor.ui:93
 msgid "_Enable menu access keys (such as Alt+F to open the File menu)"
 msgstr ""
-"সমস্ত মেনু অ্যাকসেস-কি (উদাহরণ, ফাইল নামক মেনুর জন্য Alt+f) সক্রিয় করা হবে "
-"(_E)"
+"সমস্ত মেনু অ্যাকসেস-কি (উদাহরণ, ফাইল নামক মেনুর জন্য Alt+f) সক্রিয় করা হবে (_E)"
 
 #: src/keybinding-editor.ui:132
 msgid "Enable the _menu shortcut key (F10 by default)"
@@ -335,11 +334,10 @@ msgstr "নতুন টার্মিন্যালের জন্য ব্
 
 #: src/org.mate.terminal.gschema.xml.in:55
 msgid ""
-"Profile to be used when opening a new window or tab. Must be in "
-"profile_list."
+"Profile to be used when opening a new window or tab. Must be in profile_list."
 msgstr ""
-"নতুন উইন্ডো অথবা ট্যাব খোলার সময় ব্যবহারযোগ্য প্রোফাইল। নির্বাচিত প্রোফাইলটি"
-" প্রোফাইল তালিকায় (profile_list) উপস্থিত থাকা আবশ্যক।"
+"নতুন উইন্ডো অথবা ট্যাব খোলার সময় ব্যবহারযোগ্য প্রোফাইল। নির্বাচিত প্রোফাইলটি প্রোফাইল "
+"তালিকায় (profile_list) উপস্থিত থাকা আবশ্যক।"
 
 #: src/org.mate.terminal.gschema.xml.in:59
 msgid "Whether the menubar has access keys"
@@ -348,12 +346,12 @@ msgstr "মেনু-বারের মধ্যে অ্যাকসেস-�
 #: src/org.mate.terminal.gschema.xml.in:60
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
-"with some applications run inside the terminal so it's possible to turn them"
-" off."
+"with some applications run inside the terminal so it's possible to turn them "
+"off."
 msgstr ""
-"মেনুবারের ক্ষেত্রে Alt+অক্ষর বিশিষ্ট অ্যাকসেস-কি সক্রিয় করা হবে কি না। "
-"টার্মিন্যালে চলমান কিছু অ্যাপ্লিকেশনের কর্মে এর ফলে ব্যঘাত ঘটার আশঙ্কায় এই "
-"বৈশিষ্ট্য নিষ্ক্রিয় করা যাবে।"
+"মেনুবারের ক্ষেত্রে Alt+অক্ষর বিশিষ্ট অ্যাকসেস-কি সক্রিয় করা হবে কি না। টার্মিন্যালে "
+"চলমান কিছু অ্যাপ্লিকেশনের কর্মে এর ফলে ব্যঘাত ঘটার আশঙ্কায় এই বৈশিষ্ট্য নিষ্ক্রিয় করা "
+"যাবে।"
 
 #: src/org.mate.terminal.gschema.xml.in:64
 msgid "Whether the standard GTK+ shortcut for menubar access is enabled"
@@ -366,8 +364,8 @@ msgid ""
 "standard menubar accelerator to be disabled."
 msgstr ""
 "সাধারণত F10 কি-র সাহায্যে মেনু-বার ব্যবহার করা সম্ভব। gtkrc-র (gtk-menu-bar-"
-"accel = \"whatever\") সাহায্যে আপনার পছন্দ অনুসারে এটি পরিবর্তন করা যাবে। এই"
-" বিকল্পের ফলে মেনু-বারের প্রমিত অ্যাকসেলিরেটরগুলি নিষ্ক্রিয় করা হবে।"
+"accel = \"whatever\") সাহায্যে আপনার পছন্দ অনুসারে এটি পরিবর্তন করা যাবে। এই "
+"বিকল্পের ফলে মেনু-বারের প্রমিত অ্যাকসেলিরেটরগুলি নিষ্ক্রিয় করা হবে।"
 
 #: src/org.mate.terminal.gschema.xml.in:68
 msgctxt "active-encodings"
@@ -387,8 +385,7 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:74
 msgid "Whether to ask for confirmation when closing terminal windows"
-msgstr ""
-"টার্মিন্যালের উইন্ডো বন্ধ করার পূর্বে ব্যবহারকারীর সম্মতি নেওয়া হবে কি না"
+msgstr "টার্মিন্যালের উইন্ডো বন্ধ করার পূর্বে ব্যবহারকারীর সম্মতি নেওয়া হবে কি না"
 
 #: src/org.mate.terminal.gschema.xml.in:75
 msgid ""
@@ -436,8 +433,8 @@ msgid ""
 "True if the menubar should be shown in new windows, for windows/tabs with "
 "this profile."
 msgstr ""
-"চিহ্নিত প্রোফাইলের উইন্ডো/ট্যাবের ক্ষেত্রে মেনুবার নতুন উইন্ডোতে প্রদর্শন "
-"করা হলে মান true (সত্য)।"
+"চিহ্নিত প্রোফাইলের উইন্ডো/ট্যাবের ক্ষেত্রে মেনুবার নতুন উইন্ডোতে প্রদর্শন করা হলে মান "
+"true (সত্য)।"
 
 #: src/org.mate.terminal.gschema.xml.in:103
 msgid "Default color of text in the terminal"
@@ -445,11 +442,11 @@ msgstr "টার্মিন্যালে ব্যবহৃত হরফে�
 
 #: src/org.mate.terminal.gschema.xml.in:104
 msgid ""
-"Default color of text in the terminal, as a color specification (can be "
-"HTML-style hex digits, or a color name such as \"red\")."
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as \"red\")."
 msgstr ""
-"টার্মিন্যালে ব্যবহৃত হরফের ডিফল্ট রং, রং-র সুনির্দিষ্ট মান হিসাবে চিহ্নিত "
-"(HTML-তে ব্যবহৃত hex অক্ষর অথবা রং-র নাম যেমন \"red\")।"
+"টার্মিন্যালে ব্যবহৃত হরফের ডিফল্ট রং, রং-র সুনির্দিষ্ট মান হিসাবে চিহ্নিত (HTML-তে "
+"ব্যবহৃত hex অক্ষর অথবা রং-র নাম যেমন \"red\")।"
 
 #: src/org.mate.terminal.gschema.xml.in:108
 msgid "Default color of terminal background"
@@ -460,8 +457,8 @@ msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
 msgstr ""
-"টার্মিন্যালের পটভূমির ডিফল্ট রং, রং-র সুনির্দিষ্ট মান হিসাবে চিহ্নিত "
-"(HTML-তে ব্যবহৃত hex অক্ষর অথবা রং-র নাম যেমন \"red\")।"
+"টার্মিন্যালের পটভূমির ডিফল্ট রং, রং-র সুনির্দিষ্ট মান হিসাবে চিহ্নিত (HTML-তে ব্যবহৃত "
+"hex অক্ষর অথবা রং-র নাম যেমন \"red\")।"
 
 #: src/org.mate.terminal.gschema.xml.in:113
 msgid "Default color of bold text in the terminal"
@@ -469,13 +466,13 @@ msgstr "টার্মিন্যালে ব্যবহৃত গাঢ় হ
 
 #: src/org.mate.terminal.gschema.xml.in:114
 msgid ""
-"Default color of bold text in the terminal, as a color specification (can be"
-" HTML-style hex digits, or a color name such as \"red\"). This is ignored if"
-" bold_color_same_as_fg is true."
+"Default color of bold text in the terminal, as a color specification (can be "
+"HTML-style hex digits, or a color name such as \"red\"). This is ignored if "
+"bold_color_same_as_fg is true."
 msgstr ""
-"টার্মিন্যালে ব্যবহৃত গাঢ় হরফের ডিফল্ট রং, রং-র সুনির্দিষ্ট মান হিসাবে "
-"চিহ্নিত (HTML-তে ব্যবহৃত hex অক্ষর অথবা রং-র নাম যেমন \"red\")। "
-"bold_color_same_as_fg-র মান true হলে এটি উপেক্ষা করা হবে।"
+"টার্মিন্যালে ব্যবহৃত গাঢ় হরফের ডিফল্ট রং, রং-র সুনির্দিষ্ট মান হিসাবে চিহ্নিত (HTML-"
+"তে ব্যবহৃত hex অক্ষর অথবা রং-র নাম যেমন \"red\")। bold_color_same_as_fg-র মান "
+"true হলে এটি উপেক্ষা করা হবে।"
 
 #: src/org.mate.terminal.gschema.xml.in:118
 msgid "Whether bold text should use the same color as normal text"
@@ -493,15 +490,15 @@ msgstr "পরিবরতনশীল শিরোনামের ক্ষে�
 #: src/org.mate.terminal.gschema.xml.in:124
 msgid ""
 "If the application in the terminal sets the title (most typically people "
-"have their shell set up to do this), the dynamically-set title can erase the"
-" configured title, go before it, go after it, or replace it. The possible "
+"have their shell set up to do this), the dynamically-set title can erase the "
+"configured title, go before it, go after it, or replace it. The possible "
 "values are \"replace\", \"before\", \"after\", and \"ignore\"."
 msgstr ""
-"টার্মিন্যালে চলমান অ্যাপ্লিকেশনের দ্বারা শিরোনাম ধার্য করা হলে (অধিকাংশ "
-"শেলেলর ক্ষেত্রে এই বৈশিষ্ট্য সক্রিয় করা থাকে), পরিবর্তনশীল এই শিরোনামের দরুন"
-" কনফিগার করা পূর্ববর্তী শিরোনাম মুছে ফেলা হতে পারে। অথবা কনফিগার করা "
-"শিরোনামের পূর্বে, পরে অথবা পরিবর্তে প্রয়োগ করা হবে। সম্ভাব্য মান হল "
-"\"replace\", \"before\", \"after\" ও \"ignore\"।"
+"টার্মিন্যালে চলমান অ্যাপ্লিকেশনের দ্বারা শিরোনাম ধার্য করা হলে (অধিকাংশ শেলেলর "
+"ক্ষেত্রে এই বৈশিষ্ট্য সক্রিয় করা থাকে), পরিবর্তনশীল এই শিরোনামের দরুন কনফিগার করা "
+"পূর্ববর্তী শিরোনাম মুছে ফেলা হতে পারে। অথবা কনফিগার করা শিরোনামের পূর্বে, পরে অথবা "
+"পরিবর্তে প্রয়োগ করা হবে। সম্ভাব্য মান হল \"replace\", \"before\", \"after\" ও "
+"\"ignore\"।"
 
 #: src/org.mate.terminal.gschema.xml.in:127
 msgctxt "title"
@@ -518,9 +515,9 @@ msgid ""
 "by or combined with the title set by the application inside the terminal, "
 "depending on the title_mode setting."
 msgstr ""
-"টার্মিন্যাল উইন্ডো অথবা ট্যাবে প্রদর্শনের উদ্দেশ্যে শিরোনাম। এই শিরোনাম "
-"পরিবর্তন করা যাবে অথবা টার্মিন্যালে চলমান অ্যাপ্লিকেশনের দ্বারা নির্ধারিত "
-"নামের সাথে যুক্ত করা যাবে। title_mode বৈশিষ্ট্যের মানের উপর এটি নির্ভরশীল।"
+"টার্মিন্যাল উইন্ডো অথবা ট্যাবে প্রদর্শনের উদ্দেশ্যে শিরোনাম। এই শিরোনাম পরিবর্তন করা "
+"যাবে অথবা টার্মিন্যালে চলমান অ্যাপ্লিকেশনের দ্বারা নির্ধারিত নামের সাথে যুক্ত করা "
+"যাবে। title_mode বৈশিষ্ট্যের মানের উপর এটি নির্ভরশীল।"
 
 #: src/org.mate.terminal.gschema.xml.in:133
 msgid "Whether to allow bold text"
@@ -529,8 +526,8 @@ msgstr "গাঢ় হরফ ব্যবহার করা হবে কি ন
 #: src/org.mate.terminal.gschema.xml.in:134
 msgid "If true, allow applications in the terminal to make text boldface."
 msgstr ""
-"মান true (সত্য) হলে, টার্মিন্যালে চলমান অ্যাপ্লিকেশনগুলির দ্বারা গাঢ় হরফ "
-"প্রয়োগ করা যাবে।"
+"মান true (সত্য) হলে, টার্মিন্যালে চলমান অ্যাপ্লিকেশনগুলির দ্বারা গাঢ় হরফ প্রয়োগ করা "
+"যাবে।"
 
 #: src/org.mate.terminal.gschema.xml.in:138
 msgid "Whether to silence terminal bell"
@@ -541,8 +538,8 @@ msgid ""
 "If true, don't make a noise when applications send the escape sequence for "
 "the terminal bell."
 msgstr ""
-"মান true (সত্য) হলে, অ্যাপ্লিকেশনের দ্বারা সিস্টেমের ধ্বনির জন্য এস্কেপ "
-"ক্যারেক্টার উল্লিখিত হলে আওয়াজ করা হবে না।"
+"মান true (সত্য) হলে, অ্যাপ্লিকেশনের দ্বারা সিস্টেমের ধ্বনির জন্য এস্কেপ ক্যারেক্টার "
+"উল্লিখিত হলে আওয়াজ করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:143
 msgid "Copy selection to clipboard"
@@ -559,25 +556,24 @@ msgstr "\"শব্দের অংশ\" হিসাবে ধার্য অ�
 #: src/org.mate.terminal.gschema.xml.in:149
 msgid ""
 "When selecting text by word, sequences of these characters are considered "
-"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing"
-" a range) should be the first character given."
+"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
+"a range) should be the first character given."
 msgstr ""
-"শব্দ অনুযায়ী টেক্সট নির্বাচনের সময় এই অক্ষরগুলি একটি পৃথক শব্দ হিসাবে গণ্য "
-"করা হবে। \"A-Z\" হিসাবে অক্ষরের সীমা উল্লেখ করা যাবে। প্রথম অক্ষর হিসাবে "
-"হাইফেন (অক্ষরের সীমা উল্লেখ না করার জন্য) উল্লেখ করা হবে।"
+"শব্দ অনুযায়ী টেক্সট নির্বাচনের সময় এই অক্ষরগুলি একটি পৃথক শব্দ হিসাবে গণ্য করা হবে। "
+"\"A-Z\" হিসাবে অক্ষরের সীমা উল্লেখ করা যাবে। প্রথম অক্ষর হিসাবে হাইফেন (অক্ষরের "
+"সীমা উল্লেখ না করার জন্য) উল্লেখ করা হবে।"
 
 #: src/org.mate.terminal.gschema.xml.in:153
 msgid "Whether to use custom terminal size for new windows"
-msgstr ""
-"নতুন উইন্ডোর ক্ষেত্রে টার্মিন্যালের স্বনির্ধারিত মাপ প্রয়োগ করা হবে কি না"
+msgstr "নতুন উইন্ডোর ক্ষেত্রে টার্মিন্যালের স্বনির্ধারিত মাপ প্রয়োগ করা হবে কি না"
 
 #: src/org.mate.terminal.gschema.xml.in:154
 msgid ""
 "If true, newly created terminal windows will have custom size specified by "
 "default_size_columns and default_size_rows."
 msgstr ""
-"মান true (সত্য) হলে, নবনির্মীত টার্মিন্যাল উইন্ডোর জন্য default_size_columns"
-" ও default_size_rows দ্বারা চিহ্নিত স্বনির্ধারিত মাপ প্রয়োগ করা হবে।"
+"মান true (সত্য) হলে, নবনির্মীত টার্মিন্যাল উইন্ডোর জন্য default_size_columns ও "
+"default_size_rows দ্বারা চিহ্নিত স্বনির্ধারিত মাপ প্রয়োগ করা হবে।"
 
 #: src/org.mate.terminal.gschema.xml.in:158
 msgid "Default number of columns"
@@ -588,8 +584,8 @@ msgid ""
 "Number of columns in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
 msgstr ""
-"নবনির্মিত টার্মিন্যাল উইন্ডোর মধ্যে প্রদর্শিত কলামের সংখ্যা। "
-"use_custom_default_size সক্রিয় না করা হলে এটি প্রয়োগ করা হবে না।"
+"নবনির্মিত টার্মিন্যাল উইন্ডোর মধ্যে প্রদর্শিত কলামের সংখ্যা। use_custom_default_size "
+"সক্রিয় না করা হলে এটি প্রয়োগ করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:163
 msgid "Default number of rows"
@@ -600,8 +596,8 @@ msgid ""
 "Number of rows in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
 msgstr ""
-"নবনির্মিত টার্মিন্যাল উইন্ডোর মধ্যে প্রদর্শিত সারির সংখ্যা। "
-"use_custom_default_size সক্রিয় না করা হলে এটি প্রয়োগ করা হবে না।"
+"নবনির্মিত টার্মিন্যাল উইন্ডোর মধ্যে প্রদর্শিত সারির সংখ্যা। use_custom_default_size "
+"সক্রিয় না করা হলে এটি প্রয়োগ করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:168
 msgid "Position of the scrollbar"
@@ -612,8 +608,8 @@ msgid ""
 "Where to put the terminal scrollbar. Possibilities are \"left\", \"right\", "
 "and \"hidden\"."
 msgstr ""
-"টার্মিন্যাল স্ক্রোলবারের অবস্থান। সম্ভাব্য মান হল \"left (বাঁদিকে)\", "
-"\"right (ডানদিকে)\" ও \"hidden (আড়াল করা)\"।"
+"টার্মিন্যাল স্ক্রোলবারের অবস্থান। সম্ভাব্য মান হল \"left (বাঁদিকে)\", \"right "
+"(ডানদিকে)\" ও \"hidden (আড়াল করা)\"।"
 
 #: src/org.mate.terminal.gschema.xml.in:173
 msgid "Number of lines to keep in scrollback"
@@ -622,12 +618,12 @@ msgstr "স্ক্রোলব্যাকে উপস্থিত পংক�
 #: src/org.mate.terminal.gschema.xml.in:174
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
-"terminal by this number of lines; lines that don't fit in the scrollback are"
-" discarded. If scrollback_unlimited is true, this value is ignored."
+"terminal by this number of lines; lines that don't fit in the scrollback are "
+"discarded. If scrollback_unlimited is true, this value is ignored."
 msgstr ""
-"সংরক্ষণযোগ্য স্ক্রোল-ব্যাক পংক্তির সংখ্যা। চিহ্নিত সংখ্যক পংক্তি আপনি "
-"টার্মিন্যালে স্ক্রোল করতে পারবেন; স্ক্রোলব্যাকের নির্ধারিত বহির্ভুত পংক্তি "
-"বর্জন করা হবে। scrollback_unlimited-র মান true হলে এই মান উপেক্ষা করা হবে।"
+"সংরক্ষণযোগ্য স্ক্রোল-ব্যাক পংক্তির সংখ্যা। চিহ্নিত সংখ্যক পংক্তি আপনি টার্মিন্যালে স্ক্রোল "
+"করতে পারবেন; স্ক্রোলব্যাকের নির্ধারিত বহির্ভুত পংক্তি বর্জন করা হবে। "
+"scrollback_unlimited-র মান true হলে এই মান উপেক্ষা করা হবে।"
 
 #: src/org.mate.terminal.gschema.xml.in:178
 msgid "Whether an unlimited number of lines should be kept in scrollback"
@@ -635,13 +631,13 @@ msgstr "স্ক্রোল-ব্যাকের মধ্যে সীমা
 
 #: src/org.mate.terminal.gschema.xml.in:179
 msgid ""
-"If true, scrollback lines will never be discarded. The scrollback history is"
-" stored on disk temporarily, so this may cause the system to run out of disk"
-" space if there is a lot of output to the terminal."
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
 msgstr ""
-"মান true হলে, স্ক্রোল-ব্যাকের পংক্তি কখনো বর্জন করা হবে না। স্ক্রোল-ব্যাকের "
-"পূর্ববর্তী তথ্য ডিস্কের মধ্যে সংরক্ষণ করা হয় এবং এর ফলে টার্মিন্যাল থেকে "
-"বৃহৎ পরিমাণ তথ্য উৎপন্ন হলে ডিস্কের স্থান পূর্ণ হওয়ার সম্ভাবনা রয়েছে।"
+"মান true হলে, স্ক্রোল-ব্যাকের পংক্তি কখনো বর্জন করা হবে না। স্ক্রোল-ব্যাকের পূর্ববর্তী "
+"তথ্য ডিস্কের মধ্যে সংরক্ষণ করা হয় এবং এর ফলে টার্মিন্যাল থেকে বৃহৎ পরিমাণ তথ্য উৎপন্ন "
+"হলে ডিস্কের স্থান পূর্ণ হওয়ার সম্ভাবনা রয়েছে।"
 
 #: src/org.mate.terminal.gschema.xml.in:183
 msgid "Whether to scroll to the bottom when a key is pressed"
@@ -649,8 +645,7 @@ msgstr "কি টেপা হলে নীচের প্রান্ত অ�
 
 #: src/org.mate.terminal.gschema.xml.in:184
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
-msgstr ""
-"মান true (সত্য) হলে, কোনো কি টেপা হলে স্ক্রোলবারটি নীচে স্থানান্তর করা হয়।"
+msgstr "মান true (সত্য) হলে, কোনো কি টেপা হলে স্ক্রোলবারটি নীচে স্থানান্তর করা হয়।"
 
 #: src/org.mate.terminal.gschema.xml.in:188
 msgid "Whether to scroll to the bottom when there's new output"
@@ -660,8 +655,8 @@ msgstr "নতুন ফলাফল উৎ‌পন্ন হলে নীচ�
 msgid ""
 "If true, whenever there's new output the terminal will scroll to the bottom."
 msgstr ""
-"মান true (সত্য) হলে, নতুন আউটপুট উৎ‌পন্ন হলে নীচের প্রান্ত অবধি টার্মিন্যাল "
-"স্ক্রোল করা হবে।"
+"মান true (সত্য) হলে, নতুন আউটপুট উৎ‌পন্ন হলে নীচের প্রান্ত অবধি টার্মিন্যাল স্ক্রোল করা "
+"হবে।"
 
 #: src/org.mate.terminal.gschema.xml.in:193
 msgid "What to do with the terminal when the child command exits"
@@ -672,8 +667,8 @@ msgid ""
 "Possible values are \"close\" to close the terminal, and \"restart\" to "
 "restart the command."
 msgstr ""
-"সম্ভাব্যা মান হল \"close\"-টার্মিন্যাল বন্ধ করার জন্য ও \"restart\"-কমান্ড "
-"পুনরায় আরম্ভ করার জন্য।"
+"সম্ভাব্যা মান হল \"close\"-টার্মিন্যাল বন্ধ করার জন্য ও \"restart\"-কমান্ড পুনরায় "
+"আরম্ভ করার জন্য।"
 
 #: src/org.mate.terminal.gschema.xml.in:198
 msgid "Whether to launch the command in the terminal as a login shell"
@@ -696,8 +691,8 @@ msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
 msgstr ""
-"মান true (সত্য) হলে, চলমান শেলের পরিবর্তে custom_command বৈশিষ্ট্যের মান "
-"প্রয়োগ করা হবে।"
+"মান true (সত্য) হলে, চলমান শেলের পরিবর্তে custom_command বৈশিষ্ট্যের মান প্রয়োগ "
+"করা হবে।"
 
 #: src/org.mate.terminal.gschema.xml.in:208
 msgid "Whether to blink the cursor"
@@ -708,9 +703,8 @@ msgid ""
 "The possible values are \"system\" to use the global cursor blinking "
 "settings, or \"on\" or \"off\" to set the mode explicitly."
 msgstr ""
-"সম্ভাব্য মানগুলি হল, কার্সার ঝলকানির সার্বজনীন বৈশিষ্ট্য প্রয়োগের জন্য "
-"\"system\", অথবা সুনির্দিষ্ট রপে সক্রিয় অথবা নিষ্ক্রিয় করার জন্য যথাক্রমনে "
-"\"on\" অথবা \"off\"।"
+"সম্ভাব্য মানগুলি হল, কার্সার ঝলকানির সার্বজনীন বৈশিষ্ট্য প্রয়োগের জন্য \"system\", "
+"অথবা সুনির্দিষ্ট রপে সক্রিয় অথবা নিষ্ক্রিয় করার জন্য যথাক্রমনে \"on\" অথবা \"off\"।"
 
 #: src/org.mate.terminal.gschema.xml.in:213
 msgid "The cursor appearance"
@@ -721,8 +715,8 @@ msgid ""
 "The possible values are \"block\" to use a block cursor, \"ibeam\" to use a "
 "vertical line cursor, or \"underline\" to use an underline cursor."
 msgstr ""
-"সম্ভাব্য মানগুলি হল, ঘনক আকারের জন্য \"block\", উলম্ব রেখার জন্য \"ibeam\" "
-"অথবা অনুভূমিক রেখার জন্য \"underline\"।"
+"সম্ভাব্য মানগুলি হল, ঘনক আকারের জন্য \"block\", উলম্ব রেখার জন্য \"ibeam\" অথবা "
+"অনুভূমিক রেখার জন্য \"underline\"।"
 
 #: src/org.mate.terminal.gschema.xml.in:218
 msgid "Custom command to use instead of the shell"
@@ -731,8 +725,8 @@ msgstr "শেলের পরিবর্তে ব্যবহারের জ
 #: src/org.mate.terminal.gschema.xml.in:219
 msgid "Run this command in place of the shell, if use_custom_command is true."
 msgstr ""
-"use_custom_command বিকল্পের মান true (সত্য) হলে শেলের পরিবর্তে চিহ্নিত "
-"কমান্ডটি চালানো হবে।"
+"use_custom_command বিকল্পের মান true (সত্য) হলে শেলের পরিবর্তে চিহ্নিত কমান্ডটি "
+"চালানো হবে।"
 
 #: src/org.mate.terminal.gschema.xml.in:223
 msgid "Icon for terminal window"
@@ -752,10 +746,10 @@ msgid ""
 "use. This is that palette, in the form of a colon-separated list of color "
 "names. Color names should be in hex format e.g. \"#FF00FF\""
 msgstr ""
-"টার্মিন্যালের মধ্যে চলমান অ্যাপ্লিকেশনগুলির দ্বারা ব্যবহারের জন্য ১৬-টি রং "
-"বিশিষ্ট একটি প্যালেট উপস্থিত রয়েছে। কোলোন চিহ্ন দ্বারা বিভাজিত বিন্যাসে রঙের"
-" নামের তালিকা এই প্যালেটে উপস্থিত রয়েছে। রঙের নাম hex বিন্যাসে লেখা আবশ্যক "
-"উদাহরণস্বরূপ \"#FF00FF\""
+"টার্মিন্যালের মধ্যে চলমান অ্যাপ্লিকেশনগুলির দ্বারা ব্যবহারের জন্য ১৬-টি রং বিশিষ্ট "
+"একটি প্যালেট উপস্থিত রয়েছে। কোলোন চিহ্ন দ্বারা বিভাজিত বিন্যাসে রঙের নামের তালিকা "
+"এই প্যালেটে উপস্থিত রয়েছে। রঙের নাম hex বিন্যাসে লেখা আবশ্যক উদাহরণস্বরূপ "
+"\"#FF00FF\""
 
 #: src/org.mate.terminal.gschema.xml.in:233
 msgid "Font"
@@ -775,9 +769,9 @@ msgid ""
 "for an image, or \"transparent\" for either real transparency if a "
 "compositing window manager is running, or pseudo-transparency otherwise."
 msgstr ""
-"টার্মিন্যাল পটভূমির প্রকৃতি। সম্ভাব্য মান, গাঢ় রঙের জন্য \"solid\", চিত্রের "
-"জন্য \"image\"। কম্পোসিটিং উইন্ডো পরিচালন ব্যবস্থার ক্ষেত্রে প্রকৃত "
-"স্বচ্ছপটভূমি অন্যথা কৃত্রিম স্বচ্ছতার জন্য  \"transparent\"।"
+"টার্মিন্যাল পটভূমির প্রকৃতি। সম্ভাব্য মান, গাঢ় রঙের জন্য \"solid\", চিত্রের জন্য "
+"\"image\"। কম্পোসিটিং উইন্ডো পরিচালন ব্যবস্থার ক্ষেত্রে প্রকৃত স্বচ্ছপটভূমি অন্যথা কৃত্রিম "
+"স্বচ্ছতার জন্য  \"transparent\"।"
 
 #: src/org.mate.terminal.gschema.xml.in:243
 msgid "Background image"
@@ -796,9 +790,8 @@ msgid ""
 "If true, scroll the background image with the foreground text; if false, "
 "keep the image in a fixed position and scroll the text above it."
 msgstr ""
-"মান true (সত্য) হলে, অগ্রভূমির হরফের সাথে পটভূমির চিত্র স্ক্রোল করা হবে; মান"
-" সত্য না হলে (false) পটভূমির চিত্রের স্থান অপরিবর্তিত রেখে অগ্রভূমির হরফ "
-"স্ক্রোল করা হবে।"
+"মান true (সত্য) হলে, অগ্রভূমির হরফের সাথে পটভূমির চিত্র স্ক্রোল করা হবে; মান সত্য না "
+"হলে (false) পটভূমির চিত্রের স্থান অপরিবর্তিত রেখে অগ্রভূমির হরফ স্ক্রোল করা হবে।"
 
 #: src/org.mate.terminal.gschema.xml.in:253
 msgid "How much to darken the background image"
@@ -811,11 +804,11 @@ msgid ""
 "implementation, there are only two levels of darkness possible, so the "
 "setting behaves as a boolean, where 0.0 disables the darkening effect."
 msgstr ""
-"পটভূমির চিত্র ছায়াচ্ছন্ন করার মাত্রা হিসাবে 0.0 ও 1.0-র মধ্যবর্তী একটি মান। "
-"মান 0.0 হলে ছায়াচ্ছন্ন করা হবে না, 1.0 মান নির্ধারিত হলে চিত্র সম্পূর্ণরূপে "
-"ছায়াচ্ছন্ন হবে। বর্তমানে এই বৈশিষ্ট্যের শুধুমাত্র দুটি স্তর উপলব্ধ রয়েছে, "
-"যার ফলে এই বৈশিষ্ট্যের জন্য বুলিয়ানের অনুরূপ মান ধার্য হয়। অর্থাৎ 0.0 মান "
-"প্রয়োগ করে এই বৈশিষ্ট্য নিষ্ক্রিয় করা যাবে।"
+"পটভূমির চিত্র ছায়াচ্ছন্ন করার মাত্রা হিসাবে 0.0 ও 1.0-র মধ্যবর্তী একটি মান। মান 0.0 "
+"হলে ছায়াচ্ছন্ন করা হবে না, 1.0 মান নির্ধারিত হলে চিত্র সম্পূর্ণরূপে ছায়াচ্ছন্ন হবে। "
+"বর্তমানে এই বৈশিষ্ট্যের শুধুমাত্র দুটি স্তর উপলব্ধ রয়েছে, যার ফলে এই বৈশিষ্ট্যের জন্য "
+"বুলিয়ানের অনুরূপ মান ধার্য হয়। অর্থাৎ 0.0 মান প্রয়োগ করে এই বৈশিষ্ট্য নিষ্ক্রিয় করা "
+"যাবে।"
 
 #: src/org.mate.terminal.gschema.xml.in:258
 msgid "Effect of the Backspace key"
@@ -829,11 +822,10 @@ msgid ""
 "bound to backspace or delete. \"ascii-del\" is normally considered the "
 "correct setting for the Backspace key."
 msgstr ""
-"ব্যাকস্পেস-কি দ্বারা উৎপন্ন কোড নির্ধারণ করে। সম্ভাব্য মান হল ASCII DEL "
-"অক্ষরের ক্ষেত্রে \"ascii-del\", Control-H-র (অর্থাৎ‌ ASCII BS অক্ষর) "
-"ক্ষেত্রে \"control-h\" ও ব্যাকস্পেস অথবা ডিলিট-কি-র সাথে যুক্ত এস্কেপ "
-"সিকোয়েন্সের জন্য \"escape-sequence\"।  ব্যাকস্পেস-কি-র সঠিক বৈশিষ্ট্য হিসাবে"
-" \"ascii-del\" ধার্য করা হয়।"
+"ব্যাকস্পেস-কি দ্বারা উৎপন্ন কোড নির্ধারণ করে। সম্ভাব্য মান হল ASCII DEL অক্ষরের "
+"ক্ষেত্রে \"ascii-del\", Control-H-র (অর্থাৎ‌ ASCII BS অক্ষর) ক্ষেত্রে \"control-h\" "
+"ও ব্যাকস্পেস অথবা ডিলিট-কি-র সাথে যুক্ত এস্কেপ সিকোয়েন্সের জন্য \"escape-"
+"sequence\"।  ব্যাকস্পেস-কি-র সঠিক বৈশিষ্ট্য হিসাবে \"ascii-del\" ধার্য করা হয়।"
 
 #: src/org.mate.terminal.gschema.xml.in:263
 msgid "Effect of the Delete key"
@@ -847,11 +839,10 @@ msgid ""
 "backspace or delete. \"escape-sequence\" is normally considered the correct "
 "setting for the Delete key."
 msgstr ""
-"ডিলিট-কি দ্বারা উৎপন্ন কোড নির্ধারণ করে। সম্ভাব্য মান হল ASCII DEL অক্ষরের "
-"ক্ষেত্রে \"ascii-del\", Control-H-র (অর্থাৎ‌ ASCII BS অক্ষর) ক্ষেত্রে "
-"\"control-h\" ও ব্যাকস্পেস অথবা ডিলিট-কি-র সাথে যুক্ত এস্কেপ সিকোয়েন্সের "
-"জন্য \"escape-sequence\"।  ব্যাকস্পেস-কি-র সঠিক বৈশিষ্ট্য হিসাবে \"ascii-"
-"del\" ধার্য করা হয়।"
+"ডিলিট-কি দ্বারা উৎপন্ন কোড নির্ধারণ করে। সম্ভাব্য মান হল ASCII DEL অক্ষরের ক্ষেত্রে "
+"\"ascii-del\", Control-H-র (অর্থাৎ‌ ASCII BS অক্ষর) ক্ষেত্রে \"control-h\" ও "
+"ব্যাকস্পেস অথবা ডিলিট-কি-র সাথে যুক্ত এস্কেপ সিকোয়েন্সের জন্য \"escape-sequence\"।  "
+"ব্যাকস্পেস-কি-র সঠিক বৈশিষ্ট্য হিসাবে \"ascii-del\" ধার্য করা হয়।"
 
 #: src/org.mate.terminal.gschema.xml.in:268
 msgid "Whether to use the colors from the theme for the terminal widget"
@@ -862,8 +853,8 @@ msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
 msgstr ""
-"মান true (সত্য) হলে, ব্যবহারকারীর দ্বারা উল্লিখিত রঙের পরিবর্তে টেক্সট "
-"এন্ট্রি বক্সের জন্য ব্যবহৃত থিমের রং টার্মিন্যালে প্রয়োগ করা হবে।"
+"মান true (সত্য) হলে, ব্যবহারকারীর দ্বারা উল্লিখিত রঙের পরিবর্তে টেক্সট এন্ট্রি বক্সের "
+"জন্য ব্যবহৃত থিমের রং টার্মিন্যালে প্রয়োগ করা হবে।"
 
 #: src/org.mate.terminal.gschema.xml.in:273
 msgid "Whether to use the system font"
@@ -874,8 +865,8 @@ msgid ""
 "If true, the terminal will use the desktop-global standard font if it's "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
-"মান true (সত্য) হলে, টার্মিন্যালে ডেস্কটপ-গ্লোবাল প্রমিত মানের ফন্ট ব্যবহার "
-"করা হবে যদি তা মোনোস্পেস হয় (অথবা নিকটতম মানের কোনো ফন্ট)।"
+"মান true (সত্য) হলে, টার্মিন্যালে ডেস্কটপ-গ্লোবাল প্রমিত মানের ফন্ট ব্যবহার করা হবে "
+"যদি তা মোনোস্পেস হয় (অথবা নিকটতম মানের কোনো ফন্ট)।"
 
 #: src/org.mate.terminal.gschema.xml.in:278
 msgid "Highlight S/Key challenges"
@@ -886,8 +877,8 @@ msgid ""
 "Popup a dialog when an S/Key challenge response query is detected and "
 "clicked on. Typing a password into the dialog will send it to the terminal."
 msgstr ""
-"S/Key চ্যালেঞ্জ প্রতিক্রিয়ার কোয়েরি সনাক্ত করে ক্লিক করা কলে পপ-আপ ডায়লগ "
-"প্রদর্শন করা হবে। ডায়লগে পাসওয়ার্ড লেখা হলে তা টার্মিন্যালে প্রেরিত হবে।"
+"S/Key চ্যালেঞ্জ প্রতিক্রিয়ার কোয়েরি সনাক্ত করে ক্লিক করা কলে পপ-আপ ডায়লগ প্রদর্শন "
+"করা হবে। ডায়লগে পাসওয়ার্ড লেখা হলে তা টার্মিন্যালে প্রেরিত হবে।"
 
 #: src/org.mate.terminal.gschema.xml.in:283
 msgid "Highlight URLs under mouse pointer"
@@ -895,8 +886,8 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:284
 msgid ""
-"If true, URLs under mouse pointer are highlighted and can be opened by mouse"
-" click together with control key or used in context menu."
+"If true, URLs under mouse pointer are highlighted and can be opened by mouse "
+"click together with control key or used in context menu."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:290
@@ -910,9 +901,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"নতুন ট্যাব খোলার জন্য ব্যবহৃত শর্টকাট-কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত বিন্যাস"
-" অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান "
-"নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
+"নতুন ট্যাব খোলার জন্য ব্যবহৃত শর্টকাট-কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত বিন্যাস অনুযায়ী "
+"পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান নির্ধারিত হলে চিহ্নিত "
+"কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:295
 msgid "Keyboard shortcut to open a new window"
@@ -920,14 +911,14 @@ msgstr "নতুন উইন্ডো খোলার জন্য ব্য�
 
 #: src/org.mate.terminal.gschema.xml.in:296
 msgid ""
-"Keyboard shortcut key for opening a new window. Expressed as a string in the"
-" same format used for GTK+ resource files. If you set the option to the "
+"Keyboard shortcut key for opening a new window. Expressed as a string in the "
+"same format used for GTK+ resource files. If you set the option to the "
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"নতুন উইন্ডো খোলার জন্য ব্যবহৃত শর্টকাট-কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
-"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান "
-"নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
+"নতুন উইন্ডো খোলার জন্য ব্যবহৃত শর্টকাট-কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত বিন্যাস অনুযায়ী "
+"পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান নির্ধারিত হলে চিহ্নিত "
+"কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:300
 msgid "Keyboard shortcut to create a new profile"
@@ -937,19 +928,17 @@ msgstr "নতুন প্রোফাইল নির্মাণ করতে
 msgid ""
 "Keyboard shortcut key for bringing up the dialog for profile creation. "
 "Expressed as a string in the same format used for GTK+ resource files. If "
-"you set the option to the special string \"disabled\", then there will be no"
-" keyboard shortcut for this action."
+"you set the option to the special string \"disabled\", then there will be no "
+"keyboard shortcut for this action."
 msgstr ""
-"প্রোফাইল নির্মাণের ডায়লগ বক্স প্রদর্শনের উদ্দেশ্যে ব্যবহৃত কি-বোর্ড "
-"শর্ট-কাট। GTK+ রিসোর্স ফাইলে ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়।"
-" এই বিকল্পটির জন্য \"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো "
-"কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
+"প্রোফাইল নির্মাণের ডায়লগ বক্স প্রদর্শনের উদ্দেশ্যে ব্যবহৃত কি-বোর্ড শর্ট-কাট। GTK+ "
+"রিসোর্স ফাইলে ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য "
+"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা "
+"হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:305
 msgid "Keyboard shortcut to save the current tab contents to file"
-msgstr ""
-"বর্তমানে ট্যাবের তথ্য একটি ফাইলের মধ্যে সংরক্ষণের জন্য ব্যবহৃত কি-বোর্ড "
-"শর্টকাট"
+msgstr "বর্তমানে ট্যাবের তথ্য একটি ফাইলের মধ্যে সংরক্ষণের জন্য ব্যবহৃত কি-বোর্ড শর্টকাট"
 
 #: src/org.mate.terminal.gschema.xml.in:306
 msgid ""
@@ -958,10 +947,10 @@ msgid ""
 "option to the special string \"disabled\", then there will be no keyboard "
 "shortcut for this action."
 msgstr ""
-"বর্তমান ট্যাবের বিষয়বস্তু ফাইলের মধ্যে সংরক্ষণ করতে ব্যবহৃত কি-বোর্ড শর্টকাট"
-" কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই "
-"বিকল্পটির জন্য \"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো "
-"কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
+"বর্তমান ট্যাবের বিষয়বস্তু ফাইলের মধ্যে সংরক্ষণ করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ "
+"রিসোর্স ফাইলে ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য "
+"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা "
+"হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:310
 msgid "Keyboard shortcut to close a tab"
@@ -971,12 +960,11 @@ msgstr "ট্যাব বন্ধ করতে ব্যবহৃত কি-�
 msgid ""
 "Keyboard shortcut key for closing a tab. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"ট্যাব বন্ধ করেত ব্যবহৃত কি-বোর্ড শর্টকাট। GTK+ রিসোর্স ফাইলে ব্যবহৃত বিন্যাস"
-" অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান "
-"নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
+"ট্যাব বন্ধ করেত ব্যবহৃত কি-বোর্ড শর্টকাট। GTK+ রিসোর্স ফাইলে ব্যবহৃত বিন্যাস অনুযায়ী "
+"পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান নির্ধারিত হলে চিহ্নিত "
+"কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:315
 msgid "Keyboard shortcut to close a window"
@@ -989,9 +977,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"উইন্ডো বন্ধ করতে ব্যবহৃত কি-বোর্ড শর্টকাট। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
-"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান "
-"নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
+"উইন্ডো বন্ধ করতে ব্যবহৃত কি-বোর্ড শর্টকাট। GTK+ রিসোর্স ফাইলে ব্যবহৃত বিন্যাস অনুযায়ী "
+"পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান নির্ধারিত হলে চিহ্নিত "
+"কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:320
 msgid "Keyboard shortcut to copy text"
@@ -1004,10 +992,9 @@ msgid ""
 "option to the special string \"disabled\", then there will be no keyboard "
 "shortcut for this action."
 msgstr ""
-"নির্বাচিত টেক্সট ক্লিপবোর্ডের কপি করতে ব্যবহৃত কি-বোর্ড শর্টকাট। GTK+ "
-"রিসোর্স ফাইলে ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির "
-"জন্য \"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড "
-"শর্টকাট যুক্ত করা হবে না।"
+"নির্বাচিত টেক্সট ক্লিপবোর্ডের কপি করতে ব্যবহৃত কি-বোর্ড শর্টকাট। GTK+ রিসোর্স ফাইলে "
+"ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান "
+"নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:325
 msgid "Keyboard shortcut to paste text"
@@ -1063,8 +1050,8 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:346
 msgid ""
-"Keyboard shortcut key for finding the previous occurrence of the search term"
-" in the terminal. Expressed as a string in the same format used for GTK+ "
+"Keyboard shortcut key for finding the previous occurrence of the search term "
+"in the terminal. Expressed as a string in the same format used for GTK+ "
 "resource files. If you set the option to the special string \"disabled\", "
 "then there will be no keyboard shortcut for this action."
 msgstr ""
@@ -1072,20 +1059,19 @@ msgstr ""
 #: src/org.mate.terminal.gschema.xml.in:350
 msgid "Keyboard shortcut to toggle full screen mode"
 msgstr ""
-"সম্পূর্ণ পর্দাজুড়ে প্রদর্শন ব্যবস্থা সক্রিয় অথবা নিষ্ক্রিয় করতে ব্যবহৃত "
-"কি-বোর্ড শর্টকাট"
+"সম্পূর্ণ পর্দাজুড়ে প্রদর্শন ব্যবস্থা সক্রিয় অথবা নিষ্ক্রিয় করতে ব্যবহৃত কি-বোর্ড শর্টকাট"
 
 #: src/org.mate.terminal.gschema.xml.in:351
 msgid ""
 "Keyboard shortcut key for toggling full screen mode. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
-"সম্পূর্ণ পর্দা জুড়ে প্রদর্শন ব্যবস্থা সক্রিয় অথবা নিষ্ক্রিয় করতে ব্যবহৃত "
-"কি-বোর্ড শর্টকাট। GTK+ রিসোর্স ফাইলে ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে "
-"উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের"
-" জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
+"সম্পূর্ণ পর্দা জুড়ে প্রদর্শন ব্যবস্থা সক্রিয় অথবা নিষ্ক্রিয় করতে ব্যবহৃত কি-বোর্ড শর্টকাট। "
+"GTK+ রিসোর্স ফাইলে ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য "
+"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা "
+"হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:355
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
@@ -1098,10 +1084,9 @@ msgid ""
 "option to the special string \"disabled\", then there will be no keyboard "
 "shortcut for this action."
 msgstr ""
-"মেনুবার প্রদর্শন অথবা আড়াল করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স "
-"ফাইলে ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য "
-"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট "
-"যুক্ত করা হবে না।"
+"মেনুবার প্রদর্শন অথবা আড়াল করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে "
+"ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান "
+"নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:360
 msgid "Keyboard shortcut to set the terminal title"
@@ -1114,10 +1099,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"টার্মিন্যালের শিরোনাম পরিশ্রুত করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ "
-"রিসোর্স ফাইলে ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির "
-"জন্য \"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড "
-"শর্টকাট যুক্ত করা হবে না।"
+"টার্মিন্যালের শিরোনাম পরিশ্রুত করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে "
+"ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান "
+"নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:365
 msgid "Keyboard shortcut to reset the terminal"
@@ -1130,10 +1114,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"টার্মিন্যাল রি-সেট করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে "
-"ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য "
-"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট "
-"যুক্ত করা হবে না।"
+"টার্মিন্যাল রি-সেট করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
+"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান নির্ধারিত "
+"হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:370
 msgid "Keyboard shortcut to reset and clear the terminal"
@@ -1141,15 +1124,14 @@ msgstr "টার্মিন্যাল রি-সেট ও পরিশ্�
 
 #: src/org.mate.terminal.gschema.xml.in:371
 msgid ""
-"Keyboard shortcut key to reset and clear the terminal. Expressed as a string"
-" in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"Keyboard shortcut key to reset and clear the terminal. Expressed as a string "
+"in the same format used for GTK+ resource files. If you set the option to "
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
-"টার্মিন্যাল রি-সেট অথবা পরিশ্রুত করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ "
-"রিসোর্স ফাইলে ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির "
-"জন্য \"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড "
-"শর্টকাট যুক্ত করা হবে না।"
+"টার্মিন্যাল রি-সেট অথবা পরিশ্রুত করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে "
+"ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান "
+"নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:375
 msgid "Keyboard shortcut to switch to the previous tab"
@@ -1159,13 +1141,12 @@ msgstr "পূর্ববর্তী ট্যাবে পরিবর্ত�
 msgid ""
 "Keyboard shortcut key to switch to the previous tab. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
-"পূর্ববর্তী ট্যাবে পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স "
-"ফাইলে ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য "
-"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট "
-"যুক্ত করা হবে না।"
+"পূর্ববর্তী ট্যাবে পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
+"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান নির্ধারিত "
+"হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:380
 msgid "Keyboard shortcut to switch to the next tab"
@@ -1178,10 +1159,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"পরবর্তী ট্যাবে পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে"
-" ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য "
-"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট "
-"যুক্ত করা হবে না।"
+"পরবর্তী ট্যাবে পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
+"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান নির্ধারিত "
+"হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:385
 msgid "Keyboard shortcut to switch to the previous profile"
@@ -1203,8 +1183,8 @@ msgstr ""
 msgid ""
 "Keyboard shortcut key to switch to the next profile. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:395
@@ -1218,10 +1198,9 @@ msgid ""
 "the special string \"disabled\", then there will be no keybinding for this "
 "action."
 msgstr ""
-"বর্তমান ট্যাব বাঁদিকে স্থানান্তর করতে ব্যবহৃত গতিবর্ধক-কি। GTK+ রিসোর্স "
-"ফাইলে ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য "
-"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট "
-"যুক্ত করা হবে না।"
+"বর্তমান ট্যাব বাঁদিকে স্থানান্তর করতে ব্যবহৃত গতিবর্ধক-কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
+"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান নির্ধারিত "
+"হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:400
 msgid "Accelerator to move the current tab to the right."
@@ -1234,10 +1213,9 @@ msgid ""
 "the special string \"disabled\", then there will be no keybinding for this "
 "action."
 msgstr ""
-"বর্তমান ট্যাব ডানদিকে স্থানান্তর করতে ব্যবহৃত গতিবর্ধক-কি। GTK+ রিসোর্স "
-"ফাইলে ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য "
-"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট "
-"যুক্ত করা হবে না।"
+"বর্তমান ট্যাব ডানদিকে স্থানান্তর করতে ব্যবহৃত গতিবর্ধক-কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
+"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান নির্ধারিত "
+"হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:405
 msgid "Accelerator to detach current tab."
@@ -1249,9 +1227,9 @@ msgid ""
 "format used for GTK+ resource files. If you set the option to the special "
 "string \"disabled\", then there will be no keybinding for this action."
 msgstr ""
-"বর্তমান ট্যাব বিচ্ছিন্ন করতে ব্যবহৃত গতিবর্ধক-কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত"
-" বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান "
-"নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
+"বর্তমান ট্যাব বিচ্ছিন্ন করতে ব্যবহৃত গতিবর্ধক-কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত বিন্যাস "
+"অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান নির্ধারিত হলে "
+"চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:410
 msgid "Keyboard shortcut to switch to tab 1"
@@ -1259,15 +1237,13 @@ msgstr "ট্যাব ১-এ পরিবর্তনের জন্য ব�
 
 #: src/org.mate.terminal.gschema.xml.in:411
 msgid ""
-"Keyboard shortcut key for switch to tab 1. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 1. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"ট্যাব ১-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে "
-"ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য "
-"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট "
-"যুক্ত করা হবে না।"
+"ট্যাব ১-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
+"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য \"disabled\" মান নির্ধারিত "
+"হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:415
 msgid "Keyboard shortcut to switch to tab 2"
@@ -1275,15 +1251,13 @@ msgstr "ট্যাব ২-এ পরিবর্তনের জন্য ব�
 
 #: src/org.mate.terminal.gschema.xml.in:416
 msgid ""
-"Keyboard shortcut key for switch to tab 2. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 2. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"ট্যাব ২-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে "
-"ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য "
-"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট "
-"যুক্ত করা হবে না।"
+"ট্যাব ২-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
+"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য \"disabled\" মান নির্ধারিত "
+"হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:420
 msgid "Keyboard shortcut to switch to tab 3"
@@ -1291,15 +1265,13 @@ msgstr "ট্যাব ৩-এ পরিবর্তনের জন্য ব�
 
 #: src/org.mate.terminal.gschema.xml.in:421
 msgid ""
-"Keyboard shortcut key for switch to tab 3. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 3. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"ট্যাব ৩-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে "
-"ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য "
-"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট "
-"যুক্ত করা হবে না।"
+"ট্যাব ৩-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
+"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য \"disabled\" মান নির্ধারিত "
+"হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:425
 msgid "Keyboard shortcut to switch to tab 4"
@@ -1307,15 +1279,13 @@ msgstr "ট্যাব ৪-এ পরিবর্তনের জন্য ব�
 
 #: src/org.mate.terminal.gschema.xml.in:426
 msgid ""
-"Keyboard shortcut key for switch to tab 4. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 4. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"ট্যাব ৪-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে "
-"ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য "
-"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট "
-"যুক্ত করা হবে না।"
+"ট্যাব ৪-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
+"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য \"disabled\" মান নির্ধারিত "
+"হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:430
 msgid "Keyboard shortcut to switch to tab 5"
@@ -1323,15 +1293,13 @@ msgstr "ট্যাব ৫-এ পরিবর্তনের জন্য ব�
 
 #: src/org.mate.terminal.gschema.xml.in:431
 msgid ""
-"Keyboard shortcut key for switch to tab 5. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 5. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"ট্যাব ৫-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে "
-"ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য "
-"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট "
-"যুক্ত করা হবে না।"
+"ট্যাব ৫-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
+"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য \"disabled\" মান নির্ধারিত "
+"হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:435
 msgid "Keyboard shortcut to switch to tab 6"
@@ -1339,15 +1307,13 @@ msgstr "ট্যাব ৬-এ পরিবর্তনের জন্য ব�
 
 #: src/org.mate.terminal.gschema.xml.in:436
 msgid ""
-"Keyboard shortcut key for switch to tab 6. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 6. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"ট্যাব ৬-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে "
-"ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য "
-"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট "
-"যুক্ত করা হবে না।"
+"ট্যাব ৬-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
+"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য \"disabled\" মান নির্ধারিত "
+"হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:440
 msgid "Keyboard shortcut to switch to tab 7"
@@ -1355,15 +1321,13 @@ msgstr "ট্যাব ৭-এ পরিবর্তনের জন্য ব�
 
 #: src/org.mate.terminal.gschema.xml.in:441
 msgid ""
-"Keyboard shortcut key for switch to tab 7. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 7. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"ট্যাব ৭-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে "
-"ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য "
-"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট "
-"যুক্ত করা হবে না।"
+"ট্যাব ৭-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
+"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য \"disabled\" মান নির্ধারিত "
+"হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:445
 msgid "Keyboard shortcut to switch to tab 8"
@@ -1371,15 +1335,13 @@ msgstr "ট্যাব ৮-এ পরিবর্তনের জন্য ব�
 
 #: src/org.mate.terminal.gschema.xml.in:446
 msgid ""
-"Keyboard shortcut key for switch to tab 8. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 8. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"ট্যাব ৮-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে "
-"ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য "
-"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট "
-"যুক্ত করা হবে না।"
+"ট্যাব ৮-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
+"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য \"disabled\" মান নির্ধারিত "
+"হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:450
 msgid "Keyboard shortcut to switch to tab 9"
@@ -1387,15 +1349,13 @@ msgstr "ট্যাব ৯-এ পরিবর্তনের জন্য ব�
 
 #: src/org.mate.terminal.gschema.xml.in:451
 msgid ""
-"Keyboard shortcut key for switch to tab 9. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 9. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"ট্যাব ৯-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে "
-"ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য "
-"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট "
-"যুক্ত করা হবে না।"
+"ট্যাব ৯-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
+"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য \"disabled\" মান নির্ধারিত "
+"হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:455
 msgid "Keyboard shortcut to switch to tab 10"
@@ -1408,10 +1368,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"ট্যাব ১০-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে "
-"ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য "
-"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট "
-"যুক্ত করা হবে না।"
+"ট্যাব ১০-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
+"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য \"disabled\" মান নির্ধারিত "
+"হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:460
 msgid "Keyboard shortcut to switch to tab 11"
@@ -1424,10 +1383,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"ট্যাব ১১-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে "
-"ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য "
-"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট "
-"যুক্ত করা হবে না।"
+"ট্যাব ১১-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
+"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য \"disabled\" মান নির্ধারিত "
+"হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:465
 msgid "Keyboard shortcut to switch to tab 12"
@@ -1440,10 +1398,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"ট্যাব ১২-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে "
-"ব্যবহৃত বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য "
-"\"disabled\" মান নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট "
-"যুক্ত করা হবে না।"
+"ট্যাব ১২-এ পরিবর্তন করতে ব্যবহৃত কি-বোর্ড শর্টকাট কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
+"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পের জন্য \"disabled\" মান নির্ধারিত "
+"হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:470
 msgid "Keyboard shortcut to launch help"
@@ -1453,12 +1410,11 @@ msgstr "সহায়িকা প্রদর্শন করতে ব্যব
 msgid ""
 "Keyboard shortcut key for launching help. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"সহায়িকা প্রদর্শনের জন্য ব্যবহৃত শর্টকাট-কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
-"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান "
-"নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
+"সহায়িকা প্রদর্শনের জন্য ব্যবহৃত শর্টকাট-কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত বিন্যাস অনুযায়ী "
+"পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান নির্ধারিত হলে চিহ্নিত "
+"কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:475
 msgid "Keyboard shortcut to make font larger"
@@ -1471,9 +1427,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"হরফের মাপ বৃদ্ধি করতে ব্যবহৃত শর্টকাট-কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত বিন্যাস"
-" অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান "
-"নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
+"হরফের মাপ বৃদ্ধি করতে ব্যবহৃত শর্টকাট-কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত বিন্যাস অনুযায়ী "
+"পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান নির্ধারিত হলে চিহ্নিত "
+"কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:480
 msgid "Keyboard shortcut to make font smaller"
@@ -1486,9 +1442,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"হরফের মাপ হ্রাস করার জন্য ব্যবহৃত শর্টকাট-কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
-"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান "
-"নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
+"হরফের মাপ হ্রাস করার জন্য ব্যবহৃত শর্টকাট-কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত বিন্যাস "
+"অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান নির্ধারিত হলে "
+"চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/org.mate.terminal.gschema.xml.in:485
 msgid "Keyboard shortcut to make font normal-size"
@@ -1496,14 +1452,14 @@ msgstr "ফন্টের মাপ বৃদ্ধি করতে ব্য�
 
 #: src/org.mate.terminal.gschema.xml.in:486
 msgid ""
-"Keyboard shortcut key for making font the normal size. Expressed as a string"
-" in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"Keyboard shortcut key for making font the normal size. Expressed as a string "
+"in the same format used for GTK+ resource files. If you set the option to "
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
-"হরফের মাপ স্বাভাবিক করতে ব্যবহৃত শর্টকাট-কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত "
-"বিন্যাস অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান "
-"নির্ধারিত হলে চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
+"হরফের মাপ স্বাভাবিক করতে ব্যবহৃত শর্টকাট-কি। GTK+ রিসোর্স ফাইলে ব্যবহৃত বিন্যাস "
+"অনুযায়ী পংক্তিরূপে উল্লিখিত হয়। এই বিকল্পটির জন্য \"disabled\" মান নির্ধারিত হলে "
+"চিহ্নিত কর্মের জন্য কোনো কি-বোর্ড শর্টকাট যুক্ত করা হবে না।"
 
 #: src/profile-editor.c:45
 msgid "Black on light yellow"
@@ -1525,14 +1481,12 @@ msgstr "কালোর উপরে সবুজ"
 msgid "White on black"
 msgstr "কালোর উপরে সাদা"
 
-#. Translators: "Solarized" is the name of a colour scheme, "light" can be
-#. translated
+#. Translators: "Solarized" is the name of a colour scheme, "light" can be translated
 #: src/profile-editor.c:70
 msgid "Solarized light"
 msgstr ""
 
-#. Translators: "Solarized" is the name of a colour scheme, "dark" can be
-#. translated
+#. Translators: "Solarized" is the name of a colour scheme, "dark" can be translated
 #: src/profile-editor.c:75
 msgid "Solarized dark"
 msgstr ""
@@ -1766,8 +1720,8 @@ msgid ""
 "<small><i><b>Note:</b> Terminal applications have these colors available to "
 "them.</i></small>"
 msgstr ""
-"<small><i><b>উল্লেখ্য:</b> টার্মিন্যাল অ্যাপ্লিকেশনের জন্য নিম্নলিখিত "
-"রং-গুলি ব্যবহার করা সম্ভব।</i></small>"
+"<small><i><b>উল্লেখ্য:</b> টার্মিন্যাল অ্যাপ্লিকেশনের জন্য নিম্নলিখিত রং-গুলি ব্যবহার "
+"করা সম্ভব।</i></small>"
 
 #: src/profile-preferences.ui:1836
 msgid "Colors"
@@ -1849,13 +1803,12 @@ msgstr "স্ক্রোলিং ব্যবস্থা"
 msgid ""
 "<small><i><b>Note:</b> These options may cause some applications to behave "
 "incorrectly.  They are only here to allow you to work around certain "
-"applications and operating systems that expect different terminal "
-"behavior.</i></small>"
+"applications and operating systems that expect different terminal behavior.</"
+"i></small>"
 msgstr ""
-"<small><i><b>উল্লেখ্য:</b> এই অপশগুলি ব্যবহারের দরুন কিছু অ্যাপ্লিকেশন "
-"সঠিকভাবে চলতে সক্ষম না হতে পারে। টার্মিন্যালের ভিন্ন আচরণ প্রত্যাশাকারী "
-"কয়েকটি অ্যাপ্লিকেশন এবং অপারেটিং সিস্টেমের সাথে ব্যবহারের জন্য এই "
-"বিকল্পগুলির সাহায্য নেওয়া হয়।</i></small>"
+"<small><i><b>উল্লেখ্য:</b> এই অপশগুলি ব্যবহারের দরুন কিছু অ্যাপ্লিকেশন সঠিকভাবে চলতে "
+"সক্ষম না হতে পারে। টার্মিন্যালের ভিন্ন আচরণ প্রত্যাশাকারী কয়েকটি অ্যাপ্লিকেশন এবং "
+"অপারেটিং সিস্টেমের সাথে ব্যবহারের জন্য এই বিকল্পগুলির সাহায্য নেওয়া হয়।</i></small>"
 
 #: src/profile-preferences.ui:2327
 msgid "_Delete key generates:"
@@ -2109,24 +2062,24 @@ msgid ""
 "You already have a profile called “%s”. Do you want to create another "
 "profile with the same name?"
 msgstr ""
-"“%s” নামক একটি প্রোফাইল বর্তমানে উপস্থিত রয়েছে। আপনি কি একই নামের দুটি "
-"প্রোফাইল নির্মাণ করতে ইচ্ছুক?"
+"“%s” নামক একটি প্রোফাইল বর্তমানে উপস্থিত রয়েছে। আপনি কি একই নামের দুটি প্রোফাইল "
+"নির্মাণ করতে ইচ্ছুক?"
 
 #: src/terminal-app.c:1243
 msgid "Choose base profile"
 msgstr "ভিত্তি রূপে চিহ্নিত প্রোফাইল নির্বাচন করুন"
 
-#: src/terminal-app.c:1837
+#: src/terminal-app.c:1845
 #, c-format
 msgid "No such profile \"%s\", using default profile\n"
 msgstr "\"%s\" নামক কোনো প্রোফাইল উপস্থিত নেই, ডিফল্ট প্রোফাইল ব্যবহার করা হবে\n"
 
-#: src/terminal-app.c:1864
+#: src/terminal-app.c:1872
 #, c-format
 msgid "Invalid geometry string \"%s\"\n"
 msgstr "অবৈধ জ্যামিতিক পংক্তি \"%s\"\n"
 
-#: src/terminal-app.c:2070
+#: src/terminal-app.c:2078
 msgid "User Defined"
 msgstr "ব্যবহারকারীর দ্বারা নির্দিষ্ট"
 
@@ -2284,203 +2237,209 @@ msgstr "এনকোডিং (_E)"
 msgid "Current Locale"
 msgstr "বর্তমান লোকেল"
 
-#: src/terminal-options.c:177
+#: src/terminal-options.c:181
 #, c-format
 msgid ""
 "Option \"%s\" is no longer supported in this version of mate-terminal; you "
 "might want to create a profile with the desired setting, and use the new '--"
 "profile' option\n"
 msgstr ""
-"mate-terminal-র বর্তমান সংস্করণে \"%s\" বিকল্পটি সমর্থিত হয় না; পছন্দসই "
-"বৈশিষ্ট্য সহ আপনি নতুন প্রোফাইল নির্মাণ নতুন '--profile' বিকল্পটি ব্যবহার "
-"করতে পারেন\n"
+"mate-terminal-র বর্তমান সংস্করণে \"%s\" বিকল্পটি সমর্থিত হয় না; পছন্দসই বৈশিষ্ট্য "
+"সহ আপনি নতুন প্রোফাইল নির্মাণ নতুন '--profile' বিকল্পটি ব্যবহার করতে পারেন\n"
 
-#: src/terminal-options.c:209
+#: src/terminal-options.c:213
 #, c-format
 msgid "Argument to \"%s\" is not a valid command: %s"
 msgstr "\"%s\"-র জন্য উল্লিখিত আর্গুমেন্ট বৈধ কমান্ড নয়: %s"
 
-#: src/terminal-options.c:347
+#: src/terminal-options.c:351
 msgid "Two roles given for one window"
 msgstr "একটি উইন্ডোর জন্য দুটি ভূমিকা প্রদান করা হয়েছে"
 
-#: src/terminal-options.c:368 src/terminal-options.c:401
+#: src/terminal-options.c:372 src/terminal-options.c:405
 #, c-format
 msgid "\"%s\" option given twice for the same window\n"
 msgstr "একই উইন্ডোর জন্য \"%s\" বিকল্প দুইবার উল্লেখ করা হয়েছে\n"
 
-#: src/terminal-options.c:600
+#: src/terminal-options.c:625
 #, c-format
 msgid "\"%s\" is not a valid zoom factor"
 msgstr "প্রদর্শনের মাত্রা বিবর্ধনের উদ্দেশ্যে \"%s\" বৈধ মান নয়"
 
-#: src/terminal-options.c:607
+#: src/terminal-options.c:632
 #, c-format
 msgid "Zoom factor \"%g\" is too small, using %g\n"
 msgstr "জুম ফ্যাক্টর \"%g\" অত্যান্ত ক্ষুদ্র, %g ব্যবহার করা হবে\n"
 
-#: src/terminal-options.c:615
+#: src/terminal-options.c:640
 #, c-format
 msgid "Zoom factor \"%g\" is too large, using %g\n"
 msgstr "জুম ফ্যাক্টর \"%g\" অত্যাধিক বড়, %g ব্যবহার করা হবে\n"
 
-#: src/terminal-options.c:650
+#: src/terminal-options.c:675
 #, c-format
 msgid ""
 "Option \"%s\" requires specifying the command to run on the rest of the "
 "command line"
 msgstr ""
-"অবশিষ্ট কমান্ড-লাইনে চালানোর জন্য \"%s\" বিকল্পের ক্ষেত্রে কমান্ড উল্লেখ করা"
-" আবশ্যক"
+"অবশিষ্ট কমান্ড-লাইনে চালানোর জন্য \"%s\" বিকল্পের ক্ষেত্রে কমান্ড উল্লেখ করা আবশ্যক"
 
-#: src/terminal-options.c:811
+#: src/terminal-options.c:837
 msgid "Not a valid terminal config file."
 msgstr "বৈধ টার্মিন্যাল কনফিগারেশন ফাইল নয়।"
 
-#: src/terminal-options.c:824
+#: src/terminal-options.c:850
 msgid "Incompatible terminal config file version."
 msgstr "টার্মিন্যাল কনফিগারেশন ফাইলের বিসংগত সংস্করণ।"
 
-#: src/terminal-options.c:952
+#: src/terminal-options.c:980
 msgid ""
 "Do not register with the activation nameserver, do not re-use an active "
 "terminal"
 msgstr ""
-"অ্যাকটিভেশন nameserver-র সাথে নিবন্ধিত করা হবে না, সক্রিয় টার্মিন্যাল পুনরায়"
-" ব্যবহার করা হবে না"
+"অ্যাকটিভেশন nameserver-র সাথে নিবন্ধিত করা হবে না, সক্রিয় টার্মিন্যাল পুনরায় "
+"ব্যবহার করা হবে না"
 
-#: src/terminal-options.c:961
+#: src/terminal-options.c:989
 msgid "Load a terminal configuration file"
 msgstr "একটি টার্মিন্যাল কনফিগারেশন ফাইল লোড করুন"
 
-#: src/terminal-options.c:970
+#: src/terminal-options.c:998
 msgid "Save the terminal configuration to a file"
 msgstr "টার্মিন্যালের কনফিগারেশন একটি ফাইলের মধ্যে সংরক্ষণ করুন"
 
-#: src/terminal-options.c:985
+#: src/terminal-options.c:1013
 msgid "Open a new window containing a tab with the default profile"
 msgstr "ডিফল্ট প্রোফাইল প্রয়োগ করে নতুন উইন্ডোর মধ্যে একটি ট্যাব খোলা হবে।"
 
-#: src/terminal-options.c:994
+#: src/terminal-options.c:1022
 msgid "Open a new tab in the last-opened window with the default profile"
 msgstr "ডিফল্ট প্রোফাইল প্রয়োগ করে সর্বশেষ উইন্ডোর মধ্যে একটি ট্যাব খোলা হবে।"
 
-#: src/terminal-options.c:1008
+#: src/terminal-options.c:1036
 msgid "Turn on the menubar"
 msgstr "মেনু-বার সক্রিয় করুন"
 
-#: src/terminal-options.c:1017
+#: src/terminal-options.c:1045
 msgid "Turn off the menubar"
 msgstr "মেনু-বার নিষ্ক্রিয় করুন"
 
-#: src/terminal-options.c:1026
+#: src/terminal-options.c:1054
 msgid "Maximize the window"
 msgstr "উইন্ডো সর্বোচ্চ মাপে নির্ধারণ করুন"
 
-#: src/terminal-options.c:1035
+#: src/terminal-options.c:1063
 msgid "Full-screen the window"
 msgstr "সম্পূর্ণ পর্দায় উইন্ডো প্রদর্শন"
 
-#: src/terminal-options.c:1044
+#: src/terminal-options.c:1072
 msgid ""
 "Set the window size; for example: 80x24, or 80x24+200+200 (COLSxROWS+X+Y)"
 msgstr ""
 
-#: src/terminal-options.c:1045
+#: src/terminal-options.c:1073
 msgid "GEOMETRY"
 msgstr "GEOMETRY"
 
-#: src/terminal-options.c:1053
+#: src/terminal-options.c:1081
 msgid "Set the window role"
 msgstr "উইন্ডোর ভূমিকা নির্ধারণ করুন"
 
-#: src/terminal-options.c:1054
+#: src/terminal-options.c:1082
 msgid "ROLE"
 msgstr "ROLE"
 
-#: src/terminal-options.c:1062
+#: src/terminal-options.c:1090
+#, fuzzy
+#| msgid "Set the window role"
+msgid "Set the window icon"
+msgstr "উইন্ডোর ভূমিকা নির্ধারণ করুন"
+
+#: src/terminal-options.c:1091
+msgid "ICON"
+msgstr ""
+
+#: src/terminal-options.c:1099
 msgid "Set the last specified tab as the active one in its window"
 msgstr "বর্তমান উইন্ডোর সর্বশেষ ট্যাবটি সক্রিয় ট্যাব রূপে নির্ধারণ করা হবে"
 
-#: src/terminal-options.c:1076
+#: src/terminal-options.c:1113
 msgid "Execute the argument to this option inside the terminal"
-msgstr ""
-"চিহ্নিত বিকল্পের জন্য নির্ধারিত আর্গুমেন্ট টার্মিন্যালের মধ্যে নির্বাহিত হবে"
+msgstr "চিহ্নিত বিকল্পের জন্য নির্ধারিত আর্গুমেন্ট টার্মিন্যালের মধ্যে নির্বাহিত হবে"
 
-#: src/terminal-options.c:1085
+#: src/terminal-options.c:1122
 msgid "Use the given profile instead of the default profile"
 msgstr "ডিফল্ট প্রোফাইলের পরিবর্তে, উল্লিখিত প্রোফাইল প্রয়োগ করা হবে"
 
-#: src/terminal-options.c:1086
+#: src/terminal-options.c:1123
 msgid "PROFILE-NAME"
 msgstr "PROFILE-NAME"
 
-#: src/terminal-options.c:1094
+#: src/terminal-options.c:1131
 msgid "Set the terminal title"
 msgstr "টার্মিন্যালের শিরোনাম নির্ধারণ করুন"
 
-#: src/terminal-options.c:1095
+#: src/terminal-options.c:1132
 msgid "TITLE"
 msgstr "TITLE"
 
-#: src/terminal-options.c:1103
+#: src/terminal-options.c:1140
 msgid "Set the working directory"
 msgstr "সক্রিয় ডিরেক্টরি নির্ধারণ করুন"
 
-#: src/terminal-options.c:1104
+#: src/terminal-options.c:1141
 msgid "DIRNAME"
 msgstr "DIRNAME"
 
-#: src/terminal-options.c:1112
+#: src/terminal-options.c:1149
 msgid "Set the terminal's zoom factor (1.0 = normal size)"
-msgstr ""
-"টার্মিন্যালের প্রদর্শনের মাত্রা নির্ধারণ করা হবে (1.0 = স্বাভাবিক মাপ)"
+msgstr "টার্মিন্যালের প্রদর্শনের মাত্রা নির্ধারণ করা হবে (1.0 = স্বাভাবিক মাপ)"
 
-#: src/terminal-options.c:1113
+#: src/terminal-options.c:1150
 msgid "ZOOM"
 msgstr "ZOOM"
 
-#: src/terminal-options.c:1364 src/terminal-options.c:1367
+#: src/terminal-options.c:1401 src/terminal-options.c:1404
 msgid "MATE Terminal Emulator"
 msgstr "MATE Terminal এমুলেটর"
 
-#: src/terminal-options.c:1368
+#: src/terminal-options.c:1405
 msgid "Show MATE Terminal options"
 msgstr "MATE Terminal সংক্রান্ত বিবিধ বিকল্প প্রদর্শন করা হবে"
 
-#: src/terminal-options.c:1378
+#: src/terminal-options.c:1415
 msgid ""
 "Options to open new windows or terminal tabs; more than one of these may be "
 "specified:"
 msgstr ""
-"নতুন উইন্ডো অথবা টার্মিন্যাল ট্যাব প্রদর্শনের জন্য প্রযোজ্য বিকল্প; এর মধ্যে"
-" একাধিক নির্ধারণ করা যাবে:"
+"নতুন উইন্ডো অথবা টার্মিন্যাল ট্যাব প্রদর্শনের জন্য প্রযোজ্য বিকল্প; এর মধ্যে একাধিক "
+"নির্ধারণ করা যাবে:"
 
-#: src/terminal-options.c:1379
+#: src/terminal-options.c:1416
 msgid "Show terminal options"
 msgstr "টার্মিন্যাল সংক্রান্ত বিবিধ বিকল্প প্রদর্শন করা হবে"
 
-#: src/terminal-options.c:1387
+#: src/terminal-options.c:1424
 msgid ""
 "Window options; if used before the first --window or --tab argument, sets "
 "the default for all windows:"
 msgstr ""
-"উইন্ডো সংক্রান্ত বিকল্প; প্রথম --window অথবা --tab আর্গুমেন্টের পূর্বে "
-"ব্যবহার করা হলে, সকল উইন্ডোর জন্য ডিফল্ট মান নির্ধারণ করা হয়:"
+"উইন্ডো সংক্রান্ত বিকল্প; প্রথম --window অথবা --tab আর্গুমেন্টের পূর্বে ব্যবহার করা হলে, "
+"সকল উইন্ডোর জন্য ডিফল্ট মান নির্ধারণ করা হয়:"
 
-#: src/terminal-options.c:1388
+#: src/terminal-options.c:1425
 msgid "Show per-window options"
 msgstr "প্রতি উইন্ডোর জন্য বিকল্প প্রদর্শন করা হবে"
 
-#: src/terminal-options.c:1396
+#: src/terminal-options.c:1433
 msgid ""
 "Terminal options; if used before the first --window or --tab argument, sets "
 "the default for all terminals:"
 msgstr ""
-"টার্মিন্যাল সংক্রান্ত বিকল্প; প্রথম --window অথবা --tab আর্গুমেন্টের পূর্বে "
-"ব্যবহার করা হলে, সকল উইন্ডোর জন্য ডিফল্ট মান নির্ধারণ করা হয়:"
+"টার্মিন্যাল সংক্রান্ত বিকল্প; প্রথম --window অথবা --tab আর্গুমেন্টের পূর্বে ব্যবহার করা "
+"হলে, সকল উইন্ডোর জন্য ডিফল্ট মান নির্ধারণ করা হয়:"
 
-#: src/terminal-options.c:1397
+#: src/terminal-options.c:1434
 msgid "Show per-terminal options"
 msgstr "প্রতি টার্মিন্যালের জন্য বিকল্প প্রদর্শন করা হবে"
 
@@ -2538,38 +2497,36 @@ msgid ""
 "Software Foundation; either version 3 of the License, or (at your option) "
 "any later version."
 msgstr ""
-"मेट टर्मिनल मुफ्त सॉफ्टवेयर है, आप इसे पुनर्वितरित और / या यह GNU जनरल "
-"पब्लिक लाइसेंस के रूप में फ्री सॉफ्टवेयर फाउंडेशन द्वारा प्रकाशित की शर्तों "
-"के तहत संशोधित, तो लाइसेंस का संस्करण 3, या (आपके विकल्प पर) बाद के किसी "
-"संस्करण."
+"मेट टर्मिनल मुफ्त सॉफ्टवेयर है, आप इसे पुनर्वितरित और / या यह GNU जनरल पब्लिक लाइसेंस के "
+"रूप में फ्री सॉफ्टवेयर फाउंडेशन द्वारा प्रकाशित की शर्तों के तहत संशोधित, तो लाइसेंस का "
+"संस्करण 3, या (आपके विकल्प पर) बाद के किसी संस्करण."
 
 #: src/terminal-util.c:330
 msgid ""
-"MATE Terminal is distributed in the hope that it will be useful, but WITHOUT"
-" ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"MATE Terminal is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
 msgstr ""
-"Sound Juicer বিতরণ করার মূল উদ্দেশ্য যে ব্যবহারকারীরা এর দ্বারা উপকৃত হবেন, "
-"কিন্তু এটির জন্য কোনো সুস্পষ্ট ওয়ারেন্টি উপস্থিত নেই; বাণিজ্যিক ও কোনো "
-"সুনির্দিষ্ট কর্ম সাধনের জন্য অন্তর্নিহীত ওয়ারেন্টিও অনুপস্থিত। অধিক জানতে "
-"GNU General Public License পড়ুন।"
+"Sound Juicer বিতরণ করার মূল উদ্দেশ্য যে ব্যবহারকারীরা এর দ্বারা উপকৃত হবেন, কিন্তু "
+"এটির জন্য কোনো সুস্পষ্ট ওয়ারেন্টি উপস্থিত নেই; বাণিজ্যিক ও কোনো সুনির্দিষ্ট কর্ম সাধনের "
+"জন্য অন্তর্নিহীত ওয়ারেন্টিও অনুপস্থিত। অধিক জানতে GNU General Public License পড়ুন।"
 
 #: src/terminal-util.c:334
 msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" MATE Terminal; if not, write to the Free Software Foundation, Inc., 51 "
+"You should have received a copy of the GNU General Public License along with "
+"MATE Terminal; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin St, Fifth Floor, Boston, MA  02110-1301 USA"
 msgstr ""
-"MATE Terminal-র সাথে GNU General Public License-র একটি প্রতিলিপি উপলব্ধ হওয়া"
-" উচিত; না থাকলে নিম্নলিখিত ঠিকানায় লিখে তা সংগ্রহ করুন Free Software "
-"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
-"USA"
+"MATE Terminal-র সাথে GNU General Public License-র একটি প্রতিলিপি উপলব্ধ হওয়া "
+"উচিত; না থাকলে নিম্নলিখিত ঠিকানায় লিখে তা সংগ্রহ করুন Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
 
 #. Translators: This is the label of a menu item to choose a profile.
 #. * _%d is used as the accelerator (with d between 1 and 9), and
 #. * the %s is the name of the terminal profile.
-#: src/terminal-window.c:619
+#.
+#: src/terminal-window.c:612
 #, c-format
 msgid "_%d. %s"
 msgstr "_%d. %s"
@@ -2577,279 +2534,280 @@ msgstr "_%d. %s"
 #. Translators: This is the label of a menu item to choose a profile.
 #. * _%c is used as the accelerator (it will be a character between A and Z),
 #. * and the %s is the name of the terminal profile.
-#: src/terminal-window.c:625
+#.
+#: src/terminal-window.c:618
 #, c-format
 msgid "_%c. %s"
 msgstr "_%c. %s"
 
-#: src/terminal-window.c:1948
+#: src/terminal-window.c:1941
 msgid "_File"
 msgstr "ফাইল (_F)"
 
-#: src/terminal-window.c:1949 src/terminal-window.c:1962
-#: src/terminal-window.c:2213
+#: src/terminal-window.c:1942 src/terminal-window.c:1955
+#: src/terminal-window.c:2206
 msgid "Open _Terminal"
 msgstr "টার্মিনাল আরম্ভ করুন (_T)"
 
-#: src/terminal-window.c:1950 src/terminal-window.c:1967
-#: src/terminal-window.c:2218
+#: src/terminal-window.c:1943 src/terminal-window.c:1960
+#: src/terminal-window.c:2211
 msgid "Open Ta_b"
 msgstr "ট্যাব খুলুন (_b)"
 
-#: src/terminal-window.c:1951
+#: src/terminal-window.c:1944
 msgid "_Edit"
 msgstr "সম্পাদনা (_E)"
 
-#: src/terminal-window.c:1952
+#: src/terminal-window.c:1945
 msgid "_View"
 msgstr "প্রদর্শন (_V)"
 
-#: src/terminal-window.c:1953
+#: src/terminal-window.c:1946
 msgid "_Search"
 msgstr "অনুসন্ধান (_S)"
 
-#: src/terminal-window.c:1954
+#: src/terminal-window.c:1947
 msgid "_Terminal"
 msgstr "টার্মিন্যাল (_T)"
 
-#: src/terminal-window.c:1955
+#: src/terminal-window.c:1948
 msgid "Ta_bs"
 msgstr "ট্যাব (_b)"
 
-#: src/terminal-window.c:1972
+#: src/terminal-window.c:1965
 msgid "New _Profile…"
 msgstr "নতুন প্রোফাইল...(_P)"
 
-#: src/terminal-window.c:1977
+#: src/terminal-window.c:1970
 msgid "_Save Contents"
 msgstr "বিষয়বস্তু সংরক্ষণ করুন (_S)"
 
-#: src/terminal-window.c:1982 src/terminal-window.c:2228
+#: src/terminal-window.c:1975 src/terminal-window.c:2221
 msgid "C_lose Tab"
 msgstr "ট্যাব বন্ধ করুন (_l)"
 
-#: src/terminal-window.c:1987
+#: src/terminal-window.c:1980
 msgid "_Close Window"
 msgstr "উইন্ডো বন্ধ করুন (_C)"
 
-#: src/terminal-window.c:1994 src/terminal-window.c:2198
+#: src/terminal-window.c:1987 src/terminal-window.c:2191
 msgid "_Copy"
 msgstr "কপি করুন(_C)"
 
-#: src/terminal-window.c:1999 src/terminal-window.c:2203
+#: src/terminal-window.c:1992 src/terminal-window.c:2196
 msgid "_Paste"
 msgstr "পেস্ট করুন (_P)"
 
-#: src/terminal-window.c:2004 src/terminal-window.c:2208
+#: src/terminal-window.c:1997 src/terminal-window.c:2201
 msgid "Paste _Filenames"
 msgstr "ফাইলের নাম পেস্ট করা হবে (_F)"
 
-#: src/terminal-window.c:2009
+#: src/terminal-window.c:2002
 msgid "Select _All"
 msgstr "সমগ্র নির্বাচন করুন (_A)"
 
-#: src/terminal-window.c:2014
+#: src/terminal-window.c:2007
 msgid "P_rofiles…"
 msgstr "প্রোফাইল...(_r)"
 
-#: src/terminal-window.c:2019
+#: src/terminal-window.c:2012
 msgid "_Keyboard Shortcuts…"
 msgstr "কি-বোর্ড শর্ট-কাট...(_K)"
 
-#: src/terminal-window.c:2024
+#: src/terminal-window.c:2017
 msgid "Pr_ofile Preferences"
 msgstr "প্রোফাইল সংক্রান্ত পছন্দ (_o)"
 
-#: src/terminal-window.c:2031
+#: src/terminal-window.c:2024
 msgid "Zoom _In"
 msgstr "বড় করে প্রদর্শন (_I)"
 
-#: src/terminal-window.c:2036
+#: src/terminal-window.c:2029
 msgid "Zoom _Out"
 msgstr "ছোট মাপে প্রদর্শন (_O)"
 
-#: src/terminal-window.c:2041
+#: src/terminal-window.c:2034
 msgid "_Normal Size"
 msgstr "স্বাভাবিক মাপ (_N)"
 
-#: src/terminal-window.c:2048
+#: src/terminal-window.c:2041
 msgid "_Find..."
 msgstr "অনুসন্ধান... (_F)"
 
-#: src/terminal-window.c:2053
+#: src/terminal-window.c:2046
 msgid "Find Ne_xt"
 msgstr "পরবর্তী উপস্থিতি অনুসন্ধান (_x)"
 
-#: src/terminal-window.c:2058
+#: src/terminal-window.c:2051
 msgid "Find Pre_vious"
 msgstr "পূর্ববর্তী উপস্থিতি অনুসন্ধান (_v)"
 
-#: src/terminal-window.c:2063
+#: src/terminal-window.c:2056
 msgid "_Clear Highlight"
 msgstr "উজ্জ্বল করা অংশ স্বাভাবিক ভাবে প্রদর্শন (_C)"
 
-#: src/terminal-window.c:2069
+#: src/terminal-window.c:2062
 msgid "Go to _Line..."
 msgstr "চিহ্নিত পংক্তি প্রদর্শন...(_L)"
 
-#: src/terminal-window.c:2074
+#: src/terminal-window.c:2067
 msgid "_Incremental Search..."
 msgstr "ক্রমবর্ধমান অনুসন্ধান...(_I)"
 
-#: src/terminal-window.c:2081
+#: src/terminal-window.c:2074
 msgid "Change _Profile"
 msgstr "প্রোফাইল পরিবর্তন করুন (_P)"
 
-#: src/terminal-window.c:2083
+#: src/terminal-window.c:2076
 msgid "_Previous Profile"
 msgstr ""
 
-#: src/terminal-window.c:2088
+#: src/terminal-window.c:2081
 msgid "_Next Profile"
 msgstr ""
 
-#: src/terminal-window.c:2093
+#: src/terminal-window.c:2086
 msgid "_Set Title…"
 msgstr "শিরোনাম নির্ধারণ করুন...(_S)"
 
-#: src/terminal-window.c:2097
+#: src/terminal-window.c:2090
 msgid "Set _Character Encoding"
 msgstr "ক্যারেক্টার এনকোডিং নির্ধারণ করুন (_C)"
 
-#: src/terminal-window.c:2099
+#: src/terminal-window.c:2092
 msgid "_Reset"
 msgstr "রি-সেট (_R)"
 
-#: src/terminal-window.c:2104
+#: src/terminal-window.c:2097
 msgid "Reset and C_lear"
 msgstr "রি-সেট ও পরিশ্রুত করুন (_l)"
 
-#: src/terminal-window.c:2111
+#: src/terminal-window.c:2104
 msgid "_Add or Remove…"
 msgstr "যোগ করুন অথবা মুছে ফেলুন... (_A)"
 
-#: src/terminal-window.c:2118
+#: src/terminal-window.c:2111
 msgid "_Previous Tab"
 msgstr "পূর্ববর্তী ট্যাব (_P)"
 
-#: src/terminal-window.c:2123
+#: src/terminal-window.c:2116
 msgid "_Next Tab"
 msgstr "পরবর্তী ট্যাব (_N)"
 
-#: src/terminal-window.c:2128
+#: src/terminal-window.c:2121
 msgid "Move Tab _Left"
 msgstr "ট্যাব বাঁদিকে স্থানান্তর করুন (_L)"
 
-#: src/terminal-window.c:2133
+#: src/terminal-window.c:2126
 msgid "Move Tab _Right"
 msgstr "ট্যাব ডান দিকে স্থানান্তর করুন (_R)"
 
-#: src/terminal-window.c:2138
+#: src/terminal-window.c:2131
 msgid "_Detach tab"
 msgstr "ট্যাব বিচ্ছিন্ন করুন (_D)"
 
-#: src/terminal-window.c:2145
+#: src/terminal-window.c:2138
 msgid "_Contents"
 msgstr "সূচিপত্র (_C)"
 
-#: src/terminal-window.c:2150
+#: src/terminal-window.c:2143
 msgid "_About"
 msgstr "পরিচিতি (_A)"
 
-#: src/terminal-window.c:2157
+#: src/terminal-window.c:2150
 msgid "_Open Hyperlink"
 msgstr ""
 
-#: src/terminal-window.c:2162
+#: src/terminal-window.c:2155
 msgid "_Copy Hyperlink Address"
 msgstr ""
 
-#: src/terminal-window.c:2167
+#: src/terminal-window.c:2160
 msgid "_Send Mail To…"
 msgstr "মেইল প্রেরণের গন্তব্যস্থল...(_S)"
 
-#: src/terminal-window.c:2172
+#: src/terminal-window.c:2165
 msgid "_Copy E-mail Address"
 msgstr "ই-মেইল ঠিকানা কপি করুন (_C)"
 
-#: src/terminal-window.c:2177
+#: src/terminal-window.c:2170
 msgid "C_all To…"
 msgstr "চিহ্নিত স্থানে কল করুন...(_a)"
 
-#: src/terminal-window.c:2182
+#: src/terminal-window.c:2175
 msgid "_Copy Call Address"
 msgstr "কলের ঠিকানা কপি করুন (_C)"
 
-#: src/terminal-window.c:2187
+#: src/terminal-window.c:2180
 msgid "_Open Link"
 msgstr "লিঙ্ক খুলুন (_O)"
 
-#: src/terminal-window.c:2192
+#: src/terminal-window.c:2185
 msgid "_Copy Link Address"
 msgstr "লিঙ্কের ঠিকানা কপি করুন (_C)"
 
-#: src/terminal-window.c:2196
+#: src/terminal-window.c:2189
 msgid "P_rofiles"
 msgstr "প্রোফাইল (_r)"
 
-#: src/terminal-window.c:2233
+#: src/terminal-window.c:2226
 msgid "L_eave Full Screen"
 msgstr "সম্পূর্ণ পর্দা জুড়ে প্রদর্শন বন্ধ করুন (_e)"
 
-#: src/terminal-window.c:2237
+#: src/terminal-window.c:2230
 msgid "_Input Methods"
 msgstr "ইনপুট পদ্ধতি (_I)"
 
-#: src/terminal-window.c:2244
+#: src/terminal-window.c:2237
 msgid "Show _Menubar"
 msgstr "মেনু-বার প্রদর্শন করা হবে (_M)"
 
-#: src/terminal-window.c:2250
+#: src/terminal-window.c:2243
 msgid "_Full Screen"
 msgstr "সম্পূর্ণ পর্দা জুড়ে প্রদর্শন (_F)"
 
-#: src/terminal-window.c:3705
+#: src/terminal-window.c:3721
 msgid ""
 "There are still processes running in some terminals in this window.\n"
 "Closing the window will kill all of them."
 msgstr ""
 
-#: src/terminal-window.c:3711
+#: src/terminal-window.c:3727
 msgid "There are multiple tabs open in this window."
 msgstr ""
 
-#: src/terminal-window.c:3721
+#: src/terminal-window.c:3737
 msgid "Close this terminal?"
 msgstr "এই টার্মিন্যাল বন্ধ করা হবে কি?"
 
-#: src/terminal-window.c:3722
+#: src/terminal-window.c:3738
 msgid "C_lose Terminal"
 msgstr "টার্মিন্যাল বন্ধ করুন (_l)"
 
-#: src/terminal-window.c:3792
+#: src/terminal-window.c:3808
 msgid "Could not save contents"
 msgstr "বিষয়বস্তু সংরক্ষণ করতে ব্যর্থ"
 
-#: src/terminal-window.c:3816
+#: src/terminal-window.c:3832
 msgid "Save as..."
 msgstr "নতুন রূপে সংরক্ষণ..."
 
-#: src/terminal-window.c:4511
+#: src/terminal-window.c:4526
 msgid "Contributors:"
 msgstr "অংশগ্রহণকারী:"
 
-#: src/terminal-window.c:4527
+#: src/terminal-window.c:4542
 #, c-format
 msgid ""
 "MATE Terminal is a terminal emulator for the MATE Desktop Environment.\n"
 "Powered by Virtual TErminal %d.%d.%d"
 msgstr ""
 
-#: src/terminal-window.c:4533
+#: src/terminal-window.c:4548
 msgid "About MATE Terminal"
 msgstr ""
 
-#: src/terminal-window.c:4534
+#: src/terminal-window.c:4549
 msgid ""
 "Copyright © 2002–2004 Havoc Pennington\n"
 "Copyright © 2003–2004, 2007 Mariano Suárez-Alvarez\n"
@@ -2859,7 +2817,7 @@ msgid ""
 "Copyright © 2012-2021 MATE developers"
 msgstr ""
 
-#: src/terminal-window.c:4546
+#: src/terminal-window.c:4561
 msgid "translator-credits"
 msgstr ""
 "সায়মিন্দু দাশগুপ্ত <unmadindu@bengalinux.org> \n"

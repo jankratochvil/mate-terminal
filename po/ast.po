@@ -2,29 +2,29 @@
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the mate-terminal package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Xuacu Saturio <xuacusk8@gmail.com>, 2018
 # Ḷḷumex03, 2018
 # Iñigo Varela <ivarela@softastur.org>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-terminal 1.27.1\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-terminal/issues\n"
-"POT-Creation-Date: 2023-09-10 09:13+0200\n"
+"POT-Creation-Date: 2024-04-17 14:24-0400\n"
 "PO-Revision-Date: 2018-03-12 08:42+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
 "Language-Team: Asturian (https://app.transifex.com/mate/teams/13566/ast/)\n"
+"Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ast\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: mate-terminal.appdata.xml.in.in:7 mate-terminal.desktop.in.in:3
-#: src/terminal-options.c:189 src/terminal-window.c:4531
+#: src/terminal-options.c:193 src/terminal-window.c:4546
 msgid "MATE Terminal"
 msgstr "Terminal MATE"
 
@@ -34,8 +34,8 @@ msgstr "Un emulador de terminal pal escritoriu Mate"
 
 #: mate-terminal.appdata.xml.in.in:10
 msgid ""
-"MATE Terminal is a terminal emulation application that you can use to access"
-" a UNIX shell in the MATE environment. MATE Terminal emulates the xterm "
+"MATE Terminal is a terminal emulation application that you can use to access "
+"a UNIX shell in the MATE environment. MATE Terminal emulates the xterm "
 "program developed by the X Consortium. It supports translucent backgrounds, "
 "opening multiple terminals in a single window (tabs) and clickable URLs."
 msgstr ""
@@ -48,7 +48,7 @@ msgid ""
 msgstr ""
 
 #: mate-terminal.desktop.in.in:4 src/terminal-accels.c:351 src/terminal.c:517
-#: src/terminal-profile.c:161 src/terminal-window.c:2287
+#: src/terminal-profile.c:161 src/terminal-window.c:2280
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -61,47 +61,47 @@ msgstr "Usar llinia de comandos"
 msgid "_Cancel"
 msgstr "_Encaboxar"
 
-#: src/confirm-close-dialog.ui:56 src/terminal-window.c:2223
-#: src/terminal-window.c:3719
+#: src/confirm-close-dialog.ui:56 src/terminal-window.c:2216
+#: src/terminal-window.c:3735
 msgid "C_lose Window"
 msgstr "_Pesllar ventana"
 
-#: src/confirm-close-dialog.ui:119 src/terminal-window.c:3718
+#: src/confirm-close-dialog.ui:119 src/terminal-window.c:3734
 msgid "Close this window?"
 msgstr "¿Zarrar esta ventana?"
 
-#: src/confirm-close-dialog.ui:138 src/terminal-window.c:3708
+#: src/confirm-close-dialog.ui:138 src/terminal-window.c:3724
 msgid ""
 "There is still a process running in this terminal.\n"
 "Closing the terminal will kill it."
 msgstr ""
 
-#: src/mate-submodules/libegg/eggsmclient.c:234
+#: src/mate-submodules/libegg/eggsmclient.c:233
 msgid "Disable connection to session manager"
 msgstr "Desactivar la conexón col alministrador de sesiones"
 
-#: src/mate-submodules/libegg/eggsmclient.c:239
+#: src/mate-submodules/libegg/eggsmclient.c:238
 msgid "Specify file containing saved configuration"
 msgstr "Especificar el ficheru que contién la configuración guardada"
 
-#: src/mate-submodules/libegg/eggsmclient.c:239 src/terminal-options.c:962
-#: src/terminal-options.c:971
+#: src/mate-submodules/libegg/eggsmclient.c:238 src/terminal-options.c:990
+#: src/terminal-options.c:999
 msgid "FILE"
 msgstr "FICHERU"
 
-#: src/mate-submodules/libegg/eggsmclient.c:244
+#: src/mate-submodules/libegg/eggsmclient.c:243
 msgid "Specify session management ID"
 msgstr "Especificar la ID d'alministración de sesión"
 
-#: src/mate-submodules/libegg/eggsmclient.c:244
+#: src/mate-submodules/libegg/eggsmclient.c:243
 msgid "ID"
 msgstr "ID"
 
-#: src/mate-submodules/libegg/eggsmclient.c:270
+#: src/mate-submodules/libegg/eggsmclient.c:269
 msgid "Session management options:"
 msgstr "Opciones d'alministración de la sesión:"
 
-#: src/mate-submodules/libegg/eggsmclient.c:271
+#: src/mate-submodules/libegg/eggsmclient.c:270
 msgid "Show session management options"
 msgstr "Ver les opciones de xestión de la sesión"
 
@@ -111,13 +111,12 @@ msgstr "Amestar o esaniciar codificaciones de la terminal"
 
 #: src/encodings-dialog.ui:41 src/keybinding-editor.ui:41
 #: src/profile-manager.ui:58 src/profile-preferences.ui:262
-#: src/terminal-window.c:1956
+#: src/terminal-window.c:1949
 msgid "_Help"
 msgstr "_Ayuda"
 
-#: src/encodings-dialog.ui:59 src/find-dialog.ui:42
-#: src/keybinding-editor.ui:59 src/profile-manager.ui:76
-#: src/profile-preferences.ui:279
+#: src/encodings-dialog.ui:59 src/find-dialog.ui:42 src/keybinding-editor.ui:59
+#: src/profile-manager.ui:76 src/profile-preferences.ui:279
 msgid "_Close"
 msgstr "_Zarrar"
 
@@ -329,8 +328,8 @@ msgid ""
 "List of profiles known to mate-terminal. The list contains strings naming "
 "subdirectories relative to /org/mate/terminal/profiles."
 msgstr ""
-"Llista de perfiles conocíos pola terminal de Mate. La llista contién cadenes"
-" de los nomes de subdirectorios rellatives a /org/mate/terminal/profiles."
+"Llista de perfiles conocíos pola terminal de Mate. La llista contién cadenes "
+"de los nomes de subdirectorios rellatives a /org/mate/terminal/profiles."
 
 #: src/org.mate.terminal.gschema.xml.in:54
 msgid "Profile to use for new terminals"
@@ -338,8 +337,7 @@ msgstr "Perfil a usar pa les terminales nueves"
 
 #: src/org.mate.terminal.gschema.xml.in:55
 msgid ""
-"Profile to be used when opening a new window or tab. Must be in "
-"profile_list."
+"Profile to be used when opening a new window or tab. Must be in profile_list."
 msgstr ""
 "Perfil a usar cuando s'abra una ventana o una llingüeta nueva. Tien de "
 "figurar en «profile_list»."
@@ -351,8 +349,8 @@ msgstr "Define si la barra de menús tien tecles d'accesu"
 #: src/org.mate.terminal.gschema.xml.in:60
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
-"with some applications run inside the terminal so it's possible to turn them"
-" off."
+"with some applications run inside the terminal so it's possible to turn them "
+"off."
 msgstr ""
 "Define si hai de tener combinaciones de tecles de Alt+lletra pa la barra de "
 "menús. Éstes podríen interferir con dalgunes aplicaciones executaes dientro "
@@ -369,8 +367,8 @@ msgid ""
 "via gtkrc (gtk-menu-bar-accel = \"whatever\"). This option allows the "
 "standard menubar accelerator to be disabled."
 msgstr ""
-"Normalmente vusté pue acceder a la barra de menús calcando F10. Esto pue ser"
-" personalizáu per aciu de gtkrc (gtk-menu-bar-accel = \"lo que quiera\"). "
+"Normalmente vusté pue acceder a la barra de menús calcando F10. Esto pue ser "
+"personalizáu per aciu de gtkrc (gtk-menu-bar-accel = \"lo que quiera\"). "
 "Esta opción permite deshabilitar la combinación de tecles estándar d'accesu "
 "a la barra de menús."
 
@@ -390,8 +388,8 @@ msgid ""
 "\"current\" means to display the encoding of the current locale."
 msgstr ""
 "Un subconxuntu de codificaciones posibles tán presentes nel submenú "
-"«Codificaciones». Esta ye una llista de les codificaciones qu'apaecerán ehí."
-" El nome de codificación especial \"current\" significa que va amosase la "
+"«Codificaciones». Esta ye una llista de les codificaciones qu'apaecerán ehí. "
+"El nome de codificación especial \"current\" significa que va amosase la "
 "codificación de la configuración rexonal actual."
 
 #: src/org.mate.terminal.gschema.xml.in:74
@@ -411,8 +409,7 @@ msgstr "Zarrar llingüetes con clic central"
 
 #: src/org.mate.terminal.gschema.xml.in:80
 msgid "If true, it enables the ability to close tabs using middle click."
-msgstr ""
-"Si ye 'true', permite la capacidá de zarrar llingüetes col clic mediu."
+msgstr "Si ye 'true', permite la capacidá de zarrar llingüetes col clic mediu."
 
 #: src/org.mate.terminal.gschema.xml.in:84
 msgid "Switch tabs with [Ctrl]+[Tab]"
@@ -423,8 +420,8 @@ msgid ""
 "If true, it enables the ability to switch tabs using [Ctrl+Tab] and "
 "[Ctrl+Shift+Tab]."
 msgstr ""
-"Si'l valor ye 'true', permite la capacidá de camudar llingüetes usando [Ctrl"
-" + Tab] y [Ctrl + Shift + Tab]."
+"Si'l valor ye 'true', permite la capacidá de camudar llingüetes usando [Ctrl "
+"+ Tab] y [Ctrl + Shift + Tab]."
 
 #: src/org.mate.terminal.gschema.xml.in:92
 msgctxt "visible-name"
@@ -457,8 +454,8 @@ msgstr "Color predetermináu del testu na terminal"
 
 #: src/org.mate.terminal.gschema.xml.in:104
 msgid ""
-"Default color of text in the terminal, as a color specification (can be "
-"HTML-style hex digits, or a color name such as \"red\")."
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as \"red\")."
 msgstr ""
 "Color predetermináu del testu na terminal, como una especificación de color "
 "(pue ser n'estilu hexadecimal de HTML o el nome d'un color n'inglés como "
@@ -483,13 +480,13 @@ msgstr "Color predetermináu del testu en negrina na terminal"
 
 #: src/org.mate.terminal.gschema.xml.in:114
 msgid ""
-"Default color of bold text in the terminal, as a color specification (can be"
-" HTML-style hex digits, or a color name such as \"red\"). This is ignored if"
-" bold_color_same_as_fg is true."
+"Default color of bold text in the terminal, as a color specification (can be "
+"HTML-style hex digits, or a color name such as \"red\"). This is ignored if "
+"bold_color_same_as_fg is true."
 msgstr ""
-"Color predetermináu del testu en negrina na terminal como una especificación"
-" de color (pue ser n'estilu hexadecimal de HTML o'l nome d'un color n'inglés"
-" como «red»). Inórase si bold_color_same_as_fg ye braeru."
+"Color predetermináu del testu en negrina na terminal como una especificación "
+"de color (pue ser n'estilu hexadecimal de HTML o'l nome d'un color n'inglés "
+"como «red»). Inórase si bold_color_same_as_fg ye braeru."
 
 #: src/org.mate.terminal.gschema.xml.in:118
 msgid "Whether bold text should use the same color as normal text"
@@ -510,15 +507,16 @@ msgstr "Qué facer col títulu dinámicu"
 #: src/org.mate.terminal.gschema.xml.in:124
 msgid ""
 "If the application in the terminal sets the title (most typically people "
-"have their shell set up to do this), the dynamically-set title can erase the"
-" configured title, go before it, go after it, or replace it. The possible "
+"have their shell set up to do this), the dynamically-set title can erase the "
+"configured title, go before it, go after it, or replace it. The possible "
 "values are \"replace\", \"before\", \"after\", and \"ignore\"."
 msgstr ""
-"Si l'aplicación na configuración del terminal define'l títulu (la mayoría de"
-" la xente dexa que'l so intérprete faiga esto), el títulu definíu "
+"Si l'aplicación na configuración del terminal define'l títulu (la mayoría de "
+"la xente dexa que'l so intérprete faiga esto), el títulu definíu "
 "dinámicamente pue esaniciar el títulu configuráu, pue dir enantes d'ésti, "
-"dempués d'ésti, o reemplazalu. Los valores dables son «replace» "
-"(reemplazar), «before» (enantes), «after» (dempués) e «ignore» (inorar)."
+"dempués d'ésti, o reemplazalu. Los valores dables son "
+"«replace» (reemplazar), «before» (enantes), «after» (dempués) e "
+"«ignore» (inorar)."
 
 #: src/org.mate.terminal.gschema.xml.in:127
 msgctxt "title"
@@ -535,9 +533,9 @@ msgid ""
 "by or combined with the title set by the application inside the terminal, "
 "depending on the title_mode setting."
 msgstr ""
-"Títulu a amosar pa la ventana o la llingüeta de la terminal. Esti títulu pue"
-" ser reemplazáu o combináu col títulu definíu pola aplicación del interior "
-"de la terminal, dependiendo de la configuración de «title_mode»."
+"Títulu a amosar pa la ventana o la llingüeta de la terminal. Esti títulu pue "
+"ser reemplazáu o combináu col títulu definíu pola aplicación del interior de "
+"la terminal, dependiendo de la configuración de «title_mode»."
 
 #: src/org.mate.terminal.gschema.xml.in:133
 msgid "Whether to allow bold text"
@@ -576,12 +574,12 @@ msgstr "Carauteres que son consideraos «partes d'una pallabra»"
 #: src/org.mate.terminal.gschema.xml.in:149
 msgid ""
 "When selecting text by word, sequences of these characters are considered "
-"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing"
-" a range) should be the first character given."
+"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
+"a range) should be the first character given."
 msgstr ""
-"Al seleicionar testu por pallabres, les secuencies d'estos carauteres sedrán"
-" consideraes palabres simples. Los rangos puen definise como «A-Z». Un guión"
-" lliteral (ensin espresar un rangu) tendría de ser el primer caráuter "
+"Al seleicionar testu por pallabres, les secuencies d'estos carauteres sedrán "
+"consideraes palabres simples. Los rangos puen definise como «A-Z». Un guión "
+"lliteral (ensin espresar un rangu) tendría de ser el primer caráuter "
 "proporcionáu."
 
 #: src/org.mate.terminal.gschema.xml.in:153
@@ -619,8 +617,8 @@ msgid ""
 "Number of rows in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
 msgstr ""
-"Númberu de fileres nes ventanes nueves creaes pola terminal. Nun tien efeutu"
-" si use_custom_default_size nun ta activáu."
+"Númberu de fileres nes ventanes nueves creaes pola terminal. Nun tien efeutu "
+"si use_custom_default_size nun ta activáu."
 
 #: src/org.mate.terminal.gschema.xml.in:168
 msgid "Position of the scrollbar"
@@ -632,8 +630,7 @@ msgid ""
 "and \"hidden\"."
 msgstr ""
 "Define aú allugar la barra de desplazamientu de la terminal. Les "
-"posibilidaes son «left» (esquierda), «right» (derecha) y «hidden» "
-"(anubrida)."
+"posibilidaes son «left» (esquierda), «right» (derecha) y «hidden» (anubrida)."
 
 #: src/org.mate.terminal.gschema.xml.in:173
 msgid "Number of lines to keep in scrollback"
@@ -642,13 +639,13 @@ msgstr "Cantidá de llinies a caltener nel desplazamientu"
 #: src/org.mate.terminal.gschema.xml.in:174
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
-"terminal by this number of lines; lines that don't fit in the scrollback are"
-" discarded. If scrollback_unlimited is true, this value is ignored."
+"terminal by this number of lines; lines that don't fit in the scrollback are "
+"discarded. If scrollback_unlimited is true, this value is ignored."
 msgstr ""
-"Númberu de llinies a caltener nel desplazamientu hacia atrás. Pue retroceder"
-" na terminal esta cantidá de llinies; les llinies que nun entren nel "
-"desplazamientu van descartase. Inórase esti valor si scrollback_unlimited ye"
-" braeru."
+"Númberu de llinies a caltener nel desplazamientu hacia atrás. Pue retroceder "
+"na terminal esta cantidá de llinies; les llinies que nun entren nel "
+"desplazamientu van descartase. Inórase esti valor si scrollback_unlimited ye "
+"braeru."
 
 #: src/org.mate.terminal.gschema.xml.in:178
 msgid "Whether an unlimited number of lines should be kept in scrollback"
@@ -658,9 +655,9 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:179
 msgid ""
-"If true, scrollback lines will never be discarded. The scrollback history is"
-" stored on disk temporarily, so this may cause the system to run out of disk"
-" space if there is a lot of output to the terminal."
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
 msgstr ""
 "Si ye braero, les llinies de desplazamientu hacia atrás nun van descartase "
 "enxamás. L'historial va atroxase nel discu, lo que podría xenerar que'l "
@@ -713,8 +710,7 @@ msgid ""
 "(argv[0] will have a hyphen in front of it.)"
 msgstr ""
 "Si ye «true» (braero) el comandu del interior de la terminal executarase "
-"como un intérprete d'accesu (login) (argv[0] tendrá un guión delantre "
-"d'élli)"
+"como un intérprete d'accesu (login) (argv[0] tendrá un guión delantre d'élli)"
 
 #: src/org.mate.terminal.gschema.xml.in:203
 msgid "Whether to run a custom command instead of the shell"
@@ -738,8 +734,8 @@ msgid ""
 "The possible values are \"system\" to use the global cursor blinking "
 "settings, or \"on\" or \"off\" to set the mode explicitly."
 msgstr ""
-"Los valores dables son \"system\" pa usar los axustes de parpaguéu globales,"
-" u \"on\" u \"off\" p'afitar el mou explícitu."
+"Los valores dables son \"system\" pa usar los axustes de parpaguéu globales, "
+"u \"on\" u \"off\" p'afitar el mou explícitu."
 
 #: src/org.mate.terminal.gschema.xml.in:213
 msgid "The cursor appearance"
@@ -794,8 +790,8 @@ msgstr "Fonte"
 #: src/org.mate.terminal.gschema.xml.in:234
 msgid "An Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
 msgstr ""
-"Un nome de tipografía de Pangu. Dalgunos exemplos son «Sans 12» o «Monospace"
-" Bold 14»."
+"Un nome de tipografía de Pangu. Dalgunos exemplos son «Sans 12» o «Monospace "
+"Bold 14»."
 
 #: src/org.mate.terminal.gschema.xml.in:238
 msgid "Background type"
@@ -808,8 +804,8 @@ msgid ""
 "compositing window manager is running, or pseudo-transparency otherwise."
 msgstr ""
 "El tipu de fondu del terminal. Pue ser «solid» pa un color sólidu, «image» "
-"pa una imaxe o «transparent» pa una tresparencia real o, si se ta executando"
-" un xestor de ventanes de composición, una pseudo-tresparencia."
+"pa una imaxe o «transparent» pa una tresparencia real o, si se ta executando "
+"un xestor de ventanes de composición, una pseudo-tresparencia."
 
 #: src/org.mate.terminal.gschema.xml.in:243
 msgid "Background image"
@@ -844,8 +840,8 @@ msgid ""
 "setting behaves as a boolean, where 0.0 disables the darkening effect."
 msgstr ""
 "Un valor ente 0.0 y 1.0 conseña cuánto escurecer la imaxe de fondu. 0.0 "
-"significa ensin escuridá, 1.0 significa escuridá ensembre. Na implementación"
-" actual namái esisten dos niveles d'escuridá dables, darréu d'esto esta "
+"significa ensin escuridá, 1.0 significa escuridá ensembre. Na implementación "
+"actual namái esisten dos niveles d'escuridá dables, darréu d'esto esta "
 "configuración compórtase como un valor booleanu, au 0.0 desactiva l'efeutu "
 "d'escuridá."
 
@@ -863,9 +859,9 @@ msgid ""
 msgstr ""
 "Determina qué códigu xenera la tecla Retrocesu (Backspace). Los valores "
 "dables son «ascii-del» pal caráuter ASCII de DEL, «control-h» pa Control-H "
-"(tamién conocíu como'l caráuter ASCII BS), «escape-sequence» pa la secuencia"
-" d'escape que típicamente ta asociada con retrocesu (backspace) o desaniciar"
-" (delete). «ascii-del» considérase davezu como la configuración correuta pa "
+"(tamién conocíu como'l caráuter ASCII BS), «escape-sequence» pa la secuencia "
+"d'escape que típicamente ta asociada con retrocesu (backspace) o desaniciar "
+"(delete). «ascii-del» considérase davezu como la configuración correuta pa "
 "la tecla Retrocesu (Backspace)."
 
 #: src/org.mate.terminal.gschema.xml.in:263
@@ -923,8 +919,8 @@ msgid ""
 "Popup a dialog when an S/Key challenge response query is detected and "
 "clicked on. Typing a password into the dialog will send it to the terminal."
 msgstr ""
-"Amosar un diálogu emerxente cuando se deteute y se calque sobro una consulta"
-" de rempuesta a desafíu S/Key. Al escribir una contraseña nel diálogu ésta "
+"Amosar un diálogu emerxente cuando se deteute y se calque sobro una consulta "
+"de rempuesta a desafíu S/Key. Al escribir una contraseña nel diálogu ésta "
 "unviaráse a la terminal."
 
 #: src/org.mate.terminal.gschema.xml.in:283
@@ -933,8 +929,8 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:284
 msgid ""
-"If true, URLs under mouse pointer are highlighted and can be opened by mouse"
-" click together with control key or used in context menu."
+"If true, URLs under mouse pointer are highlighted and can be opened by mouse "
+"click together with control key or used in context menu."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:290
@@ -959,8 +955,8 @@ msgstr "Combinación de tecles p'abrir una ventana nueva"
 
 #: src/org.mate.terminal.gschema.xml.in:296
 msgid ""
-"Keyboard shortcut key for opening a new window. Expressed as a string in the"
-" same format used for GTK+ resource files. If you set the option to the "
+"Keyboard shortcut key for opening a new window. Expressed as a string in the "
+"same format used for GTK+ resource files. If you set the option to the "
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
@@ -977,8 +973,8 @@ msgstr "Combinación de tecles pa crear un perfil nuevu"
 msgid ""
 "Keyboard shortcut key for bringing up the dialog for profile creation. "
 "Expressed as a string in the same format used for GTK+ resource files. If "
-"you set the option to the special string \"disabled\", then there will be no"
-" keyboard shortcut for this action."
+"you set the option to the special string \"disabled\", then there will be no "
+"keyboard shortcut for this action."
 msgstr ""
 "Combinación de tecles p'amosar el diálogu pa la criación de perfiles. "
 "Espresáu como una cadena nel mesmu formatu usáu polos archivos de recursos "
@@ -1011,13 +1007,12 @@ msgstr "Combinación de tecles pa pesllar una llingüeta"
 msgid ""
 "Keyboard shortcut key for closing a tab. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Combinación de tecles pa pesllar una llingüeta. Espresáu como una cadena nel"
-" mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta "
-"opción cola cadena especial «disabled», entós nun habrá una combinación pa "
-"esta aición."
+"Combinación de tecles pa pesllar una llingüeta. Espresáu como una cadena nel "
+"mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta opción "
+"cola cadena especial «disabled», entós nun habrá una combinación pa esta "
+"aición."
 
 #: src/org.mate.terminal.gschema.xml.in:315
 msgid "Keyboard shortcut to close a window"
@@ -1031,8 +1026,8 @@ msgid ""
 "this action."
 msgstr ""
 "Combinación de tecles pa pesllar una ventana. Espresáu como una cadena nel "
-"mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta opción"
-" cola cadena especial «disabled», entós nun habrá una combinación pa esta "
+"mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta opción "
+"cola cadena especial «disabled», entós nun habrá una combinación pa esta "
 "aición."
 
 #: src/org.mate.terminal.gschema.xml.in:320
@@ -1122,13 +1117,13 @@ msgstr "Atayu de tecláu pa guetar la ocurrencia previa d'un términu de gueta"
 
 #: src/org.mate.terminal.gschema.xml.in:346
 msgid ""
-"Keyboard shortcut key for finding the previous occurrence of the search term"
-" in the terminal. Expressed as a string in the same format used for GTK+ "
+"Keyboard shortcut key for finding the previous occurrence of the search term "
+"in the terminal. Expressed as a string in the same format used for GTK+ "
 "resource files. If you set the option to the special string \"disabled\", "
 "then there will be no keyboard shortcut for this action."
 msgstr ""
-"Keyboard shortcut key for finding the previous occurrence of the search term"
-" in the terminal. Expressed as a string in the same format used for GTK+ "
+"Keyboard shortcut key for finding the previous occurrence of the search term "
+"in the terminal. Expressed as a string in the same format used for GTK+ "
 "resource files. If you set the option to the special string \"disabled\", "
 "then there will be no keyboard shortcut for this action."
 
@@ -1140,13 +1135,13 @@ msgstr "Combinación de tecles pa camudar al mou pantalla completa"
 msgid ""
 "Keyboard shortcut key for toggling full screen mode. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
-"Combinación de tecles pa camudar al mou pantalla completa. Espresáu como una"
-" cadena nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define"
-" esta opción cola cadena especial «disabled», entós nun habrá una "
-"combinación pa esta aición."
+"Combinación de tecles pa camudar al mou pantalla completa. Espresáu como una "
+"cadena nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define "
+"esta opción cola cadena especial «disabled», entós nun habrá una combinación "
+"pa esta aición."
 
 #: src/org.mate.terminal.gschema.xml.in:355
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
@@ -1175,10 +1170,10 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"Combinación de tecles pa definir el títulu de la terminal. Espresáu como una"
-" cadena nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define"
-" esta opción cola cadena especial «disabled», entós nun habrá una "
-"combinación pa esta aición."
+"Combinación de tecles pa definir el títulu de la terminal. Espresáu como una "
+"cadena nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define "
+"esta opción cola cadena especial «disabled», entós nun habrá una combinación "
+"pa esta aición."
 
 #: src/org.mate.terminal.gschema.xml.in:365
 msgid "Keyboard shortcut to reset the terminal"
@@ -1191,10 +1186,10 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"Combinación de tecles pa reaniciar la terminal. Espresáu como una cadena nel"
-" mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta "
-"opción cola cadena especial «disabled», entós nun habrá una combinación pa "
-"esta aición."
+"Combinación de tecles pa reaniciar la terminal. Espresáu como una cadena nel "
+"mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta opción "
+"cola cadena especial «disabled», entós nun habrá una combinación pa esta "
+"aición."
 
 #: src/org.mate.terminal.gschema.xml.in:370
 msgid "Keyboard shortcut to reset and clear the terminal"
@@ -1202,15 +1197,15 @@ msgstr "Combinación de tecles pa reaniciar y llimpiar la terminal"
 
 #: src/org.mate.terminal.gschema.xml.in:371
 msgid ""
-"Keyboard shortcut key to reset and clear the terminal. Expressed as a string"
-" in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"Keyboard shortcut key to reset and clear the terminal. Expressed as a string "
+"in the same format used for GTK+ resource files. If you set the option to "
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
-"Combinación de tecles pa reaniciar y llimpiar la terminal. Espresáu como una"
-" cadena nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define"
-" esta opción cola cadena especial «disabled», entós nun habrá una "
-"combinación pa esta aición."
+"Combinación de tecles pa reaniciar y llimpiar la terminal. Espresáu como una "
+"cadena nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define "
+"esta opción cola cadena especial «disabled», entós nun habrá una combinación "
+"pa esta aición."
 
 #: src/org.mate.terminal.gschema.xml.in:375
 msgid "Keyboard shortcut to switch to the previous tab"
@@ -1220,13 +1215,13 @@ msgstr "Combinación de tecles pa camudar a la llingüeta anterior"
 msgid ""
 "Keyboard shortcut key to switch to the previous tab. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "Combinación de tecles pa camudar a la llingüeta anterior. Espresáu como una "
 "cadena nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define "
-"esta opción cola cadena especial «disabled», entós nun habrá una combinación"
-" pa esta aición."
+"esta opción cola cadena especial «disabled», entós nun habrá una combinación "
+"pa esta aición."
 
 #: src/org.mate.terminal.gschema.xml.in:380
 msgid "Keyboard shortcut to switch to the next tab"
@@ -1239,10 +1234,10 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"Combinación de tecles pa camudar a la siguiente llingüeta. Espresáu como una"
-" cadena nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define"
-" esta opción cola cadena especial «disabled», entós nun habrá una "
-"combinación pa esta aición."
+"Combinación de tecles pa camudar a la siguiente llingüeta. Espresáu como una "
+"cadena nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define "
+"esta opción cola cadena especial «disabled», entós nun habrá una combinación "
+"pa esta aición."
 
 #: src/org.mate.terminal.gschema.xml.in:385
 msgid "Keyboard shortcut to switch to the previous profile"
@@ -1268,13 +1263,13 @@ msgstr "Combinación de tecles pa camudar al perfil siguiente"
 msgid ""
 "Keyboard shortcut key to switch to the next profile. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "Keyboard shortcut key to switch to the next profile. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 
 #: src/org.mate.terminal.gschema.xml.in:395
 msgid "Accelerator to move the current tab to the left."
@@ -1319,8 +1314,8 @@ msgid ""
 "string \"disabled\", then there will be no keybinding for this action."
 msgstr ""
 "Tecla aceleradora pa desacoplar la llingüeta actual. Espresada como una "
-"cadena nel mesmu formatu qu'usen los archivos de recursos de GTK+. Si define"
-" la opción cola cadena especial «disabled», entós nun habrá una combinación "
+"cadena nel mesmu formatu qu'usen los archivos de recursos de GTK+. Si define "
+"la opción cola cadena especial «disabled», entós nun habrá una combinación "
 "pa esta aición."
 
 #: src/org.mate.terminal.gschema.xml.in:410
@@ -1329,10 +1324,9 @@ msgstr "Combinación de tecles pa camudar a la llingüeta 1"
 
 #: src/org.mate.terminal.gschema.xml.in:411
 msgid ""
-"Keyboard shortcut key for switch to tab 1. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 1. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Combinación de tecles pa camudar a la llingüeta 1. Espresáu como una cadena "
 "nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta "
@@ -1345,10 +1339,9 @@ msgstr "Combinación de tecles pa camudar a la llingüeta 2"
 
 #: src/org.mate.terminal.gschema.xml.in:416
 msgid ""
-"Keyboard shortcut key for switch to tab 2. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 2. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Combinación de tecles pa camudar a la llingüeta 2. Espresáu como una cadena "
 "nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta "
@@ -1361,10 +1354,9 @@ msgstr "Combinación de tecles pa camudar a la llingüeta 3"
 
 #: src/org.mate.terminal.gschema.xml.in:421
 msgid ""
-"Keyboard shortcut key for switch to tab 3. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 3. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Combinación de tecles pa camudar a la llingüeta 3. Espresáu como una cadena "
 "nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta "
@@ -1377,10 +1369,9 @@ msgstr "Combinación de tecles pa camudar a la llingüeta 4"
 
 #: src/org.mate.terminal.gschema.xml.in:426
 msgid ""
-"Keyboard shortcut key for switch to tab 4. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 4. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Combinación de tecles pa camudar a la llingüeta 4. Espresáu como una cadena "
 "nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta "
@@ -1393,10 +1384,9 @@ msgstr "Combinación de tecles pa camudar a la llingüeta 5"
 
 #: src/org.mate.terminal.gschema.xml.in:431
 msgid ""
-"Keyboard shortcut key for switch to tab 5. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 5. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Combinación de tecles pa camudar a la llingüeta 5. Espresáu como una cadena "
 "nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta "
@@ -1409,10 +1399,9 @@ msgstr "Combinación de tecles pa camudar a la llingüeta 6"
 
 #: src/org.mate.terminal.gschema.xml.in:436
 msgid ""
-"Keyboard shortcut key for switch to tab 6. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 6. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Combinación de tecles pa camudar a la llingüeta 6. Espresáu como una cadena "
 "nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta "
@@ -1425,10 +1414,9 @@ msgstr "Combinación de tecles pa camudar a la llingüeta 7"
 
 #: src/org.mate.terminal.gschema.xml.in:441
 msgid ""
-"Keyboard shortcut key for switch to tab 7. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 7. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Combinación de tecles pa camudar a la llingüeta 7. Espresáu como una cadena "
 "nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta "
@@ -1441,10 +1429,9 @@ msgstr "Combinación de tecles pa camudar a la llingüeta 8"
 
 #: src/org.mate.terminal.gschema.xml.in:446
 msgid ""
-"Keyboard shortcut key for switch to tab 8. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 8. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Combinación de tecles pa camudar a la llingüeta 8. Espresáu como una cadena "
 "nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta "
@@ -1457,10 +1444,9 @@ msgstr "Combinación de tecles pa camudar a la llingüeta 9"
 
 #: src/org.mate.terminal.gschema.xml.in:451
 msgid ""
-"Keyboard shortcut key for switch to tab 9. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 9. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Combinación de tecles pa camudar a la llingüeta 9. Espresáu como una cadena "
 "nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta "
@@ -1478,8 +1464,8 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"Combinación de tecles pa camudar a la llingüeta 10. Espresáu como una cadena"
-" nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta "
+"Combinación de tecles pa camudar a la llingüeta 10. Espresáu como una cadena "
+"nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta "
 "opción cola cadena especial «disabled», entós nun habrá una combinación pa "
 "esta aición."
 
@@ -1494,8 +1480,8 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"Combinación de tecles pa camudar a la llingüeta 11. Espresáu como una cadena"
-" nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta "
+"Combinación de tecles pa camudar a la llingüeta 11. Espresáu como una cadena "
+"nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta "
 "opción cola cadena especial «disabled», entós nun habrá una combinación pa "
 "esta aición."
 
@@ -1510,8 +1496,8 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"Combinación de tecles pa camudar a la llingüeta 12. Espresáu como una cadena"
-" nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta "
+"Combinación de tecles pa camudar a la llingüeta 12. Espresáu como una cadena "
+"nel mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta "
 "opción cola cadena especial «disabled», entós nun habrá una combinación pa "
 "esta aición."
 
@@ -1523,12 +1509,11 @@ msgstr "Combinación de tecles pa llanzar l'ayuda"
 msgid ""
 "Keyboard shortcut key for launching help. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Combinación de tecles pa llanzar l'ayuda. Espresáu como una cadena nel mesmu"
-" formatu usáu polos archivos de recursos de GTK+. Si define esta opción cola"
-" cadena especial «disabled», entós nun habrá una combinación pa esta aición."
+"Combinación de tecles pa llanzar l'ayuda. Espresáu como una cadena nel mesmu "
+"formatu usáu polos archivos de recursos de GTK+. Si define esta opción cola "
+"cadena especial «disabled», entós nun habrá una combinación pa esta aición."
 
 #: src/org.mate.terminal.gschema.xml.in:475
 msgid "Keyboard shortcut to make font larger"
@@ -1541,10 +1526,10 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"Combinación de tecles p'agrandar la tipografía. Espresáu como una cadena nel"
-" mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta "
-"opción cola cadena especial «disabled», entós nun habrá una combinación pa "
-"esta aición."
+"Combinación de tecles p'agrandar la tipografía. Espresáu como una cadena nel "
+"mesmu formatu usáu polos archivos de recursos de GTK+. Si define esta opción "
+"cola cadena especial «disabled», entós nun habrá una combinación pa esta "
+"aición."
 
 #: src/org.mate.terminal.gschema.xml.in:480
 msgid "Keyboard shortcut to make font smaller"
@@ -1568,13 +1553,13 @@ msgstr "Combinación de tecles p'afitar la tipografía al so tamañu normal"
 
 #: src/org.mate.terminal.gschema.xml.in:486
 msgid ""
-"Keyboard shortcut key for making font the normal size. Expressed as a string"
-" in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"Keyboard shortcut key for making font the normal size. Expressed as a string "
+"in the same format used for GTK+ resource files. If you set the option to "
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
-"Combinación de tecles pa dexar en tamañu normal la tipografía. Espresáu como"
-" una cadena nel mesmu formatu usáu polos archivos de recursos de GTK+. Si "
+"Combinación de tecles pa dexar en tamañu normal la tipografía. Espresáu como "
+"una cadena nel mesmu formatu usáu polos archivos de recursos de GTK+. Si "
 "define esta opción cola cadena especial «disabled», entós nun habrá una "
 "combinación pa esta aición."
 
@@ -1598,14 +1583,12 @@ msgstr "Verde sobro prietu"
 msgid "White on black"
 msgstr "Blancu sobro prietu"
 
-#. Translators: "Solarized" is the name of a colour scheme, "light" can be
-#. translated
+#. Translators: "Solarized" is the name of a colour scheme, "light" can be translated
 #: src/profile-editor.c:70
 msgid "Solarized light"
 msgstr "Solarizáu claru"
 
-#. Translators: "Solarized" is the name of a colour scheme, "dark" can be
-#. translated
+#. Translators: "Solarized" is the name of a colour scheme, "dark" can be translated
 #: src/profile-editor.c:75
 msgid "Solarized dark"
 msgstr "Solarizáu escuru"
@@ -1922,8 +1905,8 @@ msgstr "Desplazamientu"
 msgid ""
 "<small><i><b>Note:</b> These options may cause some applications to behave "
 "incorrectly.  They are only here to allow you to work around certain "
-"applications and operating systems that expect different terminal "
-"behavior.</i></small>"
+"applications and operating systems that expect different terminal behavior.</"
+"i></small>"
 msgstr ""
 "<small><i><b>Nota:</b> Estes opciones puen faer que dalgunes aplicaciones "
 "comportense incorrechamente. Namái tan equí pa dexá-y trabayar con ciertes "
@@ -2188,17 +2171,17 @@ msgstr ""
 msgid "Choose base profile"
 msgstr "Seleicione'l perfil básicu"
 
-#: src/terminal-app.c:1837
+#: src/terminal-app.c:1845
 #, c-format
 msgid "No such profile \"%s\", using default profile\n"
 msgstr "Nun esiste'l perfil «%s», usando'l perfil predetermináu\n"
 
-#: src/terminal-app.c:1864
+#: src/terminal-app.c:1872
 #, c-format
 msgid "Invalid geometry string \"%s\"\n"
 msgstr "Cadena de xeometría non válida «%s»\n"
 
-#: src/terminal-app.c:2070
+#: src/terminal-app.c:2078
 msgid "User Defined"
 msgstr "Definíu pol usuariu"
 
@@ -2356,7 +2339,7 @@ msgstr "_Codificar"
 msgid "Current Locale"
 msgstr "Configuración llocal"
 
-#: src/terminal-options.c:177
+#: src/terminal-options.c:181
 #, c-format
 msgid ""
 "Option \"%s\" is no longer supported in this version of mate-terminal; you "
@@ -2367,36 +2350,36 @@ msgstr ""
 "terminal; seique-y pruya crear un perfil col axuste deseyáu y usar la nueva "
 "opción «--profile»\n"
 
-#: src/terminal-options.c:209
+#: src/terminal-options.c:213
 #, c-format
 msgid "Argument to \"%s\" is not a valid command: %s"
 msgstr "L'argumentu pa «%s» nun ye un comandu válidu: %s"
 
-#: src/terminal-options.c:347
+#: src/terminal-options.c:351
 msgid "Two roles given for one window"
 msgstr "Diéronse dos roles pa una ventana"
 
-#: src/terminal-options.c:368 src/terminal-options.c:401
+#: src/terminal-options.c:372 src/terminal-options.c:405
 #, c-format
 msgid "\"%s\" option given twice for the same window\n"
 msgstr "La opción «%s» usóse dos vegaes pa la mesma ventana\n"
 
-#: src/terminal-options.c:600
+#: src/terminal-options.c:625
 #, c-format
 msgid "\"%s\" is not a valid zoom factor"
 msgstr "«%s» nun ye un factor d'ampliación válidu"
 
-#: src/terminal-options.c:607
+#: src/terminal-options.c:632
 #, c-format
 msgid "Zoom factor \"%g\" is too small, using %g\n"
 msgstr "El factor d'ampliación «%g» ye enforma pequeñu, usando %g\n"
 
-#: src/terminal-options.c:615
+#: src/terminal-options.c:640
 #, c-format
 msgid "Zoom factor \"%g\" is too large, using %g\n"
 msgstr "El factor d'ampliación «%g» ye enforma grande, usando %g\n"
 
-#: src/terminal-options.c:650
+#: src/terminal-options.c:675
 #, c-format
 msgid ""
 "Option \"%s\" requires specifying the command to run on the rest of the "
@@ -2405,15 +2388,15 @@ msgstr ""
 "La opción «%s» necesita que s'especifique'l comandu pa executase nel restu "
 "de la llinia de comandos"
 
-#: src/terminal-options.c:811
+#: src/terminal-options.c:837
 msgid "Not a valid terminal config file."
 msgstr "Nun ye un ficheru de configuración del terminal válidu."
 
-#: src/terminal-options.c:824
+#: src/terminal-options.c:850
 msgid "Incompatible terminal config file version."
 msgstr "Versión del ficheru de configuración incompatible."
 
-#: src/terminal-options.c:952
+#: src/terminal-options.c:980
 msgid ""
 "Do not register with the activation nameserver, do not re-use an active "
 "terminal"
@@ -2421,108 +2404,118 @@ msgstr ""
 "Nun rexistrar col servidor de nomes d'activación, non reutilizar una "
 "terminal activa"
 
-#: src/terminal-options.c:961
+#: src/terminal-options.c:989
 msgid "Load a terminal configuration file"
 msgstr "Cargar un ficheru de configuración del terminal"
 
-#: src/terminal-options.c:970
+#: src/terminal-options.c:998
 msgid "Save the terminal configuration to a file"
 msgstr "Guardar la configuración del terminal a un ficheru"
 
-#: src/terminal-options.c:985
+#: src/terminal-options.c:1013
 msgid "Open a new window containing a tab with the default profile"
 msgstr ""
 "Abre un ventana nueva conteniendo una llingüeta col perfil predetermináu."
 
-#: src/terminal-options.c:994
+#: src/terminal-options.c:1022
 msgid "Open a new tab in the last-opened window with the default profile"
 msgstr ""
 "Abre un llingüeta nueva na cabera ventana abierta col perfil predetermináu."
 
-#: src/terminal-options.c:1008
+#: src/terminal-options.c:1036
 msgid "Turn on the menubar"
 msgstr "Activar la barra de menú"
 
-#: src/terminal-options.c:1017
+#: src/terminal-options.c:1045
 msgid "Turn off the menubar"
 msgstr "Desactivar la barra de menú"
 
-#: src/terminal-options.c:1026
+#: src/terminal-options.c:1054
 msgid "Maximize the window"
 msgstr "Maximizar la ventana"
 
-#: src/terminal-options.c:1035
+#: src/terminal-options.c:1063
 msgid "Full-screen the window"
 msgstr "Ventana a pantalla completa"
 
-#: src/terminal-options.c:1044
+#: src/terminal-options.c:1072
 msgid ""
 "Set the window size; for example: 80x24, or 80x24+200+200 (COLSxROWS+X+Y)"
 msgstr ""
 "Afitar el tamañu de la ventana; por exemplu: 80x24, o 80x24+200+200 "
 "(COLSxROWS+X+Y)"
 
-#: src/terminal-options.c:1045
+#: src/terminal-options.c:1073
 msgid "GEOMETRY"
 msgstr "XEOMETRÍA"
 
-#: src/terminal-options.c:1053
+#: src/terminal-options.c:1081
 msgid "Set the window role"
 msgstr "Afita'l rol de la ventana"
 
-#: src/terminal-options.c:1054
+#: src/terminal-options.c:1082
 msgid "ROLE"
 msgstr "ROL"
 
-#: src/terminal-options.c:1062
+#: src/terminal-options.c:1090
+#, fuzzy
+#| msgid "Set the window role"
+msgid "Set the window icon"
+msgstr "Afita'l rol de la ventana"
+
+#: src/terminal-options.c:1091
+msgid "ICON"
+msgstr ""
+
+#: src/terminal-options.c:1099
 msgid "Set the last specified tab as the active one in its window"
 msgstr "Afita la cabera llingüeta especificada como l'activa na so ventana"
 
-#: src/terminal-options.c:1076
+#: src/terminal-options.c:1113
 msgid "Execute the argument to this option inside the terminal"
 msgstr "Executa l'argumentu d'esta opción dientro del terminal"
 
-#: src/terminal-options.c:1085
+#: src/terminal-options.c:1122
 msgid "Use the given profile instead of the default profile"
 msgstr "Usa'l perfil dau n'arróu del perfil predetermináu"
 
-#: src/terminal-options.c:1086
+#: src/terminal-options.c:1123
 msgid "PROFILE-NAME"
 msgstr "NOME-DEL-PERFIL"
 
-#: src/terminal-options.c:1094
+#: src/terminal-options.c:1131
 msgid "Set the terminal title"
 msgstr "Afita'l títulu del terminal"
 
-#: src/terminal-options.c:1095
+#: src/terminal-options.c:1132
 msgid "TITLE"
 msgstr "TÍTULU"
 
-#: src/terminal-options.c:1103
+#: src/terminal-options.c:1140
 msgid "Set the working directory"
 msgstr "Afita'l direutoriu de trabayu"
 
-#: src/terminal-options.c:1104
+#: src/terminal-options.c:1141
 msgid "DIRNAME"
 msgstr "DIRNOME"
 
-#: src/terminal-options.c:1112
+#: src/terminal-options.c:1149
 msgid "Set the terminal's zoom factor (1.0 = normal size)"
 msgstr "Afitar el factor d'ampliación de la terminal (1.0 = tamañu normal)"
 
-#: src/terminal-options.c:1113
+#: src/terminal-options.c:1150
 msgid "ZOOM"
 msgstr "ZOOM"
 
-#: src/terminal-options.c:1364 src/terminal-options.c:1367
+#: src/terminal-options.c:1401 src/terminal-options.c:1404
 msgid "MATE Terminal Emulator"
 msgstr "MATE Terminal Emulator"
 
-#: src/terminal-options.c:1368
+#: src/terminal-options.c:1405
 msgid "Show MATE Terminal options"
 msgstr "Amosar opciones Terminal MATE"
 
-#: src/terminal-options.c:1378
+#: src/terminal-options.c:1415
 msgid ""
 "Options to open new windows or terminal tabs; more than one of these may be "
 "specified:"
@@ -2530,31 +2523,31 @@ msgstr ""
 "Opciones p'abrir ventanes nueves o llingüetes del terminal; puede "
 "especificase más d'una d'elles:"
 
-#: src/terminal-options.c:1379
+#: src/terminal-options.c:1416
 msgid "Show terminal options"
 msgstr "Amuesa les opciones de la terminal"
 
-#: src/terminal-options.c:1387
+#: src/terminal-options.c:1424
 msgid ""
 "Window options; if used before the first --window or --tab argument, sets "
 "the default for all windows:"
 msgstr ""
-"Opciones de la ventanas; si se usan antes del primer argumento --window o "
-"--tab, establecen los valores predeterminados para todas las ventanas:"
+"Opciones de la ventanas; si se usan antes del primer argumento --window o --"
+"tab, establecen los valores predeterminados para todas las ventanas:"
 
-#: src/terminal-options.c:1388
+#: src/terminal-options.c:1425
 msgid "Show per-window options"
 msgstr "Muestra las opciones por ventana"
 
-#: src/terminal-options.c:1396
+#: src/terminal-options.c:1433
 msgid ""
 "Terminal options; if used before the first --window or --tab argument, sets "
 "the default for all terminals:"
 msgstr ""
-"Opciones del terminal; si s'usen enantes del primer argumentu --window o "
-"--tab, afiten los valores predeterminaos pa tolos terminales:"
+"Opciones del terminal; si s'usen enantes del primer argumentu --window o --"
+"tab, afiten los valores predeterminaos pa tolos terminales:"
 
-#: src/terminal-options.c:1397
+#: src/terminal-options.c:1434
 msgid "Show per-terminal options"
 msgstr "Amuesa les opciones por terminal"
 
@@ -2619,8 +2612,8 @@ msgstr ""
 
 #: src/terminal-util.c:330
 msgid ""
-"MATE Terminal is distributed in the hope that it will be useful, but WITHOUT"
-" ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"MATE Terminal is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
 msgstr ""
@@ -2630,18 +2623,19 @@ msgstr ""
 
 #: src/terminal-util.c:334
 msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" MATE Terminal; if not, write to the Free Software Foundation, Inc., 51 "
+"You should have received a copy of the GNU General Public License along with "
+"MATE Terminal; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin St, Fifth Floor, Boston, MA  02110-1301 USA"
 msgstr ""
 "Tendría d'haber recibío una copia de la Llicencia pública Xeneral de GNU "
-"xunto con MATE Terminal; si non, escriba a la Free Software Foundation, Inc,"
-" 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 EE. UU."
+"xunto con MATE Terminal; si non, escriba a la Free Software Foundation, Inc, "
+"51 Franklin St, Fifth Floor, Boston, MA  02110-1301 EE. UU."
 
 #. Translators: This is the label of a menu item to choose a profile.
 #. * _%d is used as the accelerator (with d between 1 and 9), and
 #. * the %s is the name of the terminal profile.
-#: src/terminal-window.c:619
+#.
+#: src/terminal-window.c:612
 #, c-format
 msgid "_%d. %s"
 msgstr "_%d. %s"
@@ -2649,279 +2643,280 @@ msgstr "_%d. %s"
 #. Translators: This is the label of a menu item to choose a profile.
 #. * _%c is used as the accelerator (it will be a character between A and Z),
 #. * and the %s is the name of the terminal profile.
-#: src/terminal-window.c:625
+#.
+#: src/terminal-window.c:618
 #, c-format
 msgid "_%c. %s"
 msgstr "_%c. %s"
 
-#: src/terminal-window.c:1948
+#: src/terminal-window.c:1941
 msgid "_File"
 msgstr "_Ficheru"
 
-#: src/terminal-window.c:1949 src/terminal-window.c:1962
-#: src/terminal-window.c:2213
+#: src/terminal-window.c:1942 src/terminal-window.c:1955
+#: src/terminal-window.c:2206
 msgid "Open _Terminal"
 msgstr "Abrir _terminal"
 
-#: src/terminal-window.c:1950 src/terminal-window.c:1967
-#: src/terminal-window.c:2218
+#: src/terminal-window.c:1943 src/terminal-window.c:1960
+#: src/terminal-window.c:2211
 msgid "Open Ta_b"
 msgstr "Abrir sola_pa"
 
-#: src/terminal-window.c:1951
+#: src/terminal-window.c:1944
 msgid "_Edit"
 msgstr "_Editar"
 
-#: src/terminal-window.c:1952
+#: src/terminal-window.c:1945
 msgid "_View"
 msgstr "_Ver"
 
-#: src/terminal-window.c:1953
+#: src/terminal-window.c:1946
 msgid "_Search"
 msgstr "_Guetar"
 
-#: src/terminal-window.c:1954
+#: src/terminal-window.c:1947
 msgid "_Terminal"
 msgstr "_Terminal"
 
-#: src/terminal-window.c:1955
+#: src/terminal-window.c:1948
 msgid "Ta_bs"
 msgstr "_Solapas"
 
-#: src/terminal-window.c:1972
+#: src/terminal-window.c:1965
 msgid "New _Profile…"
 msgstr "_Perfil nuevu..."
 
-#: src/terminal-window.c:1977
+#: src/terminal-window.c:1970
 msgid "_Save Contents"
 msgstr "_Guardar conteníu"
 
-#: src/terminal-window.c:1982 src/terminal-window.c:2228
+#: src/terminal-window.c:1975 src/terminal-window.c:2221
 msgid "C_lose Tab"
 msgstr "Pe_sllar llingüeta"
 
-#: src/terminal-window.c:1987
+#: src/terminal-window.c:1980
 msgid "_Close Window"
 msgstr "_Zarrar ventana"
 
-#: src/terminal-window.c:1994 src/terminal-window.c:2198
+#: src/terminal-window.c:1987 src/terminal-window.c:2191
 msgid "_Copy"
 msgstr "_Copiar"
 
-#: src/terminal-window.c:1999 src/terminal-window.c:2203
+#: src/terminal-window.c:1992 src/terminal-window.c:2196
 msgid "_Paste"
 msgstr "A_pegar"
 
-#: src/terminal-window.c:2004 src/terminal-window.c:2208
+#: src/terminal-window.c:1997 src/terminal-window.c:2201
 msgid "Paste _Filenames"
 msgstr "Apegar los _nomes de ficheru"
 
-#: src/terminal-window.c:2009
+#: src/terminal-window.c:2002
 msgid "Select _All"
 msgstr "Seleicion_ar too"
 
-#: src/terminal-window.c:2014
+#: src/terminal-window.c:2007
 msgid "P_rofiles…"
 msgstr "Pe_rfiles..."
 
-#: src/terminal-window.c:2019
+#: src/terminal-window.c:2012
 msgid "_Keyboard Shortcuts…"
 msgstr "Combinaciones de _tecles..."
 
-#: src/terminal-window.c:2024
+#: src/terminal-window.c:2017
 msgid "Pr_ofile Preferences"
 msgstr "Pre_ferencies del perfil"
 
-#: src/terminal-window.c:2031
+#: src/terminal-window.c:2024
 msgid "Zoom _In"
 msgstr "_Aumentar"
 
-#: src/terminal-window.c:2036
+#: src/terminal-window.c:2029
 msgid "Zoom _Out"
 msgstr "A_menorgar"
 
-#: src/terminal-window.c:2041
+#: src/terminal-window.c:2034
 msgid "_Normal Size"
 msgstr "Tamañu _Normal"
 
-#: src/terminal-window.c:2048
+#: src/terminal-window.c:2041
 msgid "_Find..."
 msgstr "_Atopar..."
 
-#: src/terminal-window.c:2053
+#: src/terminal-window.c:2046
 msgid "Find Ne_xt"
 msgstr "Atopar Sig_uiente"
 
-#: src/terminal-window.c:2058
+#: src/terminal-window.c:2051
 msgid "Find Pre_vious"
 msgstr "Atopar Anter_ior"
 
-#: src/terminal-window.c:2063
+#: src/terminal-window.c:2056
 msgid "_Clear Highlight"
 msgstr "_Llimpiar resaltáu"
 
-#: src/terminal-window.c:2069
+#: src/terminal-window.c:2062
 msgid "Go to _Line..."
 msgstr "Dir a _Llinia"
 
-#: src/terminal-window.c:2074
+#: src/terminal-window.c:2067
 msgid "_Incremental Search..."
 msgstr "Gueta _incremental…"
 
-#: src/terminal-window.c:2081
+#: src/terminal-window.c:2074
 msgid "Change _Profile"
 msgstr "Camudar _Perfil"
 
-#: src/terminal-window.c:2083
+#: src/terminal-window.c:2076
 msgid "_Previous Profile"
 msgstr "_Perfil anterior"
 
-#: src/terminal-window.c:2088
+#: src/terminal-window.c:2081
 msgid "_Next Profile"
 msgstr "_Perfil siguiente"
 
-#: src/terminal-window.c:2093
+#: src/terminal-window.c:2086
 msgid "_Set Title…"
 msgstr "A_fitar títulu..."
 
-#: src/terminal-window.c:2097
+#: src/terminal-window.c:2090
 msgid "Set _Character Encoding"
 msgstr "Afitar _Codificación carauteres"
 
-#: src/terminal-window.c:2099
+#: src/terminal-window.c:2092
 msgid "_Reset"
 msgstr "_Reaniciar"
 
-#: src/terminal-window.c:2104
+#: src/terminal-window.c:2097
 msgid "Reset and C_lear"
 msgstr "Reaniciar y _llimpiar"
 
-#: src/terminal-window.c:2111
+#: src/terminal-window.c:2104
 msgid "_Add or Remove…"
 msgstr "_Amestar o quitar…"
 
-#: src/terminal-window.c:2118
+#: src/terminal-window.c:2111
 msgid "_Previous Tab"
 msgstr "Llingüeta _Previa"
 
-#: src/terminal-window.c:2123
+#: src/terminal-window.c:2116
 msgid "_Next Tab"
 msgstr "Llingüeta S_iguiente"
 
-#: src/terminal-window.c:2128
+#: src/terminal-window.c:2121
 msgid "Move Tab _Left"
 msgstr "Mover Llingüeta a la _Esquierda"
 
-#: src/terminal-window.c:2133
+#: src/terminal-window.c:2126
 msgid "Move Tab _Right"
 msgstr "Mover Llingüeta a la _Drecha"
 
-#: src/terminal-window.c:2138
+#: src/terminal-window.c:2131
 msgid "_Detach tab"
 msgstr "_Desacoplar llingüeta"
 
-#: src/terminal-window.c:2145
+#: src/terminal-window.c:2138
 msgid "_Contents"
 msgstr "_Índiz"
 
-#: src/terminal-window.c:2150
+#: src/terminal-window.c:2143
 msgid "_About"
 msgstr "_Tocante a"
 
-#: src/terminal-window.c:2157
+#: src/terminal-window.c:2150
 msgid "_Open Hyperlink"
 msgstr ""
 
-#: src/terminal-window.c:2162
+#: src/terminal-window.c:2155
 msgid "_Copy Hyperlink Address"
 msgstr ""
 
-#: src/terminal-window.c:2167
+#: src/terminal-window.c:2160
 msgid "_Send Mail To…"
 msgstr "_Unviar corréu a…"
 
-#: src/terminal-window.c:2172
+#: src/terminal-window.c:2165
 msgid "_Copy E-mail Address"
 msgstr "_Copiar la direición de corréu-e"
 
-#: src/terminal-window.c:2177
+#: src/terminal-window.c:2170
 msgid "C_all To…"
 msgstr "_Llamar a..."
 
-#: src/terminal-window.c:2182
+#: src/terminal-window.c:2175
 msgid "_Copy Call Address"
 msgstr "_Copiar la direición de llamada"
 
-#: src/terminal-window.c:2187
+#: src/terminal-window.c:2180
 msgid "_Open Link"
 msgstr "_Abrir Enllaz"
 
-#: src/terminal-window.c:2192
+#: src/terminal-window.c:2185
 msgid "_Copy Link Address"
 msgstr "_Copiar Direición del Enllaz"
 
-#: src/terminal-window.c:2196
+#: src/terminal-window.c:2189
 msgid "P_rofiles"
 msgstr "Pe_rfiles"
 
-#: src/terminal-window.c:2233
+#: src/terminal-window.c:2226
 msgid "L_eave Full Screen"
 msgstr "_Pantalla completa"
 
-#: src/terminal-window.c:2237
+#: src/terminal-window.c:2230
 msgid "_Input Methods"
 msgstr "Mé_todos d'entrada"
 
-#: src/terminal-window.c:2244
+#: src/terminal-window.c:2237
 msgid "Show _Menubar"
 msgstr "Amosar la barra de _menú"
 
-#: src/terminal-window.c:2250
+#: src/terminal-window.c:2243
 msgid "_Full Screen"
 msgstr "Pantalla _completa"
 
-#: src/terminal-window.c:3705
+#: src/terminal-window.c:3721
 msgid ""
 "There are still processes running in some terminals in this window.\n"
 "Closing the window will kill all of them."
 msgstr ""
 
-#: src/terminal-window.c:3711
+#: src/terminal-window.c:3727
 msgid "There are multiple tabs open in this window."
 msgstr ""
 
-#: src/terminal-window.c:3721
+#: src/terminal-window.c:3737
 msgid "Close this terminal?"
 msgstr "¿Zarrar esta terminal?"
 
-#: src/terminal-window.c:3722
+#: src/terminal-window.c:3738
 msgid "C_lose Terminal"
 msgstr "Zarrar la _terminal"
 
-#: src/terminal-window.c:3792
+#: src/terminal-window.c:3808
 msgid "Could not save contents"
 msgstr "Nun pudo guardase'l conteníu"
 
-#: src/terminal-window.c:3816
+#: src/terminal-window.c:3832
 msgid "Save as..."
 msgstr "Guardar como…"
 
-#: src/terminal-window.c:4511
+#: src/terminal-window.c:4526
 msgid "Contributors:"
 msgstr "Andecharon:"
 
-#: src/terminal-window.c:4527
+#: src/terminal-window.c:4542
 #, c-format
 msgid ""
 "MATE Terminal is a terminal emulator for the MATE Desktop Environment.\n"
 "Powered by Virtual TErminal %d.%d.%d"
 msgstr ""
 
-#: src/terminal-window.c:4533
+#: src/terminal-window.c:4548
 msgid "About MATE Terminal"
 msgstr ""
 
-#: src/terminal-window.c:4534
+#: src/terminal-window.c:4549
 msgid ""
 "Copyright © 2002–2004 Havoc Pennington\n"
 "Copyright © 2003–2004, 2007 Mariano Suárez-Alvarez\n"
@@ -2931,6 +2926,6 @@ msgid ""
 "Copyright © 2012-2021 MATE developers"
 msgstr ""
 
-#: src/terminal-window.c:4546
+#: src/terminal-window.c:4561
 msgid "translator-credits"
 msgstr "Softastur <www.softastur.org>"

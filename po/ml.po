@@ -2,26 +2,26 @@
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the mate-terminal package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-terminal 1.27.1\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-terminal/issues\n"
-"POT-Creation-Date: 2023-09-10 09:13+0200\n"
+"POT-Creation-Date: 2024-04-17 14:24-0400\n"
 "PO-Revision-Date: 2018-03-12 08:42+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
 "Language-Team: Malayalam (https://app.transifex.com/mate/teams/13566/ml/)\n"
+"Language: ml\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ml\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: mate-terminal.appdata.xml.in.in:7 mate-terminal.desktop.in.in:3
-#: src/terminal-options.c:189 src/terminal-window.c:4531
+#: src/terminal-options.c:193 src/terminal-window.c:4546
 msgid "MATE Terminal"
 msgstr "ഗ്നോം ടെര്‍മിനല്‍"
 
@@ -31,8 +31,8 @@ msgstr ""
 
 #: mate-terminal.appdata.xml.in.in:10
 msgid ""
-"MATE Terminal is a terminal emulation application that you can use to access"
-" a UNIX shell in the MATE environment. MATE Terminal emulates the xterm "
+"MATE Terminal is a terminal emulation application that you can use to access "
+"a UNIX shell in the MATE environment. MATE Terminal emulates the xterm "
 "program developed by the X Consortium. It supports translucent backgrounds, "
 "opening multiple terminals in a single window (tabs) and clickable URLs."
 msgstr ""
@@ -45,7 +45,7 @@ msgid ""
 msgstr ""
 
 #: mate-terminal.desktop.in.in:4 src/terminal-accels.c:351 src/terminal.c:517
-#: src/terminal-profile.c:161 src/terminal-window.c:2287
+#: src/terminal-profile.c:161 src/terminal-window.c:2280
 msgid "Terminal"
 msgstr "ടെര്‍മിനല്‍"
 
@@ -58,47 +58,47 @@ msgstr "കമാന്‍ഡ് ലൈന്‍ ഉപയോഗിക്കു�
 msgid "_Cancel"
 msgstr "_റദ്ദാക്കുക"
 
-#: src/confirm-close-dialog.ui:56 src/terminal-window.c:2223
-#: src/terminal-window.c:3719
+#: src/confirm-close-dialog.ui:56 src/terminal-window.c:2216
+#: src/terminal-window.c:3735
 msgid "C_lose Window"
 msgstr "ജാലകം _അടയ്ക്കുക"
 
-#: src/confirm-close-dialog.ui:119 src/terminal-window.c:3718
+#: src/confirm-close-dialog.ui:119 src/terminal-window.c:3734
 msgid "Close this window?"
 msgstr "ഈ ജാലകം അടയ്ക്കണമോ?"
 
-#: src/confirm-close-dialog.ui:138 src/terminal-window.c:3708
+#: src/confirm-close-dialog.ui:138 src/terminal-window.c:3724
 msgid ""
 "There is still a process running in this terminal.\n"
 "Closing the terminal will kill it."
 msgstr ""
 
-#: src/mate-submodules/libegg/eggsmclient.c:234
+#: src/mate-submodules/libegg/eggsmclient.c:233
 msgid "Disable connection to session manager"
 msgstr "സെഷന്‍ മാനേജറിലേക്കുള്ള കണക്ഷന്‍ പ്രവര്‍ത്തന രഹിതമാക്കുക"
 
-#: src/mate-submodules/libegg/eggsmclient.c:239
+#: src/mate-submodules/libegg/eggsmclient.c:238
 msgid "Specify file containing saved configuration"
 msgstr "സൂക്ഷിച്ചിട്ടുള്ള ക്രമീകരണം അടങ്ങുന്ന ഫയല്‍ നല്‍കുക"
 
-#: src/mate-submodules/libegg/eggsmclient.c:239 src/terminal-options.c:962
-#: src/terminal-options.c:971
+#: src/mate-submodules/libegg/eggsmclient.c:238 src/terminal-options.c:990
+#: src/terminal-options.c:999
 msgid "FILE"
 msgstr "FILE"
 
-#: src/mate-submodules/libegg/eggsmclient.c:244
+#: src/mate-submodules/libegg/eggsmclient.c:243
 msgid "Specify session management ID"
 msgstr "സെഷന്‍ മാനേജ്മെന്റ് ID വ്യക്തമാക്കുക"
 
-#: src/mate-submodules/libegg/eggsmclient.c:244
+#: src/mate-submodules/libegg/eggsmclient.c:243
 msgid "ID"
 msgstr "ID"
 
-#: src/mate-submodules/libegg/eggsmclient.c:270
+#: src/mate-submodules/libegg/eggsmclient.c:269
 msgid "Session management options:"
 msgstr "സെഷന്‍ മാനേജ്മെന്റ് ഉപാധികള്‍:"
 
-#: src/mate-submodules/libegg/eggsmclient.c:271
+#: src/mate-submodules/libegg/eggsmclient.c:270
 msgid "Show session management options"
 msgstr "സെഷന്‍ മാനേജ്മെന്റ് ഉപാധികള്‍ കാണിക്കുക"
 
@@ -108,13 +108,12 @@ msgstr "ടെര്‍മിനല്‍ എന്‍കോഡിങുകള�
 
 #: src/encodings-dialog.ui:41 src/keybinding-editor.ui:41
 #: src/profile-manager.ui:58 src/profile-preferences.ui:262
-#: src/terminal-window.c:1956
+#: src/terminal-window.c:1949
 msgid "_Help"
 msgstr "_സഹായം"
 
-#: src/encodings-dialog.ui:59 src/find-dialog.ui:42
-#: src/keybinding-editor.ui:59 src/profile-manager.ui:76
-#: src/profile-preferences.ui:279
+#: src/encodings-dialog.ui:59 src/find-dialog.ui:42 src/keybinding-editor.ui:59
+#: src/profile-manager.ui:76 src/profile-preferences.ui:279
 msgid "_Close"
 msgstr "_അടയ്ക്കു:"
 
@@ -306,9 +305,7 @@ msgstr "കീബോര്‍ഡ് എളുപ്പവഴിികള്‍ "
 
 #: src/keybinding-editor.ui:93
 msgid "_Enable menu access keys (such as Alt+F to open the File menu)"
-msgstr ""
-"എല്ലാ മെനു ആക്സസ്സ് കീയും പ്രവര്‍ത്തന _സജ്ജാക്കുക (ഫയല്‍ മെനുവിനായി Alt+F "
-"എന്നതു് പോലെ)"
+msgstr "എല്ലാ മെനു ആക്സസ്സ് കീയും പ്രവര്‍ത്തന _സജ്ജാക്കുക (ഫയല്‍ മെനുവിനായി Alt+F എന്നതു് പോലെ)"
 
 #: src/keybinding-editor.ui:132
 msgid "Enable the _menu shortcut key (F10 by default)"
@@ -334,11 +331,10 @@ msgstr "പുതിയ ടെര്‍മിനലുകള്‍ക്കാ�
 
 #: src/org.mate.terminal.gschema.xml.in:55
 msgid ""
-"Profile to be used when opening a new window or tab. Must be in "
-"profile_list."
+"Profile to be used when opening a new window or tab. Must be in profile_list."
 msgstr ""
-"ഒരു പുതിയ കിളിവാതില്‍ അല്ലേല്‍ ജാലകം തുറക്കുന്നതിനായി ഉപയോഗിക്കേണ്ട "
-"പ്രൊഫൈല്‍. profile_list-ല്‍ ഉണ്ടാവണം"
+"ഒരു പുതിയ കിളിവാതില്‍ അല്ലേല്‍ ജാലകം തുറക്കുന്നതിനായി ഉപയോഗിക്കേണ്ട പ്രൊഫൈല്‍. profile_list-"
+"ല്‍ ഉണ്ടാവണം"
 
 #: src/org.mate.terminal.gschema.xml.in:59
 msgid "Whether the menubar has access keys"
@@ -347,12 +343,11 @@ msgstr "മെനുബാറില്‍ ആക്സെസ്സ് കീക�
 #: src/org.mate.terminal.gschema.xml.in:60
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
-"with some applications run inside the terminal so it's possible to turn them"
-" off."
+"with some applications run inside the terminal so it's possible to turn them "
+"off."
 msgstr ""
-"മെനുബാറിനു് Alt+letter ആക്സസ്സ് കീകള്‍ വേണമോ എന്നു്. ടെര്‍മിനലില്‍ "
-"പ്രവര്‍ത്തിക്കുന്ന ചില പ്രയോഗങ്ങളില്‍ ഇവ ഇടപെടുന്നു, അതിനാല്‍ അവ ഓഫ് "
-"ചെയ്യേണ്ടതുണ്ടു്."
+"മെനുബാറിനു് Alt+letter ആക്സസ്സ് കീകള്‍ വേണമോ എന്നു്. ടെര്‍മിനലില്‍ പ്രവര്‍ത്തിക്കുന്ന ചില "
+"പ്രയോഗങ്ങളില്‍ ഇവ ഇടപെടുന്നു, അതിനാല്‍ അവ ഓഫ് ചെയ്യേണ്ടതുണ്ടു്."
 
 #: src/org.mate.terminal.gschema.xml.in:64
 msgid "Whether the standard GTK+ shortcut for menubar access is enabled"
@@ -364,10 +359,9 @@ msgid ""
 "via gtkrc (gtk-menu-bar-accel = \"whatever\"). This option allows the "
 "standard menubar accelerator to be disabled."
 msgstr ""
-"സാധാരണ നിങ്ങള്‍ക്കു് F10 ഉപയോഗിച്ചു് മെനുബാറിലേക്കു് പ്രവേശിക്കാം. ഇതു് "
-"gtkrc (gtk-menu-bar-accel = \"whatever\") ഉപയോഗിച്ചു് നിങ്ങള്‍ക്കു് "
-"ഇഷ്ടമുള്ളരീതിയിലാക്കാം. ഈ ഉപാധി സാധാരണയുള്ള മെനുബാര്‍ ആക്സിലറേറ്റര്‍ "
-"പ്രവര്‍ത്തന രഹിതമാക്കുന്നു."
+"സാധാരണ നിങ്ങള്‍ക്കു് F10 ഉപയോഗിച്ചു് മെനുബാറിലേക്കു് പ്രവേശിക്കാം. ഇതു് gtkrc (gtk-menu-bar-"
+"accel = \"whatever\") ഉപയോഗിച്ചു് നിങ്ങള്‍ക്കു് ഇഷ്ടമുള്ളരീതിയിലാക്കാം. ഈ ഉപാധി സാധാരണയുള്ള "
+"മെനുബാര്‍ ആക്സിലറേറ്റര്‍ പ്രവര്‍ത്തന രഹിതമാക്കുന്നു."
 
 #: src/org.mate.terminal.gschema.xml.in:68
 msgctxt "active-encodings"
@@ -434,9 +428,7 @@ msgstr "പുതിയ ജാലകങ്ങള്‍/റ്റാബുകള�
 msgid ""
 "True if the menubar should be shown in new windows, for windows/tabs with "
 "this profile."
-msgstr ""
-"ഈ പ്രൊഫൈലുള്ള ജാലകങ്ങള്‍/റ്റാബുകളുള്ള പുതിയ ജാലകങ്ങളില്‍ മെനുബാര്‍ "
-"കാണിക്കണമെങ്കില്‍ True"
+msgstr "ഈ പ്രൊഫൈലുള്ള ജാലകങ്ങള്‍/റ്റാബുകളുള്ള പുതിയ ജാലകങ്ങളില്‍ മെനുബാര്‍ കാണിക്കണമെങ്കില്‍ True"
 
 #: src/org.mate.terminal.gschema.xml.in:103
 msgid "Default color of text in the terminal"
@@ -444,11 +436,11 @@ msgstr "ടെര്‍മിനലില്‍ വാചകങ്ങളുട�
 
 #: src/org.mate.terminal.gschema.xml.in:104
 msgid ""
-"Default color of text in the terminal, as a color specification (can be "
-"HTML-style hex digits, or a color name such as \"red\")."
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as \"red\")."
 msgstr ""
-"ടെര്‍മിനലില്‍ വാചകങ്ങളുടെ സഹജമായ നിറം.(HTML-രീതിയിലുളള ഹെക്സാ ഡിജിറ്റുകള്‍, "
-"അല്ലെങ്കില്‍ \"ചുവപ്പ്\" പോലെയുളള നിറങ്ങള്‍)."
+"ടെര്‍മിനലില്‍ വാചകങ്ങളുടെ സഹജമായ നിറം.(HTML-രീതിയിലുളള ഹെക്സാ ഡിജിറ്റുകള്‍, അല്ലെങ്കില്‍ "
+"\"ചുവപ്പ്\" പോലെയുളള നിറങ്ങള്‍)."
 
 #: src/org.mate.terminal.gschema.xml.in:108
 msgid "Default color of terminal background"
@@ -459,8 +451,8 @@ msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
 msgstr ""
-"ടെര്‍മിനലില്‍ പശ്ചാത്തലത്തിലുളള സഹജമായ നിറം (HTML-രീതിയിലുളള ഹെക്സാ "
-"ഡിജിറ്റുകള്‍, അല്ലെങ്കില്‍ \"ചുവപ്പ്\" പോലെയുളള നിറങ്ങള്‍)."
+"ടെര്‍മിനലില്‍ പശ്ചാത്തലത്തിലുളള സഹജമായ നിറം (HTML-രീതിയിലുളള ഹെക്സാ ഡിജിറ്റുകള്‍, അല്ലെങ്കില്‍ "
+"\"ചുവപ്പ്\" പോലെയുളള നിറങ്ങള്‍)."
 
 #: src/org.mate.terminal.gschema.xml.in:113
 msgid "Default color of bold text in the terminal"
@@ -468,13 +460,13 @@ msgstr "ടെര്‍മിനലില്‍ കട്ടിയുള്ള �
 
 #: src/org.mate.terminal.gschema.xml.in:114
 msgid ""
-"Default color of bold text in the terminal, as a color specification (can be"
-" HTML-style hex digits, or a color name such as \"red\"). This is ignored if"
-" bold_color_same_as_fg is true."
+"Default color of bold text in the terminal, as a color specification (can be "
+"HTML-style hex digits, or a color name such as \"red\"). This is ignored if "
+"bold_color_same_as_fg is true."
 msgstr ""
-"ടെര്‍മിനലില്‍ കട്ടിയുള്ള വാചകങ്ങളുടെ സഹജമായ നിറം. (HTML-രീതിയിലുളള ഹെക്സാ "
-"ഡിജിറ്റുകള്‍, അല്ലെങ്കില്‍ \"ചുവപ്പ്\" പോലെയുളള നിറങ്ങള്‍). "
-"bold_color_same_as_fg true എങ്കില്‍ ഇതു് പരിഗണിക്കുകയില്ല."
+"ടെര്‍മിനലില്‍ കട്ടിയുള്ള വാചകങ്ങളുടെ സഹജമായ നിറം. (HTML-രീതിയിലുളള ഹെക്സാ ഡിജിറ്റുകള്‍, "
+"അല്ലെങ്കില്‍ \"ചുവപ്പ്\" പോലെയുളള നിറങ്ങള്‍). bold_color_same_as_fg true എങ്കില്‍ ഇതു് "
+"പരിഗണിക്കുകയില്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:118
 msgid "Whether bold text should use the same color as normal text"
@@ -483,8 +475,7 @@ msgstr "സാധാരണയുള്ള വാചകത്തിന്റെ �
 #: src/org.mate.terminal.gschema.xml.in:119
 msgid ""
 "If true, boldface text will be rendered using the same color as normal text."
-msgstr ""
-"true എങ്കില്‍, കട്ടിയുള്ള വാചകത്തിനും സാധാരണ വാചകത്തിന്റെ അതേ നിറമാകുന്നു."
+msgstr "true എങ്കില്‍, കട്ടിയുള്ള വാചകത്തിനും സാധാരണ വാചകത്തിന്റെ അതേ നിറമാകുന്നു."
 
 #: src/org.mate.terminal.gschema.xml.in:123
 msgid "What to do with dynamic title"
@@ -493,14 +484,14 @@ msgstr "ചലനാത്മക തലക്കെട്ടു് എന്ത�
 #: src/org.mate.terminal.gschema.xml.in:124
 msgid ""
 "If the application in the terminal sets the title (most typically people "
-"have their shell set up to do this), the dynamically-set title can erase the"
-" configured title, go before it, go after it, or replace it. The possible "
+"have their shell set up to do this), the dynamically-set title can erase the "
+"configured title, go before it, go after it, or replace it. The possible "
 "values are \"replace\", \"before\", \"after\", and \"ignore\"."
 msgstr ""
-"ടെര്‍മിനലിലുള്ള പ്രയോഗം തലക്കെട്ടു് സജ്ജമാക്കിയാല്‍ (മിക്കവാറും ഷെല്‍ ഇതു് "
-"ചെയ്യുവാന്‍ സജ്ജമാക്കുന്നു), ഡൈനമിക്കായി സജ്ജമായ ശീര്‍ഷകത്തിനു് ഇതു് നീക്കം "
-"ചെയ്യാം, ഇതിനു് മുമ്പ് അല്ലെങ്കില്‍ ശേഷം സ്ഥാപിക്കാം, അല്ലെങ്കില്‍ മാറ്റാം. "
-"ശരിയായ മൂല്ല്യങ്ങള്‍: \"replace\", \"before\", \"after\", \"ignore\"."
+"ടെര്‍മിനലിലുള്ള പ്രയോഗം തലക്കെട്ടു് സജ്ജമാക്കിയാല്‍ (മിക്കവാറും ഷെല്‍ ഇതു് ചെയ്യുവാന്‍ സജ്ജമാക്കുന്നു), "
+"ഡൈനമിക്കായി സജ്ജമായ ശീര്‍ഷകത്തിനു് ഇതു് നീക്കം ചെയ്യാം, ഇതിനു് മുമ്പ് അല്ലെങ്കില്‍ ശേഷം "
+"സ്ഥാപിക്കാം, അല്ലെങ്കില്‍ മാറ്റാം. ശരിയായ മൂല്ല്യങ്ങള്‍: \"replace\", \"before\", "
+"\"after\", \"ignore\"."
 
 #: src/org.mate.terminal.gschema.xml.in:127
 msgctxt "title"
@@ -517,9 +508,8 @@ msgid ""
 "by or combined with the title set by the application inside the terminal, "
 "depending on the title_mode setting."
 msgstr ""
-"ടെര്‍മിനല്‍ ജാലകം അല്ലെങ്കില്‍ റ്റാബിനുള്ള തലക്കെട്ടു്. title_mode സജ്ജീകരണം"
-" അനുസരിച്ചു്, ടെര്‍മിനലിലുള്ള പ്രയോഗം സജ്ജമാക്കിയ ശീര്‍ഷകവുമായി ഇതു് ചേരുകയോ"
-" മാറ്റി സ്ഥാപിക്കുകയോ ചെയ്യുന്നു."
+"ടെര്‍മിനല്‍ ജാലകം അല്ലെങ്കില്‍ റ്റാബിനുള്ള തലക്കെട്ടു്. title_mode സജ്ജീകരണം അനുസരിച്ചു്, "
+"ടെര്‍മിനലിലുള്ള പ്രയോഗം സജ്ജമാക്കിയ ശീര്‍ഷകവുമായി ഇതു് ചേരുകയോ മാറ്റി സ്ഥാപിക്കുകയോ ചെയ്യുന്നു."
 
 #: src/org.mate.terminal.gschema.xml.in:133
 msgid "Whether to allow bold text"
@@ -527,9 +517,7 @@ msgstr "കട്ടി കൂടി പദാവലി അനുവദിക്
 
 #: src/org.mate.terminal.gschema.xml.in:134
 msgid "If true, allow applications in the terminal to make text boldface."
-msgstr ""
-"ശരി എന്നാണെങ്കില്‍, ടെര്‍മിനലിലുളള പ്രയോഗങ്ങളെ വാക്യങ്ങള്‍ ബോള്‍ഡ്ഫെയ്സ് "
-"ആക്കാന്‍ അനുവദിക്കുക."
+msgstr "ശരി എന്നാണെങ്കില്‍, ടെര്‍മിനലിലുളള പ്രയോഗങ്ങളെ വാക്യങ്ങള്‍ ബോള്‍ഡ്ഫെയ്സ് ആക്കാന്‍ അനുവദിക്കുക."
 
 #: src/org.mate.terminal.gschema.xml.in:138
 msgid "Whether to silence terminal bell"
@@ -540,8 +528,8 @@ msgid ""
 "If true, don't make a noise when applications send the escape sequence for "
 "the terminal bell."
 msgstr ""
-"ശരി എന്നാണെങ്കില്‍, ടെര്‍മിനല്‍ മണിയ്കായി പ്രയോഗങ്ങള്‍ escape sequence "
-"അയയ്ക്കുമ്പോള്‍, ശബ്ദം ഉണ്ടാക്കാതിരിക്കുക."
+"ശരി എന്നാണെങ്കില്‍, ടെര്‍മിനല്‍ മണിയ്കായി പ്രയോഗങ്ങള്‍ escape sequence അയയ്ക്കുമ്പോള്‍, ശബ്ദം "
+"ഉണ്ടാക്കാതിരിക്കുക."
 
 #: src/org.mate.terminal.gschema.xml.in:143
 msgid "Copy selection to clipboard"
@@ -558,17 +546,15 @@ msgstr "\"ഒരു വാക്കിന്റെ ഭാഗം\" എന്ന�
 #: src/org.mate.terminal.gschema.xml.in:149
 msgid ""
 "When selecting text by word, sequences of these characters are considered "
-"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing"
-" a range) should be the first character given."
+"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
+"a range) should be the first character given."
 msgstr ""
-"വാക്കുകള്‍ അനുസരിച്ചു് പദാവലി തെരഞ്ഞെടുക്കുമ്പോള്‍, ഈ അക്ഷരങ്ങളുടെ ക്രമം ഓരോ"
-" വാക്കനുസരിച്ചു് കണക്കാക്കുന്നു. പരിധി: \"A-Z\". - (പരിധി ആവശ്യമില്ല) "
-"ആയിരിക്കണം ആദ്യം കൊടുക്കേണ്ട അക്ഷരം."
+"വാക്കുകള്‍ അനുസരിച്ചു് പദാവലി തെരഞ്ഞെടുക്കുമ്പോള്‍, ഈ അക്ഷരങ്ങളുടെ ക്രമം ഓരോ വാക്കനുസരിച്ചു് "
+"കണക്കാക്കുന്നു. പരിധി: \"A-Z\". - (പരിധി ആവശ്യമില്ല) ആയിരിക്കണം ആദ്യം കൊടുക്കേണ്ട അക്ഷരം."
 
 #: src/org.mate.terminal.gschema.xml.in:153
 msgid "Whether to use custom terminal size for new windows"
-msgstr ""
-"പുതിയ ജാലകങ്ങള്‍ക്കു് യഥേഷ്ടം സജ്ജമാക്കിയ വ്യാപ്തി ഉപയോഗിക്കണമോ എന്നു്നു്"
+msgstr "പുതിയ ജാലകങ്ങള്‍ക്കു് യഥേഷ്ടം സജ്ജമാക്കിയ വ്യാപ്തി ഉപയോഗിക്കണമോ എന്നു്നു്"
 
 #: src/org.mate.terminal.gschema.xml.in:154
 msgid ""
@@ -587,8 +573,8 @@ msgid ""
 "Number of columns in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
 msgstr ""
-"പുതിയ ടെര്‍മിനലുകളിലുള്ള നിരകളുടെ എണ്ണം. use_custom_default_size പ്രവര്‍ത്തന"
-" സജ്ജമെങ്കില്‍ കാര്യമില്ല."
+"പുതിയ ടെര്‍മിനലുകളിലുള്ള നിരകളുടെ എണ്ണം. use_custom_default_size പ്രവര്‍ത്തന സജ്ജമെങ്കില്‍ "
+"കാര്യമില്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:163
 msgid "Default number of rows"
@@ -599,8 +585,8 @@ msgid ""
 "Number of rows in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
 msgstr ""
-"പുതിയ ടെര്‍മിനലുകളിലുള്ള വരികളുടെ എണ്ണം. use_custom_default_size പ്രവര്‍ത്തന"
-" സജ്ജമെങ്കില്‍ കാര്യമില്ല."
+"പുതിയ ടെര്‍മിനലുകളിലുള്ള വരികളുടെ എണ്ണം. use_custom_default_size പ്രവര്‍ത്തന സജ്ജമെങ്കില്‍ "
+"കാര്യമില്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:168
 msgid "Position of the scrollbar"
@@ -611,8 +597,7 @@ msgid ""
 "Where to put the terminal scrollbar. Possibilities are \"left\", \"right\", "
 "and \"hidden\"."
 msgstr ""
-"ടെര്‍മിനല്‍ സ്ക്രോള്‍ബാര്‍ എവിടെ സ്ഥാപിക്കണം. സാധ്യതയുള്ളവ: \"ഇടത്തു്\", "
-"\"വലത്തു്\", \"അദൃശ്യം\"."
+"ടെര്‍മിനല്‍ സ്ക്രോള്‍ബാര്‍ എവിടെ സ്ഥാപിക്കണം. സാധ്യതയുള്ളവ: \"ഇടത്തു്\", \"വലത്തു്\", \"അദൃശ്യം\"."
 
 #: src/org.mate.terminal.gschema.xml.in:173
 msgid "Number of lines to keep in scrollback"
@@ -621,13 +606,12 @@ msgstr "സ്ക്രോള്‍ബാക്കിനുള്ള വരി�
 #: src/org.mate.terminal.gschema.xml.in:174
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
-"terminal by this number of lines; lines that don't fit in the scrollback are"
-" discarded. If scrollback_unlimited is true, this value is ignored."
+"terminal by this number of lines; lines that don't fit in the scrollback are "
+"discarded. If scrollback_unlimited is true, this value is ignored."
 msgstr ""
-"സ്ക്രോള്‍ബാക്ക് വരികളുടെ എണ്ണം. നിങ്ങള്‍ക്കു് ഈ എണ്ണം അനുസരിച്ചു് "
-"ടെര്‍മിനലില്‍ സ്ക്രോള്‍ ബാക്ക് ചെയ്യാം; സ്ക്രോള്‍ ബാക്കില്‍ അനുയോജ്യമല്ലാത്ത"
-" വരികള്‍ വേണ്ടെന്നു് വയ്ക്കുന്നു. scrollback_unlimited true ആണെങ്കില്‍, ഈ "
-"മൂല്ല്യം വേണ്ടെന്നു് വയ്ക്കുന്നു."
+"സ്ക്രോള്‍ബാക്ക് വരികളുടെ എണ്ണം. നിങ്ങള്‍ക്കു് ഈ എണ്ണം അനുസരിച്ചു് ടെര്‍മിനലില്‍ സ്ക്രോള്‍ ബാക്ക് ചെയ്യാം; "
+"സ്ക്രോള്‍ ബാക്കില്‍ അനുയോജ്യമല്ലാത്ത വരികള്‍ വേണ്ടെന്നു് വയ്ക്കുന്നു. scrollback_unlimited true "
+"ആണെങ്കില്‍, ഈ മൂല്ല്യം വേണ്ടെന്നു് വയ്ക്കുന്നു."
 
 #: src/org.mate.terminal.gschema.xml.in:178
 msgid "Whether an unlimited number of lines should be kept in scrollback"
@@ -635,14 +619,13 @@ msgstr "സ്ക്രോള്‍ബാക്കിനുള്ള വരി�
 
 #: src/org.mate.terminal.gschema.xml.in:179
 msgid ""
-"If true, scrollback lines will never be discarded. The scrollback history is"
-" stored on disk temporarily, so this may cause the system to run out of disk"
-" space if there is a lot of output to the terminal."
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
 msgstr ""
-"true എങ്കില്‍, സ്ക്രോള്‍ബാക്ക് വരികള്‍ ഒരിക്കലും വേണ്ടെന്നു് വയ്ക്കുന്നതല്ല."
-" സ്ക്രോള്‍ബാക്കിന്റെ നാള്‍വഴി ഡിസ്കില്‍ താല്‍ക്കാലികമായി സൂക്ഷിക്കുന്നു. "
-"ഇതിനാല്‍, ടെര്‍മനിലേക്കു് അനവധി ഔട്ട്പുട്ട് ഉണ്ടെങ്കില്‍, സിസ്റ്റത്തില്‍ "
-"സ്ഥലം ലഭ്യമല്ലാതെ വരാം."
+"true എങ്കില്‍, സ്ക്രോള്‍ബാക്ക് വരികള്‍ ഒരിക്കലും വേണ്ടെന്നു് വയ്ക്കുന്നതല്ല. സ്ക്രോള്‍ബാക്കിന്റെ നാള്‍വഴി "
+"ഡിസ്കില്‍ താല്‍ക്കാലികമായി സൂക്ഷിക്കുന്നു. ഇതിനാല്‍, ടെര്‍മനിലേക്കു് അനവധി ഔട്ട്പുട്ട് ഉണ്ടെങ്കില്‍, "
+"സിസ്റ്റത്തില്‍ സ്ഥലം ലഭ്യമല്ലാതെ വരാം."
 
 #: src/org.mate.terminal.gschema.xml.in:183
 msgid "Whether to scroll to the bottom when a key is pressed"
@@ -650,9 +633,7 @@ msgstr "കീ അമര്‍ത്തുമ്പോള്‍ താഴേക�
 
 #: src/org.mate.terminal.gschema.xml.in:184
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
-msgstr ""
-"true എങ്കില്‍, ഒരു കീ അമര്‍ത്തിയാല്‍ സ്ക്രോള്‍ബാര്‍ ഏറ്റവും അവസാനത്തിലേക്കു്"
-" നീങ്ങുന്നു."
+msgstr "true എങ്കില്‍, ഒരു കീ അമര്‍ത്തിയാല്‍ സ്ക്രോള്‍ബാര്‍ ഏറ്റവും അവസാനത്തിലേക്കു് നീങ്ങുന്നു."
 
 #: src/org.mate.terminal.gschema.xml.in:188
 msgid "Whether to scroll to the bottom when there's new output"
@@ -662,36 +643,33 @@ msgstr "പുതിയ ഔട്ട്പുട്ടുള്ളപ്പോ�
 msgid ""
 "If true, whenever there's new output the terminal will scroll to the bottom."
 msgstr ""
-"true എങ്കില്‍, എപ്പോഴെല്ലാം പുതിയ ഔട്ട്പുട്ട് ഉണ്ടോ അപ്പോള്‍ ടെര്‍മിനല്‍ "
-"താഴേക്കു് സ്ക്രോള്‍ ചെയ്യുന്നു."
+"true എങ്കില്‍, എപ്പോഴെല്ലാം പുതിയ ഔട്ട്പുട്ട് ഉണ്ടോ അപ്പോള്‍ ടെര്‍മിനല്‍ താഴേക്കു് സ്ക്രോള്‍ ചെയ്യുന്നു."
 
 #: src/org.mate.terminal.gschema.xml.in:193
 msgid "What to do with the terminal when the child command exits"
-msgstr ""
-"ചൈള്‍ഡ് കമാന്‍ഡില്‍ നിന്നും പുറത്തു് കടക്കുമ്പോള്‍ ടെര്‍മിനല്‍ എന്തു് "
-"ചെയ്യണം"
+msgstr "ചൈള്‍ഡ് കമാന്‍ഡില്‍ നിന്നും പുറത്തു് കടക്കുമ്പോള്‍ ടെര്‍മിനല്‍ എന്തു് ചെയ്യണം"
 
 #: src/org.mate.terminal.gschema.xml.in:194
 msgid ""
 "Possible values are \"close\" to close the terminal, and \"restart\" to "
 "restart the command."
 msgstr ""
-"ടെര്‍മിനല്‍ അടയ്കുന്നതിന് \"അടയ്ക്കുക\" എന്നതും,നിര്‍ദ്ദേശം വീണ്ടും "
-"ആരംഭിക്കുന്നതിന് \"റീസ്റ്റാര്‍ട്ട് ചെയ്യുക\"-ഉം ആണ് സാധ്യമുളള മൂല്ല്യങ്ങള്‍."
+"ടെര്‍മിനല്‍ അടയ്കുന്നതിന് \"അടയ്ക്കുക\" എന്നതും,നിര്‍ദ്ദേശം വീണ്ടും ആരംഭിക്കുന്നതിന് \"റീസ്റ്റാര്‍ട്ട് "
+"ചെയ്യുക\"-ഉം ആണ് സാധ്യമുളള മൂല്ല്യങ്ങള്‍."
 
 #: src/org.mate.terminal.gschema.xml.in:198
 msgid "Whether to launch the command in the terminal as a login shell"
 msgstr ""
-"ലോഗിന്‍ ഷെല്ലായി ടെര്‍മിനലില്‍ കമാന്‍ഡ് ലഭ്യമാക്കണമോ എന്നു്Whether to launch"
-" the command in the terminal as a login shell"
+"ലോഗിന്‍ ഷെല്ലായി ടെര്‍മിനലില്‍ കമാന്‍ഡ് ലഭ്യമാക്കണമോ എന്നു്Whether to launch the command in "
+"the terminal as a login shell"
 
 #: src/org.mate.terminal.gschema.xml.in:199
 msgid ""
 "If true, the command inside the terminal will be launched as a login shell. "
 "(argv[0] will have a hyphen in front of it.)"
 msgstr ""
-"true എങ്കില്‍, ടെര്‍മിനലില്‍ ഉള്ള കമാന്‍ഡ് ഒരു ലോഗിന്‍ ഷെല്‍ ആയി "
-"ലഭ്യമാക്കുന്നു.(argv[0]-നു് അതിനു് മുമ്പില്‍ ഒരു - ഉണ്ടാവും.)"
+"true എങ്കില്‍, ടെര്‍മിനലില്‍ ഉള്ള കമാന്‍ഡ് ഒരു ലോഗിന്‍ ഷെല്‍ ആയി ലഭ്യമാക്കുന്നു.(argv[0]-നു് അതിനു് "
+"മുമ്പില്‍ ഒരു - ഉണ്ടാവും.)"
 
 #: src/org.mate.terminal.gschema.xml.in:203
 msgid "Whether to run a custom command instead of the shell"
@@ -702,8 +680,8 @@ msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
 msgstr ""
-"true എങ്കില്‍, ഒരു ഷെല്‍ പ്രവര്‍ത്തിപ്പിക്കുന്നതിനു് പകരം  custom_command  "
-"സജ്ജീകരണത്തിനുള്ള മൂല്ല്യം ഉപയോഗിക്കുന്നു"
+"true എങ്കില്‍, ഒരു ഷെല്‍ പ്രവര്‍ത്തിപ്പിക്കുന്നതിനു് പകരം  custom_command  സജ്ജീകരണത്തിനുള്ള "
+"മൂല്ല്യം ഉപയോഗിക്കുന്നു"
 
 #: src/org.mate.terminal.gschema.xml.in:208
 msgid "Whether to blink the cursor"
@@ -714,9 +692,8 @@ msgid ""
 "The possible values are \"system\" to use the global cursor blinking "
 "settings, or \"on\" or \"off\" to set the mode explicitly."
 msgstr ""
-"സാധ്യമുള്ള മൂല്ല്യങ്ങള്‍: ഗ്ലോബല്‍ കര്‍സര്‍ മിന്നുന്നതിനുള്ള "
-"സജ്ജീകരണങ്ങള്‍ക്കായി \"system\", അല്ലെങ്കില്‍ പ്രത്യേകം സജ്ജമാക്കുന്നതിനായി "
-"\"ഓണ്‍\" അല്ലെങ്കില്‍ \"ഓഫ്\""
+"സാധ്യമുള്ള മൂല്ല്യങ്ങള്‍: ഗ്ലോബല്‍ കര്‍സര്‍ മിന്നുന്നതിനുള്ള സജ്ജീകരണങ്ങള്‍ക്കായി \"system\", അല്ലെങ്കില്‍ "
+"പ്രത്യേകം സജ്ജമാക്കുന്നതിനായി \"ഓണ്‍\" അല്ലെങ്കില്‍ \"ഓഫ്\""
 
 #: src/org.mate.terminal.gschema.xml.in:213
 msgid "The cursor appearance"
@@ -727,9 +704,8 @@ msgid ""
 "The possible values are \"block\" to use a block cursor, \"ibeam\" to use a "
 "vertical line cursor, or \"underline\" to use an underline cursor."
 msgstr ""
-"സാധ്യമായ മൂല്ല്യങ്ങള്‍: ബ്ലോക്ക് കര്‍സര്‍ ഉപോഗിക്കുന്നതിനായി \"ബ്ലോക്ക്\", "
-"കുറുകെയുള്ള വരി കര്‍സറിനായി \"ഐബീം\", അല്ലെങ്കില്‍ അടിവരെയുള്ള കര്‍സറിനായി "
-"\"അടിവര\"."
+"സാധ്യമായ മൂല്ല്യങ്ങള്‍: ബ്ലോക്ക് കര്‍സര്‍ ഉപോഗിക്കുന്നതിനായി \"ബ്ലോക്ക്\", കുറുകെയുള്ള വരി കര്‍സറിനായി "
+"\"ഐബീം\", അല്ലെങ്കില്‍ അടിവരെയുള്ള കര്‍സറിനായി \"അടിവര\"."
 
 #: src/org.mate.terminal.gschema.xml.in:218
 msgid "Custom command to use instead of the shell"
@@ -737,9 +713,7 @@ msgstr "ഷെല്ലിന് പകരം ഇഷ്ടമുളള നിര
 
 #: src/org.mate.terminal.gschema.xml.in:219
 msgid "Run this command in place of the shell, if use_custom_command is true."
-msgstr ""
-"use_custom_command ശരിയാണ് എങ്കില്‍, ഷെല്ലിന് പകരം ഈ നിര്‍ദ്ദേശം "
-"പ്രവര്‍ത്തിപ്പിക്കുക."
+msgstr "use_custom_command ശരിയാണ് എങ്കില്‍, ഷെല്ലിന് പകരം ഈ നിര്‍ദ്ദേശം പ്രവര്‍ത്തിപ്പിക്കുക."
 
 #: src/org.mate.terminal.gschema.xml.in:223
 msgid "Icon for terminal window"
@@ -759,9 +733,8 @@ msgid ""
 "use. This is that palette, in the form of a colon-separated list of color "
 "names. Color names should be in hex format e.g. \"#FF00FF\""
 msgstr ""
-"ടെര്‍മിനലിനുള്ളിലുള്ള പ്രയോഗങ്ങള്‍ക്കായി 16-നിറം നിറക്കൂട്ടു് ലഭ്യമാണു്. ഈ "
-"താലത്തില്‍, നിറങ്ങള്‍ കോളണ്‍ ഉപയോഗിച്ചു് വേര്‍തിരിച്ചിരിക്കുന്നു. നിറങ്ങള്‍ "
-"ഹെക്സ് രീതിയിലായിരിക്കണം ഉദാ. \"#FF00FF\""
+"ടെര്‍മിനലിനുള്ളിലുള്ള പ്രയോഗങ്ങള്‍ക്കായി 16-നിറം നിറക്കൂട്ടു് ലഭ്യമാണു്. ഈ താലത്തില്‍, നിറങ്ങള്‍ കോളണ്‍ "
+"ഉപയോഗിച്ചു് വേര്‍തിരിച്ചിരിക്കുന്നു. നിറങ്ങള്‍ ഹെക്സ് രീതിയിലായിരിക്കണം ഉദാ. \"#FF00FF\""
 
 #: src/org.mate.terminal.gschema.xml.in:233
 msgid "Font"
@@ -770,8 +743,8 @@ msgstr "അക്ഷരരൂപം"
 #: src/org.mate.terminal.gschema.xml.in:234
 msgid "An Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
 msgstr ""
-"ഒരു Pango അക്ഷരസഞ്ചയംയുടെ പേര്. \"Sans 12\" അല്ലെങ്കില്‍ \"Monospace Bold "
-"14\"ആണ് ഉദാഹരണങ്ങള്‍."
+"ഒരു Pango അക്ഷരസഞ്ചയംയുടെ പേര്. \"Sans 12\" അല്ലെങ്കില്‍ \"Monospace Bold 14\"ആണ് "
+"ഉദാഹരണങ്ങള്‍."
 
 #: src/org.mate.terminal.gschema.xml.in:238
 msgid "Background type"
@@ -783,8 +756,8 @@ msgid ""
 "for an image, or \"transparent\" for either real transparency if a "
 "compositing window manager is running, or pseudo-transparency otherwise."
 msgstr ""
-"ഏതു് തരത്തിലുള്ള ടെര്‍മിനല്‍ പശ്ചാത്തലം. സോളിഡ് നിറത്തിനു് \"സോളിഡ്\", ഒരു "
-"ചിത്രത്തിനായി \"ചിത്രം\"അല്ലെങ്കില്‍ \"transparent\"."
+"ഏതു് തരത്തിലുള്ള ടെര്‍മിനല്‍ പശ്ചാത്തലം. സോളിഡ് നിറത്തിനു് \"സോളിഡ്\", ഒരു ചിത്രത്തിനായി "
+"\"ചിത്രം\"അല്ലെങ്കില്‍ \"transparent\"."
 
 #: src/org.mate.terminal.gschema.xml.in:243
 msgid "Background image"
@@ -803,9 +776,8 @@ msgid ""
 "If true, scroll the background image with the foreground text; if false, "
 "keep the image in a fixed position and scroll the text above it."
 msgstr ""
-"true എങ്കില്‍, പശ്ചാത്തലത്തിലുള്ള ചിത്രം മുന്നിലുള്ള വാചകവുമായി സ്ക്രോള്‍ "
-"ചെയ്യുക; false എങ്കില്‍, ചിത്രം സ്ഥിരമായ ഒരു സ്ഥാനത്തു് വച്ചു്, പദാവലി "
-"അതിനു് മുകളിലൂടെ സ്ക്രോള്‍ ചെയ്യുക."
+"true എങ്കില്‍, പശ്ചാത്തലത്തിലുള്ള ചിത്രം മുന്നിലുള്ള വാചകവുമായി സ്ക്രോള്‍ ചെയ്യുക; false എങ്കില്‍, "
+"ചിത്രം സ്ഥിരമായ ഒരു സ്ഥാനത്തു് വച്ചു്, പദാവലി അതിനു് മുകളിലൂടെ സ്ക്രോള്‍ ചെയ്യുക."
 
 #: src/org.mate.terminal.gschema.xml.in:253
 msgid "How much to darken the background image"
@@ -818,10 +790,9 @@ msgid ""
 "implementation, there are only two levels of darkness possible, so the "
 "setting behaves as a boolean, where 0.0 disables the darkening effect."
 msgstr ""
-"പശ്ചാത്തല ചിത്രം എത്രമാത്രം ഇരുണ്ടതാക്കണം എന്നാണു് 0.0 മുതല്‍ 1.0 വരെയുള്ള "
-"മൂല്ല്യം സൂചിപ്പിക്കുന്നതു്. 0.0 - ഇരുളിമയില്ല, 1.0 - പൂര്‍ണ്ണമായും "
-"ഇരുണ്ടതു്. നിലവില്‍, രണ്ടു് തരത്തില്‍ മാത്രമേ സാധ്യതയുള്ളൂ. അതിനാല്‍ "
-"സജ്ജമാക്കിയവ ബൂളിയന്‍ ആയി പ്രവര്‍ത്തിക്കുന്നു. ഇവിടെ 0.0 - ഇരുളിമ "
+"പശ്ചാത്തല ചിത്രം എത്രമാത്രം ഇരുണ്ടതാക്കണം എന്നാണു് 0.0 മുതല്‍ 1.0 വരെയുള്ള മൂല്ല്യം "
+"സൂചിപ്പിക്കുന്നതു്. 0.0 - ഇരുളിമയില്ല, 1.0 - പൂര്‍ണ്ണമായും ഇരുണ്ടതു്. നിലവില്‍, രണ്ടു് തരത്തില്‍ "
+"മാത്രമേ സാധ്യതയുള്ളൂ. അതിനാല്‍ സജ്ജമാക്കിയവ ബൂളിയന്‍ ആയി പ്രവര്‍ത്തിക്കുന്നു. ഇവിടെ 0.0 - ഇരുളിമ "
 "നിര്‍ജ്ജീവമാക്കുന്നു."
 
 #: src/org.mate.terminal.gschema.xml.in:258
@@ -836,11 +807,10 @@ msgid ""
 "bound to backspace or delete. \"ascii-del\" is normally considered the "
 "correct setting for the Backspace key."
 msgstr ""
-"backspace കീ ഉല്‍പാദിപ്പിക്കുന്ന കോഡ് സജ്ജാക്കുന്നു. സാധ്യമായി "
-"മൂല്ല്യങ്ങള്‍: ASCII DEL അക്ഷരത്തിനു് \"ascii-del\", Control-H-നു് ( ASCII "
-"BS അക്ഷരം) \"control-h\" , backspace അല്ലെങ്കില്‍ delete എസ്കേപ്പ് "
-"സീക്വന്‍സുകള്‍ക്കു് \"escape-sequence\". \"escape-sequence\" സാധാരണ "
-"backspace കീയ്ക്കുള്ള ശരിയായ ക്രമീകരണമായി കണക്കാക്കുന്നു."
+"backspace കീ ഉല്‍പാദിപ്പിക്കുന്ന കോഡ് സജ്ജാക്കുന്നു. സാധ്യമായി മൂല്ല്യങ്ങള്‍: ASCII DEL "
+"അക്ഷരത്തിനു് \"ascii-del\", Control-H-നു് ( ASCII BS അക്ഷരം) \"control-h\" , "
+"backspace അല്ലെങ്കില്‍ delete എസ്കേപ്പ് സീക്വന്‍സുകള്‍ക്കു് \"escape-sequence\". \"escape-"
+"sequence\" സാധാരണ backspace കീയ്ക്കുള്ള ശരിയായ ക്രമീകരണമായി കണക്കാക്കുന്നു."
 
 #: src/org.mate.terminal.gschema.xml.in:263
 msgid "Effect of the Delete key"
@@ -854,24 +824,22 @@ msgid ""
 "backspace or delete. \"escape-sequence\" is normally considered the correct "
 "setting for the Delete key."
 msgstr ""
-"delete കീ ഉല്‍പാദിപ്പിക്കുന്ന കോഡ് സജ്ജാക്കുന്നു. സാധ്യമായി മൂല്ല്യങ്ങള്‍: "
-"ASCII DEL അക്ഷരത്തിനു് \"ascii-del\", Control-H-നു് ( ASCII BS അക്ഷരം) "
-"\"control-h\" , backspace അല്ലെങ്കില്‍ delete എസ്കേപ്പ് സീക്വന്‍സുകള്‍ക്കു് "
-"\"escape-sequence\". \"escape-sequence\" സാധാരണ Delete കീയ്ക്കുള്ള ശരിയായ "
-"ക്രമീകരണമായി കണക്കാക്കുന്നു."
+"delete കീ ഉല്‍പാദിപ്പിക്കുന്ന കോഡ് സജ്ജാക്കുന്നു. സാധ്യമായി മൂല്ല്യങ്ങള്‍: ASCII DEL അക്ഷരത്തിനു് "
+"\"ascii-del\", Control-H-നു് ( ASCII BS അക്ഷരം) \"control-h\" , backspace "
+"അല്ലെങ്കില്‍ delete എസ്കേപ്പ് സീക്വന്‍സുകള്‍ക്കു് \"escape-sequence\". \"escape-sequence\" "
+"സാധാരണ Delete കീയ്ക്കുള്ള ശരിയായ ക്രമീകരണമായി കണക്കാക്കുന്നു."
 
 #: src/org.mate.terminal.gschema.xml.in:268
 msgid "Whether to use the colors from the theme for the terminal widget"
-msgstr ""
-"ടെര്‍മില്‍ വിഡ്ജറ്റിനു് പ്രമേയത്തില്‍ നിന്നും നിറങ്ങള്‍ ഉപയോഗിക്കണമോ എന്നു്"
+msgstr "ടെര്‍മില്‍ വിഡ്ജറ്റിനു് പ്രമേയത്തില്‍ നിന്നും നിറങ്ങള്‍ ഉപയോഗിക്കണമോ എന്നു്"
 
 #: src/org.mate.terminal.gschema.xml.in:269
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
 msgstr ""
-"true എങ്കില്‍, ഉപയോക്താവു് ലഭ്യമാക്കുന്ന നിറങ്ങള്‍ക്കു് പകരം, ടെക്സ്റ്റ് "
-"എന്‍ട്രി ബോക്സുകളില്‍ പ്രമേയമനുസരിച്ചുള്ള നിറം ഉപയോഗിക്കുന്നു"
+"true എങ്കില്‍, ഉപയോക്താവു് ലഭ്യമാക്കുന്ന നിറങ്ങള്‍ക്കു് പകരം, ടെക്സ്റ്റ് എന്‍ട്രി ബോക്സുകളില്‍ "
+"പ്രമേയമനുസരിച്ചുള്ള നിറം ഉപയോഗിക്കുന്നു"
 
 #: src/org.mate.terminal.gschema.xml.in:273
 msgid "Whether to use the system font"
@@ -882,9 +850,8 @@ msgid ""
 "If true, the terminal will use the desktop-global standard font if it's "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
-"true എങ്കില്‍, മോണോസ്പെയിസാണു് എങ്കില്‍, ടെര്‍മിനല്‍ പണിയിട-ഗ്ലോബല്‍ "
-"നിലവാരമുള്ള അക്ഷരസഞ്ചയം ഉപയോഗിക്കുന്നു (കൂടാതെ ഇതിനൊപ്പമുള്ള സാമ്യമുള്ള "
-"മറ്റു് അക്ഷരസഞ്ചയവും)."
+"true എങ്കില്‍, മോണോസ്പെയിസാണു് എങ്കില്‍, ടെര്‍മിനല്‍ പണിയിട-ഗ്ലോബല്‍ നിലവാരമുള്ള അക്ഷരസഞ്ചയം "
+"ഉപയോഗിക്കുന്നു (കൂടാതെ ഇതിനൊപ്പമുള്ള സാമ്യമുള്ള മറ്റു് അക്ഷരസഞ്ചയവും)."
 
 #: src/org.mate.terminal.gschema.xml.in:278
 msgid "Highlight S/Key challenges"
@@ -895,9 +862,8 @@ msgid ""
 "Popup a dialog when an S/Key challenge response query is detected and "
 "clicked on. Typing a password into the dialog will send it to the terminal."
 msgstr ""
-"ഒരു S/Key ചാലഞ്ച് മറുപടിയ്ക്കുള്ള ചോദ്യം കണ്ടുപിടിച്ചു് ക്ലിക്ക് "
-"ചെയ്യുമ്പോള്‍, ഒരു ഡയലോഗ് പോപ്പപ്പ് ചെയ്യുക. ഡയലോഗില്‍ ഒരു അടയാളവാക്കു് "
-"ടൈപ്പ് ചെയ്യുന്നതു് അതിനെ ടെര്‍മിനലിലേക്കു് അയയ്ക്കുന്നു."
+"ഒരു S/Key ചാലഞ്ച് മറുപടിയ്ക്കുള്ള ചോദ്യം കണ്ടുപിടിച്ചു് ക്ലിക്ക് ചെയ്യുമ്പോള്‍, ഒരു ഡയലോഗ് പോപ്പപ്പ് "
+"ചെയ്യുക. ഡയലോഗില്‍ ഒരു അടയാളവാക്കു് ടൈപ്പ് ചെയ്യുന്നതു് അതിനെ ടെര്‍മിനലിലേക്കു് അയയ്ക്കുന്നു."
 
 #: src/org.mate.terminal.gschema.xml.in:283
 msgid "Highlight URLs under mouse pointer"
@@ -905,8 +871,8 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:284
 msgid ""
-"If true, URLs under mouse pointer are highlighted and can be opened by mouse"
-" click together with control key or used in context menu."
+"If true, URLs under mouse pointer are highlighted and can be opened by mouse "
+"click together with control key or used in context menu."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:290
@@ -920,10 +886,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"പുതിയ ഒരു കിളിവാതില്‍ തുറക്കുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പവഴി. GTK+ റിസോഴ്സ് "
-"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"പുതിയ ഒരു കിളിവാതില്‍ തുറക്കുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പവഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
+"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:295
@@ -932,15 +897,14 @@ msgstr "പുതിയ ജാലകം തുറക്കുന്നതിന�
 
 #: src/org.mate.terminal.gschema.xml.in:296
 msgid ""
-"Keyboard shortcut key for opening a new window. Expressed as a string in the"
-" same format used for GTK+ resource files. If you set the option to the "
+"Keyboard shortcut key for opening a new window. Expressed as a string in the "
+"same format used for GTK+ resource files. If you set the option to the "
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"പുതിയ ഒരു ജാലകം തുറക്കുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പവഴി. GTK+ റിസോഴ്സ് "
-"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"പുതിയ ഒരു ജാലകം തുറക്കുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പവഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
+"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:300
@@ -951,20 +915,17 @@ msgstr "പുതിയ പ്രൊഫൈല്‍ ഉണ്ടാക്കു�
 msgid ""
 "Keyboard shortcut key for bringing up the dialog for profile creation. "
 "Expressed as a string in the same format used for GTK+ resource files. If "
-"you set the option to the special string \"disabled\", then there will be no"
-" keyboard shortcut for this action."
+"you set the option to the special string \"disabled\", then there will be no "
+"keyboard shortcut for this action."
 msgstr ""
-"പ്രൊഫൈല്‍ ഉണ്ടാക്കിയതിനുള്ള ഡയലോഗ് ലഭ്യമാക്കുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പ "
-"വഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"പ്രൊഫൈല്‍ ഉണ്ടാക്കിയതിനുള്ള ഡയലോഗ് ലഭ്യമാക്കുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് "
+"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:305
 msgid "Keyboard shortcut to save the current tab contents to file"
-msgstr ""
-"നിലവിലുള്ള കിളിവാതിലിലുള്ളവ ഒരു ഫയലിലേക്കു് സൂക്ഷിക്കുന്നതിനുള്ള കീബോര്‍ഡ് "
-"എളുപ്പ് വഴി"
+msgstr "നിലവിലുള്ള കിളിവാതിലിലുള്ളവ ഒരു ഫയലിലേക്കു് സൂക്ഷിക്കുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പ് വഴി"
 
 #: src/org.mate.terminal.gschema.xml.in:306
 msgid ""
@@ -973,11 +934,10 @@ msgid ""
 "option to the special string \"disabled\", then there will be no keyboard "
 "shortcut for this action."
 msgstr ""
-"നിലവിലുള്ള കിളിവാതിലിലുള്ളവ ഒരു ഫയലിലേക്കു് സൂക്ഷിക്കുന്നതിനുള്ള കീബോര്‍ഡ് "
-"എളുപ്പ് വഴി.GTK+ റിസോഴ്സ് ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ "
-"സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന "
-"രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ "
-"വഴി ഉണ്ടായിരിക്കുന്നതല്ല."
+"നിലവിലുള്ള കിളിവാതിലിലുള്ളവ ഒരു ഫയലിലേക്കു് സൂക്ഷിക്കുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പ് വഴി.GTK+ "
+"റിസോഴ്സ് ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക "
+"സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:310
 msgid "Keyboard shortcut to close a tab"
@@ -987,13 +947,11 @@ msgstr "കിളിവാതില്‍ അടയ്ക്കുന്നത�
 msgid ""
 "Keyboard shortcut key for closing a tab. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"ഒരു കിളിവാതില്‍ അടയ്ക്കുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പവഴി. GTK+ റിസോഴ്സ് "
-"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"ഒരു കിളിവാതില്‍ അടയ്ക്കുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പവഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
+"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:315
@@ -1007,10 +965,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"ഒരു ജാലകം അടയ്ക്കുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പവഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
-"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. "
-"പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ "
-"പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി ഉണ്ടായിരിക്കുന്നതല്ല."
+"ഒരു ജാലകം അടയ്ക്കുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പവഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന "
+"അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" "
+"എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:320
 msgid "Keyboard shortcut to copy text"
@@ -1023,11 +980,10 @@ msgid ""
 "option to the special string \"disabled\", then there will be no keyboard "
 "shortcut for this action."
 msgstr ""
-"തെരഞ്ഞെടുത്ത പദാവലി ക്ലിപ്ബോര്‍ഡിലേക്ക് പകര്‍ത്തുന്നതിനുള്ള കീബോര്‍ഡ് "
-"എളുപ്പവഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ "
-"സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന "
-"രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ "
-"വഴി ഉണ്ടായിരിക്കുന്നതല്ല."
+"തെരഞ്ഞെടുത്ത പദാവലി ക്ലിപ്ബോര്‍ഡിലേക്ക് പകര്‍ത്തുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പവഴി. GTK+ റിസോഴ്സ് "
+"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:325
 msgid "Keyboard shortcut to paste text"
@@ -1083,8 +1039,8 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:346
 msgid ""
-"Keyboard shortcut key for finding the previous occurrence of the search term"
-" in the terminal. Expressed as a string in the same format used for GTK+ "
+"Keyboard shortcut key for finding the previous occurrence of the search term "
+"in the terminal. Expressed as a string in the same format used for GTK+ "
 "resource files. If you set the option to the special string \"disabled\", "
 "then there will be no keyboard shortcut for this action."
 msgstr ""
@@ -1092,26 +1048,24 @@ msgstr ""
 #: src/org.mate.terminal.gschema.xml.in:350
 msgid "Keyboard shortcut to toggle full screen mode"
 msgstr ""
-"സ്ക്രീന്‍ മുഴുവന്‍ വലിപ്പത്തിലാക്കുകയും തിരിച്ച് പഴയ രീതിയില്‍ ആക്കുകയും "
-"ചെയ്യുവാന്‍ സഹായിക്കുന്ന കീബോര്‍ഡ് എളുപ്പ വഴി"
+"സ്ക്രീന്‍ മുഴുവന്‍ വലിപ്പത്തിലാക്കുകയും തിരിച്ച് പഴയ രീതിയില്‍ ആക്കുകയും ചെയ്യുവാന്‍ സഹായിക്കുന്ന "
+"കീബോര്‍ഡ് എളുപ്പ വഴി"
 
 #: src/org.mate.terminal.gschema.xml.in:351
 msgid ""
 "Keyboard shortcut key for toggling full screen mode. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
-"സ്ക്രീന്‍ മുഴുവന്‍ വലിപ്പത്തിലാക്കുകയും തിരിച്ച് പഴയ രീതിയില്‍ ആക്കുകയും "
-"ചെയ്യുവാന്‍ സഹായിക്കുന്ന കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
-"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. "
-"പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ "
+"സ്ക്രീന്‍ മുഴുവന്‍ വലിപ്പത്തിലാക്കുകയും തിരിച്ച് പഴയ രീതിയില്‍ ആക്കുകയും ചെയ്യുവാന്‍ സഹായിക്കുന്ന "
+"കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
+"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ "
 "പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:355
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
-msgstr ""
-"മെനുബാറിന്റെ കാണുന്ന അവസ്ഥ മാറ്റുന്നതിന് സഹായിക്കുന്ന കീബോര്‍ഡ് എളുപ്പ വഴി"
+msgstr "മെനുബാറിന്റെ കാണുന്ന അവസ്ഥ മാറ്റുന്നതിന് സഹായിക്കുന്ന കീബോര്‍ഡ് എളുപ്പ വഴി"
 
 #: src/org.mate.terminal.gschema.xml.in:356
 msgid ""
@@ -1120,10 +1074,9 @@ msgid ""
 "option to the special string \"disabled\", then there will be no keyboard "
 "shortcut for this action."
 msgstr ""
-"മെനുബാറിന്റെ കാണുന്ന അവസ്ഥ മാറ്റുന്നതിന് സഹായിക്കുന്ന കീബോര്‍ഡ് എളുപ്പ വഴി. "
-"GTK+ റിസോഴ്സ് ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"മെനുബാറിന്റെ കാണുന്ന അവസ്ഥ മാറ്റുന്നതിന് സഹായിക്കുന്ന കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് "
+"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:360
@@ -1137,10 +1090,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"ടെര്‍മിനലിന്റെ തലകെട്ട് ക്രമീകരിക്കുന്നതിന് സഹായിക്കുന്ന കീബോര്‍ഡ് എളുപ്പ "
-"വഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"ടെര്‍മിനലിന്റെ തലകെട്ട് ക്രമീകരിക്കുന്നതിന് സഹായിക്കുന്ന കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് "
+"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:365
@@ -1154,10 +1106,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"ടെര്‍മിനല്‍ വെടിപ്പാക്കുന്നതിനു സഹായിക്കുന്ന കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ "
-"റിസോഴ്സ് ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"ടെര്‍മിനല്‍ വെടിപ്പാക്കുന്നതിനു സഹായിക്കുന്ന കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
+"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:370
@@ -1166,15 +1117,14 @@ msgstr "ടെര്‍മിനല്‍ റീസറ്റ് ചെയ്ത�
 
 #: src/org.mate.terminal.gschema.xml.in:371
 msgid ""
-"Keyboard shortcut key to reset and clear the terminal. Expressed as a string"
-" in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"Keyboard shortcut key to reset and clear the terminal. Expressed as a string "
+"in the same format used for GTK+ resource files. If you set the option to "
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
-"ടെര്‍മിനല്‍ റീസറ്റ് ചെയ്ത് വെടിപ്പാക്കുന്നതിനു സഹായിക്കുന്ന കീബോര്‍ഡ് എളുപ്പ"
-" വഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"ടെര്‍മിനല്‍ റീസറ്റ് ചെയ്ത് വെടിപ്പാക്കുന്നതിനു സഹായിക്കുന്ന കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് "
+"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:375
@@ -1185,13 +1135,12 @@ msgstr "മുമ്പുളള കിളിവാതിലിലേയ്ക�
 msgid ""
 "Keyboard shortcut key to switch to the previous tab. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
-"മുമ്പുള്ള കിളിവാതിലിലേയ്ക്കു് മാറുന്നതിന് സഹായിക്കുന്ന കീബോര്‍ഡ് എളുപ്പ വഴി."
-" GTK+ റിസോഴ്സ് ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"മുമ്പുള്ള കിളിവാതിലിലേയ്ക്കു് മാറുന്നതിന് സഹായിക്കുന്ന കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് "
+"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:380
@@ -1205,10 +1154,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"അടുത്ത കിളിവാതിലിലേയ്ക്കു് മാറുന്നതിന് സഹായിക്കുന്ന കീബോര്‍ഡ് എളുപ്പ വഴി. "
-"GTK+ റിസോഴ്സ് ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"അടുത്ത കിളിവാതിലിലേയ്ക്കു് മാറുന്നതിന് സഹായിക്കുന്ന കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
+"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:385
@@ -1231,8 +1179,8 @@ msgstr ""
 msgid ""
 "Keyboard shortcut key to switch to the next profile. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:395
@@ -1246,10 +1194,9 @@ msgid ""
 "the special string \"disabled\", then there will be no keybinding for this "
 "action."
 msgstr ""
-"നിലവിലുള്ള കിളിവാതില്‍ ഇടത്തേക്കു് നീക്കുന്നതിനുള്ള ആക്സിലറേറ്റര്‍ കീ. ഇവ "
-"GTK+ ഉറവിട ഫയലുകളില്‍ ഉപയോഗിക്കുന്നതു് പോലെ അതേ മാതൃകയില്‍ ഒരു സ്ട്രിങ് ആയി "
-"ഉപയോഗിക്കുന്നു. ഇവ \"disabled\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തിയ്ക്കു്"
-" കീബൈന്‍ഡിങ് ഉണ്ടാവില്ല."
+"നിലവിലുള്ള കിളിവാതില്‍ ഇടത്തേക്കു് നീക്കുന്നതിനുള്ള ആക്സിലറേറ്റര്‍ കീ. ഇവ GTK+ ഉറവിട ഫയലുകളില്‍ "
+"ഉപയോഗിക്കുന്നതു് പോലെ അതേ മാതൃകയില്‍ ഒരു സ്ട്രിങ് ആയി ഉപയോഗിക്കുന്നു. ഇവ \"disabled\" എന്നു് "
+"സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തിയ്ക്കു് കീബൈന്‍ഡിങ് ഉണ്ടാവില്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:400
 msgid "Accelerator to move the current tab to the right."
@@ -1262,10 +1209,9 @@ msgid ""
 "the special string \"disabled\", then there will be no keybinding for this "
 "action."
 msgstr ""
-"നിലവിലുള്ള കിളിവാതില്‍ വലത്തേക്കു് നീക്കുന്നതിനുള്ള ആക്സിലറേറ്റര്‍ കീ. ഇവ "
-"GTK+ ഉറവിട ഫയലുകളില്‍ ഉപയോഗിക്കുന്നതു് പോലെ അതേ മാതൃകയില്‍ ഒരു സ്ട്രിങ് ആയി "
-"ഉപയോഗിക്കുന്നു. ഇവ \"disabled\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തിയ്ക്കു്"
-" കീബൈന്‍ഡിങ് ഉണ്ടാവില്ല."
+"നിലവിലുള്ള കിളിവാതില്‍ വലത്തേക്കു് നീക്കുന്നതിനുള്ള ആക്സിലറേറ്റര്‍ കീ. ഇവ GTK+ ഉറവിട ഫയലുകളില്‍ "
+"ഉപയോഗിക്കുന്നതു് പോലെ അതേ മാതൃകയില്‍ ഒരു സ്ട്രിങ് ആയി ഉപയോഗിക്കുന്നു. ഇവ \"disabled\" എന്നു് "
+"സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തിയ്ക്കു് കീബൈന്‍ഡിങ് ഉണ്ടാവില്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:405
 msgid "Accelerator to detach current tab."
@@ -1277,10 +1223,9 @@ msgid ""
 "format used for GTK+ resource files. If you set the option to the special "
 "string \"disabled\", then there will be no keybinding for this action."
 msgstr ""
-"നിലവിലുള്ള കിളിവാതില്‍ വേര്‍പെടുത്തുന്നതിനുള്ള ആക്സിലറേറ്റര്‍ കീ. ഇവ GTK+ "
-"ഉറവിട ഫയലുകളില്‍ ഉപയോഗിക്കുന്നതു് പോലെ അതേ മാതൃകയില്‍ ഒരു സ്ട്രിങ് ആയി "
-"ഉപയോഗിക്കുന്നു. ഇവ \"disabled\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തിയ്ക്കു്"
-" കീബൈന്‍ഡിങ് ഉണ്ടാവില്ല."
+"നിലവിലുള്ള കിളിവാതില്‍ വേര്‍പെടുത്തുന്നതിനുള്ള ആക്സിലറേറ്റര്‍ കീ. ഇവ GTK+ ഉറവിട ഫയലുകളില്‍ "
+"ഉപയോഗിക്കുന്നതു് പോലെ അതേ മാതൃകയില്‍ ഒരു സ്ട്രിങ് ആയി ഉപയോഗിക്കുന്നു. ഇവ \"disabled\" എന്നു് "
+"സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തിയ്ക്കു് കീബൈന്‍ഡിങ് ഉണ്ടാവില്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:410
 msgid "Keyboard shortcut to switch to tab 1"
@@ -1288,15 +1233,13 @@ msgstr "കിളിവാതില്‍ 1-ലേക്ക് പോകുന�
 
 #: src/org.mate.terminal.gschema.xml.in:411
 msgid ""
-"Keyboard shortcut key for switch to tab 1. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 1. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"കിളിവാതില്‍ 1-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് "
-"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"കിളിവാതില്‍ 1-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
+"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:415
@@ -1305,15 +1248,13 @@ msgstr "കിളിവാതില്‍ 2-ലേക്ക് പോകുന�
 
 #: src/org.mate.terminal.gschema.xml.in:416
 msgid ""
-"Keyboard shortcut key for switch to tab 2. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 2. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"കിളിവാതില്‍ 2-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് "
-"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"കിളിവാതില്‍ 2-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
+"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:420
@@ -1322,15 +1263,13 @@ msgstr "കിളിവാതില്‍ 3-ലേക്ക് പോകുന�
 
 #: src/org.mate.terminal.gschema.xml.in:421
 msgid ""
-"Keyboard shortcut key for switch to tab 3. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 3. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"കിളിവാതില്‍ 3-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് "
-"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"കിളിവാതില്‍ 3-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
+"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:425
@@ -1339,15 +1278,13 @@ msgstr "കിളിവാതില്‍ 4-ലേക്ക് പോകുന�
 
 #: src/org.mate.terminal.gschema.xml.in:426
 msgid ""
-"Keyboard shortcut key for switch to tab 4. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 4. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"കിളിവാതില്‍ 4-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് "
-"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"കിളിവാതില്‍ 4-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
+"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:430
@@ -1356,15 +1293,13 @@ msgstr "കിളിവാതില്‍ 5-ലേക്ക് പോകുന�
 
 #: src/org.mate.terminal.gschema.xml.in:431
 msgid ""
-"Keyboard shortcut key for switch to tab 5. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 5. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"കിളിവാതില്‍ 5-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് "
-"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"കിളിവാതില്‍ 5-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
+"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:435
@@ -1373,15 +1308,13 @@ msgstr "കിളിവാതില്‍ 6-ലേക്ക് പോകുന�
 
 #: src/org.mate.terminal.gschema.xml.in:436
 msgid ""
-"Keyboard shortcut key for switch to tab 6. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 6. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"കിളിവാതില്‍ 6-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് "
-"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"കിളിവാതില്‍ 6-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
+"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:440
@@ -1390,15 +1323,13 @@ msgstr "കിളിവാതില്‍ 7-ലേക്ക് പോകുന�
 
 #: src/org.mate.terminal.gschema.xml.in:441
 msgid ""
-"Keyboard shortcut key for switch to tab 7. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 7. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"കിളിവാതില്‍ 7-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് "
-"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"കിളിവാതില്‍ 7-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
+"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:445
@@ -1407,15 +1338,13 @@ msgstr "കിളിവാതില്‍ 8-ലേക്ക് പോകുന�
 
 #: src/org.mate.terminal.gschema.xml.in:446
 msgid ""
-"Keyboard shortcut key for switch to tab 8. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 8. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"കിളിവാതില്‍ 8-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് "
-"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"കിളിവാതില്‍ 8-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
+"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:450
@@ -1424,15 +1353,13 @@ msgstr "കിളിവാതില്‍ 9-ലേക്ക് പോകുന�
 
 #: src/org.mate.terminal.gschema.xml.in:451
 msgid ""
-"Keyboard shortcut key for switch to tab 9. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 9. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"കിളിവാതില്‍ 9-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് "
-"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"കിളിവാതില്‍ 9-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
+"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:455
@@ -1446,10 +1373,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"കിളിവാതില്‍ 10-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് "
-"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"കിളിവാതില്‍ 10-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
+"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:460
@@ -1463,10 +1389,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"കിളിവാതില്‍ 11-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് "
-"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"കിളിവാതില്‍ 11-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
+"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:465
@@ -1480,10 +1405,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"കിളിവാതില്‍ 12-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് "
-"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"കിളിവാതില്‍ 12-ലേക്ക് മാറുന്നതിനായുളള കീബോര്‍ഡ് എളുപ്പ വഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
+"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:470
@@ -1494,13 +1418,11 @@ msgstr "സഹായം ലഭ്യമാകുന്നതിനുളള ക�
 msgid ""
 "Keyboard shortcut key for launching help. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"സഹായം ലഭ്യമാക്കുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പവഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
-"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. "
-"പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ "
-"പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി ഉണ്ടായിരിക്കുന്നതല്ല."
+"സഹായം ലഭ്യമാക്കുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പവഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ "
+"രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് "
+"സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:475
 msgid "Keyboard shortcut to make font larger"
@@ -1513,10 +1435,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"അക്ഷരസഞ്ചയം വലിയതാക്കുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പവഴി. GTK+ റിസോഴ്സ് "
-"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"അക്ഷരസഞ്ചയം വലിയതാക്കുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പവഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
+"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:480
@@ -1530,11 +1451,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"അക്ഷരസഞ്ചയം ചെറുതാക്കുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പവഴി. GTK+ റിസോഴ്സ് "
-"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
-"ഉണ്ടായിരിക്കുന്നതല്ല."
+"അക്ഷരസഞ്ചയം ചെറുതാക്കുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പവഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന "
+"അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" "
+"എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/org.mate.terminal.gschema.xml.in:485
 msgid "Keyboard shortcut to make font normal-size"
@@ -1542,15 +1461,14 @@ msgstr "അക്ഷരസഞ്ചയം സാധാരണ വലിപ്പ�
 
 #: src/org.mate.terminal.gschema.xml.in:486
 msgid ""
-"Keyboard shortcut key for making font the normal size. Expressed as a string"
-" in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"Keyboard shortcut key for making font the normal size. Expressed as a string "
+"in the same format used for GTK+ resource files. If you set the option to "
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
-"അക്ഷരം സാധാരണവലിപ്പമാക്കുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പവഴി. GTK+ റിസോഴ്സ് "
-"ഫയലുകളില്‍ ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി "
-"ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് \"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു്"
-" സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
+"അക്ഷരം സാധാരണവലിപ്പമാക്കുന്നതിനുള്ള കീബോര്‍ഡ് എളുപ്പവഴി. GTK+ റിസോഴ്സ് ഫയലുകളില്‍ "
+"ഉപയോഗിച്ചിരിക്കുന്ന അതേ രീതിയില്‍ സ്ട്രിങായി ആവിഷ്കരിച്ചിരിക്കുന്നു. പ്രത്യേക സ്ട്രിങ് "
+"\"പ്രവര്‍ത്തന രഹിതമാക്കുക\" എന്നു് സജ്ജമാക്കിയാല്‍, ഈ പ്രവര്‍ത്തനത്തിന് പിന്നീട് എളുപ്പ വഴി "
 "ഉണ്ടായിരിക്കുന്നതല്ല."
 
 #: src/profile-editor.c:45
@@ -1573,14 +1491,12 @@ msgstr "കറുപ്പില്‍ പച്ച"
 msgid "White on black"
 msgstr "കറുപ്പില്‍ വെള്ള"
 
-#. Translators: "Solarized" is the name of a colour scheme, "light" can be
-#. translated
+#. Translators: "Solarized" is the name of a colour scheme, "light" can be translated
 #: src/profile-editor.c:70
 msgid "Solarized light"
 msgstr ""
 
-#. Translators: "Solarized" is the name of a colour scheme, "dark" can be
-#. translated
+#. Translators: "Solarized" is the name of a colour scheme, "dark" can be translated
 #: src/profile-editor.c:75
 msgid "Solarized dark"
 msgstr ""
@@ -1814,8 +1730,7 @@ msgid ""
 "<small><i><b>Note:</b> Terminal applications have these colors available to "
 "them.</i></small>"
 msgstr ""
-"<small><i><b>കുറിപ്പ്:</b> ടെര്‍മിനല്‍ പ്രയോഗങ്ങള്‍ക്ക് ഈ നിറങ്ങള്‍ "
-"ലഭ്യമാണ്.</i></small>"
+"<small><i><b>കുറിപ്പ്:</b> ടെര്‍മിനല്‍ പ്രയോഗങ്ങള്‍ക്ക് ഈ നിറങ്ങള്‍ ലഭ്യമാണ്.</i></small>"
 
 #: src/profile-preferences.ui:1836
 msgid "Colors"
@@ -1897,12 +1812,11 @@ msgstr "സ്ക്രോളിങ്"
 msgid ""
 "<small><i><b>Note:</b> These options may cause some applications to behave "
 "incorrectly.  They are only here to allow you to work around certain "
-"applications and operating systems that expect different terminal "
-"behavior.</i></small>"
+"applications and operating systems that expect different terminal behavior.</"
+"i></small>"
 msgstr ""
-"<small><i><b>കുറിപ്പ്:</b> ചില പ്രയോഗങ്ങള്‍ ശരിയായി "
-"പ്രവര്‍ത്തിക്കാതിരിക്കുവാന്‍ ഈ ഐച്ഛികങ്ങള്‍ ചിലപ്പോള്‍ കാരണമാകുന്നു.  വേറെ "
-"ടെര്‍മിനല്‍ ഉപയോഗം ആവശ്യമുള്ള ചില പ്രയോഗങ്ങള്‍ക്കും ഓപ്പറേറ്റിങ് "
+"<small><i><b>കുറിപ്പ്:</b> ചില പ്രയോഗങ്ങള്‍ ശരിയായി പ്രവര്‍ത്തിക്കാതിരിക്കുവാന്‍ ഈ ഐച്ഛികങ്ങള്‍ "
+"ചിലപ്പോള്‍ കാരണമാകുന്നു.  വേറെ ടെര്‍മിനല്‍ ഉപയോഗം ആവശ്യമുള്ള ചില പ്രയോഗങ്ങള്‍ക്കും ഓപ്പറേറ്റിങ് "
 "സിസ്റ്റങ്ങള്‍ക്കും മാത്രം ഇവ സഹായകമാകുന്നു.</i></small>"
 
 #: src/profile-preferences.ui:2327
@@ -2124,8 +2038,7 @@ msgstr "സഹായം"
 #: src/terminal-accels.c:856
 #, c-format
 msgid "The shortcut key “%s” is already bound to the “%s” action"
-msgstr ""
-"“%s” എന്ന എളുപ്പവഴി നിലവില്‍ “%s” പ്രവര്‍ത്തിയുമായി ചേര്‍ന്നിരിക്കുന്നു"
+msgstr "“%s” എന്ന എളുപ്പവഴി നിലവില്‍ “%s” പ്രവര്‍ത്തിയുമായി ചേര്‍ന്നിരിക്കുന്നു"
 
 #: src/terminal-accels.c:1012
 msgid "_Action"
@@ -2158,24 +2071,23 @@ msgid ""
 "You already have a profile called “%s”. Do you want to create another "
 "profile with the same name?"
 msgstr ""
-"“%s” എന്ന പേരില്‍ ഒരു പ്രൊഫൈല്‍ നിലവിലുണ്ടു്. നിങ്ങള്‍ക്കു് ഇതേ പേരില്‍ "
-"മറ്റൊരു പ്രൊഫൈല്‍ ഉണ്ടാക്കണമോ?"
+"“%s” എന്ന പേരില്‍ ഒരു പ്രൊഫൈല്‍ നിലവിലുണ്ടു്. നിങ്ങള്‍ക്കു് ഇതേ പേരില്‍ മറ്റൊരു പ്രൊഫൈല്‍ ഉണ്ടാക്കണമോ?"
 
 #: src/terminal-app.c:1243
 msgid "Choose base profile"
 msgstr "ബെയിസ് പ്രൊഫൈല്‍ തെരഞ്ഞെടുക്കുക"
 
-#: src/terminal-app.c:1837
+#: src/terminal-app.c:1845
 #, c-format
 msgid "No such profile \"%s\", using default profile\n"
 msgstr "\"%s\" എന്ന പ്രൊഫൈല്‍ ലഭ്യമല്ല, സ്വതവേയുള്ളതു് ഉപയോഗിക്കുന്നു\n"
 
-#: src/terminal-app.c:1864
+#: src/terminal-app.c:1872
 #, c-format
 msgid "Invalid geometry string \"%s\"\n"
 msgstr "തെറ്റായ ജ്യാമിതി സ്ട്രിങ് \"%s\"\n"
 
-#: src/terminal-app.c:2070
+#: src/terminal-app.c:2078
 msgid "User Defined"
 msgstr "ഉപയോക്താവു് നിര്‍വ്വചിച്ച"
 
@@ -2333,210 +2245,209 @@ msgstr "കോഡ് അല്ലേല്‍ _രഹസ്യ ഭാഷയി�
 msgid "Current Locale"
 msgstr "നിലവിലുളള ലോക്കെയില്‍"
 
-#: src/terminal-options.c:177
+#: src/terminal-options.c:181
 #, c-format
 msgid ""
 "Option \"%s\" is no longer supported in this version of mate-terminal; you "
 "might want to create a profile with the desired setting, and use the new '--"
 "profile' option\n"
 msgstr ""
-"\"%s\" ഉപാധി നിലവിലുള്ള mate-terminal പതിപ്പിനു് പിന്തുണ നല്‍കുന്നില്ല; "
-"നിങ്ങള്‍ക്കു് ഇഷ്ടമുള്ള ക്രമീകരണത്തില്‍ ഒരു പ്രൊഫൈല്‍ ഉണ്ടാക്കി, പുതിയ '--"
-"profile' ഉപാധി ഉപയോഗിക്കാം\n"
+"\"%s\" ഉപാധി നിലവിലുള്ള mate-terminal പതിപ്പിനു് പിന്തുണ നല്‍കുന്നില്ല; നിങ്ങള്‍ക്കു് ഇഷ്ടമുള്ള "
+"ക്രമീകരണത്തില്‍ ഒരു പ്രൊഫൈല്‍ ഉണ്ടാക്കി, പുതിയ '--profile' ഉപാധി ഉപയോഗിക്കാം\n"
 
-#: src/terminal-options.c:209
+#: src/terminal-options.c:213
 #, c-format
 msgid "Argument to \"%s\" is not a valid command: %s"
 msgstr "\"%s\"-ലേക്കുളള ആര്‍ഗ്യുമെന്റ് അസാധുവായ ഒരു ആജ്ഞയാണ്: %s"
 
-#: src/terminal-options.c:347
+#: src/terminal-options.c:351
 msgid "Two roles given for one window"
 msgstr "ഒരു ജാലകത്തിനു് രണ്ടു് ജോലികള്‍ നല്‍കിയിരിക്കുന്നു"
 
-#: src/terminal-options.c:368 src/terminal-options.c:401
+#: src/terminal-options.c:372 src/terminal-options.c:405
 #, c-format
 msgid "\"%s\" option given twice for the same window\n"
 msgstr "ഒരേ ജാലകത്തിനു് \"%s\" ഉപാധി രണ്ടും തവണ നല്‍കിയിരിക്കുന്നു\n"
 
-#: src/terminal-options.c:600
+#: src/terminal-options.c:625
 #, c-format
 msgid "\"%s\" is not a valid zoom factor"
 msgstr "\"%s\" ശരിയായ സൂം ഫാക്ടര്‍ അല്ല"
 
-#: src/terminal-options.c:607
+#: src/terminal-options.c:632
 #, c-format
 msgid "Zoom factor \"%g\" is too small, using %g\n"
 msgstr "സൂം ഫാക്ടര്‍ \"%g\" വളരെ ചെറുതാണു്, അതിനാല്‍ %g ഉപയോഗിക്കുന്നു\n"
 
-#: src/terminal-options.c:615
+#: src/terminal-options.c:640
 #, c-format
 msgid "Zoom factor \"%g\" is too large, using %g\n"
 msgstr "സൂം ഫാക്ടര്‍ \"%g\" വളരെ വലുതാണു്, അതിനാല്‍ %g ഉപയോഗിക്കുന്നു\n"
 
-#: src/terminal-options.c:650
+#: src/terminal-options.c:675
 #, c-format
 msgid ""
 "Option \"%s\" requires specifying the command to run on the rest of the "
 "command line"
 msgstr ""
-"\"%s\" ഐച്ഛികത്തിനു്, ബാക്കിയുള്ള കമാന്‍ഡ് ലൈനില്‍ "
-"പ്രവര്‍ത്തിപ്പിക്കുന്നതിനായി കമാന്‍ഡ് നല്‍കേണ്ടതുണ്ടു്"
+"\"%s\" ഐച്ഛികത്തിനു്, ബാക്കിയുള്ള കമാന്‍ഡ് ലൈനില്‍ പ്രവര്‍ത്തിപ്പിക്കുന്നതിനായി കമാന്‍ഡ് നല്‍കേണ്ടതുണ്ടു്"
 
-#: src/terminal-options.c:811
+#: src/terminal-options.c:837
 msgid "Not a valid terminal config file."
 msgstr "ശരിയായ ടെര്‍മിനല്‍ ക്രമീകരണ ഫയല്‍ അല്ല."
 
-#: src/terminal-options.c:824
+#: src/terminal-options.c:850
 msgid "Incompatible terminal config file version."
 msgstr "പൊരുത്തപ്പെടാത്ത ടെര്‍മിനല്‍ ക്രമീകരണ ഫയല്‍ പതിപ്പു്."
 
-#: src/terminal-options.c:952
+#: src/terminal-options.c:980
 msgid ""
 "Do not register with the activation nameserver, do not re-use an active "
 "terminal"
 msgstr ""
-"ആക്ടിവേഷന്‍ nameserver ഉപയോഗിച്ചു് രജിസ്ടര്‍ ചെയ്യരുതു്, സജീവമായ ഒരു "
-"ടെര്‍മിനല്‍ വീണ്ടും ഉപയോഗിക്കരുതു്"
+"ആക്ടിവേഷന്‍ nameserver ഉപയോഗിച്ചു് രജിസ്ടര്‍ ചെയ്യരുതു്, സജീവമായ ഒരു ടെര്‍മിനല്‍ വീണ്ടും "
+"ഉപയോഗിക്കരുതു്"
 
-#: src/terminal-options.c:961
+#: src/terminal-options.c:989
 msgid "Load a terminal configuration file"
 msgstr "ഒരു ടെര്‍മിനല്‍ ക്രമീകരണ ഫയല്‍ ലഭ്യമാക്കുക"
 
-#: src/terminal-options.c:970
+#: src/terminal-options.c:998
 msgid "Save the terminal configuration to a file"
 msgstr "ടെര്‍മിനല്‍ ക്രമീകരണം ഒരു ഫയലിലേക്കു് സൂക്ഷിക്കുക"
 
-#: src/terminal-options.c:985
+#: src/terminal-options.c:1013
 msgid "Open a new window containing a tab with the default profile"
-msgstr ""
-"സ്വതവേയുള്ള പ്രൊഫൈല്‍ ഉള്ള ഒരു പുതിയ കിളിവാതില്‍ അടങ്ങുന്ന പുതിയ ഒരു ജാലകം "
-"തുറക്കുക"
+msgstr "സ്വതവേയുള്ള പ്രൊഫൈല്‍ ഉള്ള ഒരു പുതിയ കിളിവാതില്‍ അടങ്ങുന്ന പുതിയ ഒരു ജാലകം തുറക്കുക"
 
-#: src/terminal-options.c:994
+#: src/terminal-options.c:1022
 msgid "Open a new tab in the last-opened window with the default profile"
-msgstr ""
-"ഒടുവില്‍ തുറന്ന ജാലകത്തില്‍ സ്വതവേയുള്ള പ്രൊഫൈല്‍ ഉപയോഗിച്ചു് ഒരു പുതിയ "
-"കിളിവാതിലില്‍ തുറക്കുക"
+msgstr "ഒടുവില്‍ തുറന്ന ജാലകത്തില്‍ സ്വതവേയുള്ള പ്രൊഫൈല്‍ ഉപയോഗിച്ചു് ഒരു പുതിയ കിളിവാതിലില്‍ തുറക്കുക"
 
-#: src/terminal-options.c:1008
+#: src/terminal-options.c:1036
 msgid "Turn on the menubar"
 msgstr "മെനുബാര്‍ ഓണ്‍ ചെയ്യുക"
 
-#: src/terminal-options.c:1017
+#: src/terminal-options.c:1045
 msgid "Turn off the menubar"
 msgstr "മെനുബാര്‍ ഓഫ് ചെയ്യുക"
 
-#: src/terminal-options.c:1026
+#: src/terminal-options.c:1054
 msgid "Maximize the window"
 msgstr "ജാലകം വലുതാക്കുക"
 
-#: src/terminal-options.c:1035
+#: src/terminal-options.c:1063
 msgid "Full-screen the window"
 msgstr "ജാലകം പൂര്‍ണ്ണവലിപ്പത്തിലാക്കുക"
 
-#: src/terminal-options.c:1044
+#: src/terminal-options.c:1072
 msgid ""
 "Set the window size; for example: 80x24, or 80x24+200+200 (COLSxROWS+X+Y)"
 msgstr ""
 
-#: src/terminal-options.c:1045
+#: src/terminal-options.c:1073
 msgid "GEOMETRY"
 msgstr "GEOMETRY"
 
-#: src/terminal-options.c:1053
+#: src/terminal-options.c:1081
 msgid "Set the window role"
 msgstr "ജാലകത്തിനുള്ള റോള്‍ സജ്ജമാക്കകു"
 
-#: src/terminal-options.c:1054
+#: src/terminal-options.c:1082
 msgid "ROLE"
 msgstr "ROLE"
 
-#: src/terminal-options.c:1062
+#: src/terminal-options.c:1090
+#, fuzzy
+#| msgid "Set the window role"
+msgid "Set the window icon"
+msgstr "ജാലകത്തിനുള്ള റോള്‍ സജ്ജമാക്കകു"
+
+#: src/terminal-options.c:1091
+msgid "ICON"
+msgstr ""
+
+#: src/terminal-options.c:1099
 msgid "Set the last specified tab as the active one in its window"
-msgstr ""
-"ജാലകത്തില്‍ ഏറ്റവും ഒടുവില്‍ പറഞ്ഞിരിക്കുന്ന കിളിവാതില്‍ സജീവമായി "
-"ക്രമീകരിക്കുക"
+msgstr "ജാലകത്തില്‍ ഏറ്റവും ഒടുവില്‍ പറഞ്ഞിരിക്കുന്ന കിളിവാതില്‍ സജീവമായി ക്രമീകരിക്കുക"
 
-#: src/terminal-options.c:1076
+#: src/terminal-options.c:1113
 msgid "Execute the argument to this option inside the terminal"
-msgstr ""
-"ടെര്‍മിനലിനുള്ളിലുള്ള ഈ ഉപാധിയിലേക്കു് ആര്‍ഗ്യുമെന്റ് പ്രവര്‍ത്തിപ്പിക്കുക"
+msgstr "ടെര്‍മിനലിനുള്ളിലുള്ള ഈ ഉപാധിയിലേക്കു് ആര്‍ഗ്യുമെന്റ് പ്രവര്‍ത്തിപ്പിക്കുക"
 
-#: src/terminal-options.c:1085
+#: src/terminal-options.c:1122
 msgid "Use the given profile instead of the default profile"
 msgstr "സ്വതവേയുള്ള പ്രൊഫൈലിനു് പകരം നല്‍കിയിരിക്കുന്ന പ്രൊഫൈല്‍ ഉപയോഗിക്കുക"
 
-#: src/terminal-options.c:1086
+#: src/terminal-options.c:1123
 msgid "PROFILE-NAME"
 msgstr "PROFILE-NAME"
 
-#: src/terminal-options.c:1094
+#: src/terminal-options.c:1131
 msgid "Set the terminal title"
 msgstr "ടെര്‍മിനലിനുള്ള തലക്കെട്ടു് സജ്ജമാക്കുക"
 
-#: src/terminal-options.c:1095
+#: src/terminal-options.c:1132
 msgid "TITLE"
 msgstr "തലക്കെട്ട്"
 
-#: src/terminal-options.c:1103
+#: src/terminal-options.c:1140
 msgid "Set the working directory"
 msgstr "പ്രവര്‍ത്തനത്തിലുള്ള തട്ടു് സജ്ജമാക്കുക"
 
-#: src/terminal-options.c:1104
+#: src/terminal-options.c:1141
 msgid "DIRNAME"
 msgstr "DIRNAME"
 
-#: src/terminal-options.c:1112
+#: src/terminal-options.c:1149
 msgid "Set the terminal's zoom factor (1.0 = normal size)"
 msgstr "ടെര്‍മിനലിനുള്ള സൂം ഫാക്ടര്‍ സജ്ജമാക്കുക (1.0 = സാധാരണ വലിപ്പം)"
 
-#: src/terminal-options.c:1113
+#: src/terminal-options.c:1150
 msgid "ZOOM"
 msgstr "ZOOM"
 
-#: src/terminal-options.c:1364 src/terminal-options.c:1367
+#: src/terminal-options.c:1401 src/terminal-options.c:1404
 msgid "MATE Terminal Emulator"
 msgstr "ഗ്നോം ടെര്‍മിനല്‍ എമ്യുലേറ്റര്‍"
 
-#: src/terminal-options.c:1368
+#: src/terminal-options.c:1405
 msgid "Show MATE Terminal options"
 msgstr "ഗ്നോം ടെര്‍മിനല്‍ ഐച്ഛികങ്ങള്‍ കാണിക്കുക"
 
-#: src/terminal-options.c:1378
+#: src/terminal-options.c:1415
 msgid ""
 "Options to open new windows or terminal tabs; more than one of these may be "
 "specified:"
 msgstr ""
-"പുതിയ ജാലകങ്ങളും ടെര്‍മിനല്‍ റ്റാബുകളും തുറക്കുന്നതിനുള്ള ഐച്ഛികങ്ങള്‍; "
-"ഇവയില്‍ ഒന്നില്‍ കൂടുതല്‍ നിഷ്കര്‍ഷിക്കാം:"
+"പുതിയ ജാലകങ്ങളും ടെര്‍മിനല്‍ റ്റാബുകളും തുറക്കുന്നതിനുള്ള ഐച്ഛികങ്ങള്‍; ഇവയില്‍ ഒന്നില്‍ കൂടുതല്‍ "
+"നിഷ്കര്‍ഷിക്കാം:"
 
-#: src/terminal-options.c:1379
+#: src/terminal-options.c:1416
 msgid "Show terminal options"
 msgstr "ടെര്‍മിനല്‍ ഐച്ഛികങ്ങള്‍ കാണിക്കുക"
 
-#: src/terminal-options.c:1387
+#: src/terminal-options.c:1424
 msgid ""
 "Window options; if used before the first --window or --tab argument, sets "
 "the default for all windows:"
 msgstr ""
-"ജാലകത്തിന്റെ ഐച്ഛികങ്ങള്‍; ആദ്യത്തെ --window അല്ലെങ്കില്‍ --tab "
-"ആര്‍ഗ്യുമെന്റിനു് മുമ്പായി ഉപായോഗിച്ചാല്‍, എല്ലാ ജാലകങ്ങള്‍ക്കും "
-"സ്വതവേയുള്ളതായി സജ്ജമാക്കുന്നു:"
+"ജാലകത്തിന്റെ ഐച്ഛികങ്ങള്‍; ആദ്യത്തെ --window അല്ലെങ്കില്‍ --tab ആര്‍ഗ്യുമെന്റിനു് മുമ്പായി "
+"ഉപായോഗിച്ചാല്‍, എല്ലാ ജാലകങ്ങള്‍ക്കും സ്വതവേയുള്ളതായി സജ്ജമാക്കുന്നു:"
 
-#: src/terminal-options.c:1388
+#: src/terminal-options.c:1425
 msgid "Show per-window options"
 msgstr "ഓരോ ജാലകത്തിലുമുള്ള ഐച്ഛികങ്ങള്‍ കാണിക്കുക"
 
-#: src/terminal-options.c:1396
+#: src/terminal-options.c:1433
 msgid ""
 "Terminal options; if used before the first --window or --tab argument, sets "
 "the default for all terminals:"
 msgstr ""
-"ടെര്‍മിനല്‍ ഐച്ഛികങ്ങള്‍; ആദ്യത്തെ --window അല്ലെങ്കില്‍ --tab "
-"ആര്‍ഗ്യുമെന്റിനു് മുമ്പായി ഉപായോഗിച്ചാല്‍, എല്ലാ ടെര്‍മിനലുകള്‍ക്കും സഹജമായി"
-" സജ്ജമാക്കുന്നു:"
+"ടെര്‍മിനല്‍ ഐച്ഛികങ്ങള്‍; ആദ്യത്തെ --window അല്ലെങ്കില്‍ --tab ആര്‍ഗ്യുമെന്റിനു് മുമ്പായി "
+"ഉപായോഗിച്ചാല്‍, എല്ലാ ടെര്‍മിനലുകള്‍ക്കും സഹജമായി സജ്ജമാക്കുന്നു:"
 
-#: src/terminal-options.c:1397
+#: src/terminal-options.c:1434
 msgid "Show per-terminal options"
 msgstr "ഓരോ ടെര്‍മിനലിലുമുള്ള ഐച്ഛികങ്ങള്‍ കാണിക്കുക"
 
@@ -2597,31 +2508,31 @@ msgstr ""
 
 #: src/terminal-util.c:330
 msgid ""
-"MATE Terminal is distributed in the hope that it will be useful, but WITHOUT"
-" ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"MATE Terminal is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
 msgstr ""
-"ഗ്നോം ടെര്‍മിനല്‍ നിങ്ങള്‍ക്കു് പ്രയോജനപ്പെടും എന്ന പ്രതീക്ഷയില്‍ വിതരണം "
-"ചെയ്യുന്നതാണു്.പക്ഷേ, ഇതിന് ഒരു വാറണ്ടിയും ലഭ്യമല്ല; വ്യാപാരയോഗ്യതയോ ഒരു "
-"പ്രത്യേക കാര്യത്തിനു്ചേരുന്നതാണെന്നോ ഉള്ള പരോക്ഷമായ ഒരു വാറണ്ടി പോലും ഇല്ല. "
-"കൂടുതല്‍ വിവരങ്ങള്‍ക്കു് ഗ്നു ജനറല്‍ പബ്ലിക് ലൈസന്‍സ് കാണുക."
+"ഗ്നോം ടെര്‍മിനല്‍ നിങ്ങള്‍ക്കു് പ്രയോജനപ്പെടും എന്ന പ്രതീക്ഷയില്‍ വിതരണം ചെയ്യുന്നതാണു്.പക്ഷേ, ഇതിന് "
+"ഒരു വാറണ്ടിയും ലഭ്യമല്ല; വ്യാപാരയോഗ്യതയോ ഒരു പ്രത്യേക കാര്യത്തിനു്ചേരുന്നതാണെന്നോ ഉള്ള "
+"പരോക്ഷമായ ഒരു വാറണ്ടി പോലും ഇല്ല. കൂടുതല്‍ വിവരങ്ങള്‍ക്കു് ഗ്നു ജനറല്‍ പബ്ലിക് ലൈസന്‍സ് കാണുക."
 
 #: src/terminal-util.c:334
 msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" MATE Terminal; if not, write to the Free Software Foundation, Inc., 51 "
+"You should have received a copy of the GNU General Public License along with "
+"MATE Terminal; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin St, Fifth Floor, Boston, MA  02110-1301 USA"
 msgstr ""
-"നിങ്ങള്‍ക്കു് ഗ്നോം ടെര്‍മിനലിനൊപ്പം ഗ്നു ജനറല്‍ പബ്ലിക് ലൈസന്‍സിന്റെ ഒരു "
-"പകര്‍പ്പു് ലഭിച്ചിട്ടുണ്ടായിരിയ്ക്കണം; ഇല്ലെങ്കില്‍, ഈ "
-"വിലാസത്തിലേയ്ക്കെഴുതുക: Free Software Foundation, Inc., 51 Franklin Street, "
-"Fifth Floor, Boston, MA 02110-1301, USA."
+"നിങ്ങള്‍ക്കു് ഗ്നോം ടെര്‍മിനലിനൊപ്പം ഗ്നു ജനറല്‍ പബ്ലിക് ലൈസന്‍സിന്റെ ഒരു പകര്‍പ്പു് "
+"ലഭിച്ചിട്ടുണ്ടായിരിയ്ക്കണം; ഇല്ലെങ്കില്‍, ഈ വിലാസത്തിലേയ്ക്കെഴുതുക: Free Software "
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+"USA."
 
 #. Translators: This is the label of a menu item to choose a profile.
 #. * _%d is used as the accelerator (with d between 1 and 9), and
 #. * the %s is the name of the terminal profile.
-#: src/terminal-window.c:619
+#.
+#: src/terminal-window.c:612
 #, c-format
 msgid "_%d. %s"
 msgstr "_%d. %s"
@@ -2629,279 +2540,280 @@ msgstr "_%d. %s"
 #. Translators: This is the label of a menu item to choose a profile.
 #. * _%c is used as the accelerator (it will be a character between A and Z),
 #. * and the %s is the name of the terminal profile.
-#: src/terminal-window.c:625
+#.
+#: src/terminal-window.c:618
 #, c-format
 msgid "_%c. %s"
 msgstr "_%c. %s"
 
-#: src/terminal-window.c:1948
+#: src/terminal-window.c:1941
 msgid "_File"
 msgstr "_ഫയല്‍"
 
-#: src/terminal-window.c:1949 src/terminal-window.c:1962
-#: src/terminal-window.c:2213
+#: src/terminal-window.c:1942 src/terminal-window.c:1955
+#: src/terminal-window.c:2206
 msgid "Open _Terminal"
 msgstr "ടെര്‍മിനല്‍ തുറക്കുക (_T)"
 
-#: src/terminal-window.c:1950 src/terminal-window.c:1967
-#: src/terminal-window.c:2218
+#: src/terminal-window.c:1943 src/terminal-window.c:1960
+#: src/terminal-window.c:2211
 msgid "Open Ta_b"
 msgstr "_കിളിവാതില്‍ തുറക്കുക"
 
-#: src/terminal-window.c:1951
+#: src/terminal-window.c:1944
 msgid "_Edit"
 msgstr "_മാറ്റം വരുത്തുക"
 
-#: src/terminal-window.c:1952
+#: src/terminal-window.c:1945
 msgid "_View"
 msgstr "_കാഴ്ച"
 
-#: src/terminal-window.c:1953
+#: src/terminal-window.c:1946
 msgid "_Search"
 msgstr "_തെരയുക"
 
-#: src/terminal-window.c:1954
+#: src/terminal-window.c:1947
 msgid "_Terminal"
 msgstr "_ടെര്‍മിനല്‍"
 
-#: src/terminal-window.c:1955
+#: src/terminal-window.c:1948
 msgid "Ta_bs"
 msgstr "_കിളിവാതിലുകള്‍ "
 
-#: src/terminal-window.c:1972
+#: src/terminal-window.c:1965
 msgid "New _Profile…"
 msgstr "പുതിയ _പ്രൊഫൈല്‍"
 
-#: src/terminal-window.c:1977
+#: src/terminal-window.c:1970
 msgid "_Save Contents"
 msgstr "ഉള്ളടക്കം _സൂക്ഷിക്കുക"
 
-#: src/terminal-window.c:1982 src/terminal-window.c:2228
+#: src/terminal-window.c:1975 src/terminal-window.c:2221
 msgid "C_lose Tab"
 msgstr "കിളിവാതില്‍ _അടയ്ക്കുക"
 
-#: src/terminal-window.c:1987
+#: src/terminal-window.c:1980
 msgid "_Close Window"
 msgstr "ജാലകം അടയ്ക്കുക (_C)"
 
-#: src/terminal-window.c:1994 src/terminal-window.c:2198
+#: src/terminal-window.c:1987 src/terminal-window.c:2191
 msgid "_Copy"
 msgstr "പകര്‍ത്തുക (_C)"
 
-#: src/terminal-window.c:1999 src/terminal-window.c:2203
+#: src/terminal-window.c:1992 src/terminal-window.c:2196
 msgid "_Paste"
 msgstr "ഒട്ടിയ്ക്കുക"
 
-#: src/terminal-window.c:2004 src/terminal-window.c:2208
+#: src/terminal-window.c:1997 src/terminal-window.c:2201
 msgid "Paste _Filenames"
 msgstr "_ഫയല്‍നാമങ്ങള്‍ ഒട്ടിക്കുക"
 
-#: src/terminal-window.c:2009
+#: src/terminal-window.c:2002
 msgid "Select _All"
 msgstr "_എല്ലാം തെരഞ്ഞെടുക്കുക "
 
-#: src/terminal-window.c:2014
+#: src/terminal-window.c:2007
 msgid "P_rofiles…"
 msgstr "_പ്രൊഫൈലുകള്‍"
 
-#: src/terminal-window.c:2019
+#: src/terminal-window.c:2012
 msgid "_Keyboard Shortcuts…"
 msgstr "_കീബോര്‍ഡിനുള്ള എളുപ്പവഴികള്‍"
 
-#: src/terminal-window.c:2024
+#: src/terminal-window.c:2017
 msgid "Pr_ofile Preferences"
 msgstr "_പ്രൊഫൈല്‍ മുന്‍ഗണനകള്‍"
 
-#: src/terminal-window.c:2031
+#: src/terminal-window.c:2024
 msgid "Zoom _In"
 msgstr "വ_ലുതാക്കുക"
 
-#: src/terminal-window.c:2036
+#: src/terminal-window.c:2029
 msgid "Zoom _Out"
 msgstr "_ചെറുതാക്കുക"
 
-#: src/terminal-window.c:2041
+#: src/terminal-window.c:2034
 msgid "_Normal Size"
 msgstr "_സാധാരണ വലിപ്പം"
 
-#: src/terminal-window.c:2048
+#: src/terminal-window.c:2041
 msgid "_Find..."
 msgstr "തിരയുക (_F)..."
 
-#: src/terminal-window.c:2053
+#: src/terminal-window.c:2046
 msgid "Find Ne_xt"
 msgstr "_അടുത്തത് കണ്ടു പിടിക്കുക"
 
-#: src/terminal-window.c:2058
+#: src/terminal-window.c:2051
 msgid "Find Pre_vious"
 msgstr "_മുമ്പുള്ളതു് കണ്ടു പിടിക്കുക"
 
-#: src/terminal-window.c:2063
+#: src/terminal-window.c:2056
 msgid "_Clear Highlight"
 msgstr "എടുത്തുകാണിയ്ക്കുന്ന_തൊഴിവാക്കുക"
 
-#: src/terminal-window.c:2069
+#: src/terminal-window.c:2062
 msgid "Go to _Line..."
 msgstr "_വരിയിലേക്ക് പോകുക..."
 
-#: src/terminal-window.c:2074
+#: src/terminal-window.c:2067
 msgid "_Incremental Search..."
 msgstr "_കൂട്ടിക്കൂട്ടി തെരയുക..."
 
-#: src/terminal-window.c:2081
+#: src/terminal-window.c:2074
 msgid "Change _Profile"
 msgstr "_പ്രൊഫൈന്‍ മാറ്റം വരുത്തുക "
 
-#: src/terminal-window.c:2083
+#: src/terminal-window.c:2076
 msgid "_Previous Profile"
 msgstr ""
 
-#: src/terminal-window.c:2088
+#: src/terminal-window.c:2081
 msgid "_Next Profile"
 msgstr ""
 
-#: src/terminal-window.c:2093
+#: src/terminal-window.c:2086
 msgid "_Set Title…"
 msgstr "തലക്കെട്ടു് _സജ്ജമാക്കുക"
 
-#: src/terminal-window.c:2097
+#: src/terminal-window.c:2090
 msgid "Set _Character Encoding"
 msgstr "_അക്ഷരങ്ങള്‍ എന്‍കോഡ് ചെയ്യുന്ന സംവിധാനം ക്രമീകരിക്കുക "
 
-#: src/terminal-window.c:2099
+#: src/terminal-window.c:2092
 msgid "_Reset"
 msgstr "_പുനഃസ്ഥാപിക്കുക "
 
-#: src/terminal-window.c:2104
+#: src/terminal-window.c:2097
 msgid "Reset and C_lear"
 msgstr "പുനഃസ്ഥാപിച്ച് _വെടിപ്പാക്കുക "
 
-#: src/terminal-window.c:2111
+#: src/terminal-window.c:2104
 msgid "_Add or Remove…"
 msgstr "_ചേര്‍ക്കുക അല്ലെങ്കില്‍ നീക്കം ചെയ്യുക… "
 
-#: src/terminal-window.c:2118
+#: src/terminal-window.c:2111
 msgid "_Previous Tab"
 msgstr "_മുമ്പുളള കിളിവാതില്‍"
 
-#: src/terminal-window.c:2123
+#: src/terminal-window.c:2116
 msgid "_Next Tab"
 msgstr "_അടുത്ത കിളിവാതില്‍"
 
-#: src/terminal-window.c:2128
+#: src/terminal-window.c:2121
 msgid "Move Tab _Left"
 msgstr "കിളിവാതില്‍ _ഇടത്തേക്ക് നീക്കുക"
 
-#: src/terminal-window.c:2133
+#: src/terminal-window.c:2126
 msgid "Move Tab _Right"
 msgstr "കിളിവാതില്‍ _വലത്തേക്ക് നീക്കുക"
 
-#: src/terminal-window.c:2138
+#: src/terminal-window.c:2131
 msgid "_Detach tab"
 msgstr "കിളിവാതില്‍ _വേര്‍പ്പെടുത്തുക"
 
-#: src/terminal-window.c:2145
+#: src/terminal-window.c:2138
 msgid "_Contents"
 msgstr "_ഉളളടക്കം"
 
-#: src/terminal-window.c:2150
+#: src/terminal-window.c:2143
 msgid "_About"
 msgstr "_സംബന്ധിച്ച്"
 
-#: src/terminal-window.c:2157
+#: src/terminal-window.c:2150
 msgid "_Open Hyperlink"
 msgstr ""
 
-#: src/terminal-window.c:2162
+#: src/terminal-window.c:2155
 msgid "_Copy Hyperlink Address"
 msgstr ""
 
-#: src/terminal-window.c:2167
+#: src/terminal-window.c:2160
 msgid "_Send Mail To…"
 msgstr "മെയില്‍ _അയയ്ക്കേണ്ടത്"
 
-#: src/terminal-window.c:2172
+#: src/terminal-window.c:2165
 msgid "_Copy E-mail Address"
 msgstr "ഈ-മെയില്‍ മേല്‍വിലാസം _പകര്‍ത്തുക "
 
-#: src/terminal-window.c:2177
+#: src/terminal-window.c:2170
 msgid "C_all To…"
 msgstr "_വിളിയ്ക്കേണ്ടതു്…"
 
-#: src/terminal-window.c:2182
+#: src/terminal-window.c:2175
 msgid "_Copy Call Address"
 msgstr "വിളിക്കുവാനുള്ള മേല്‍വിലാസം _പകര്‍ത്തുക"
 
-#: src/terminal-window.c:2187
+#: src/terminal-window.c:2180
 msgid "_Open Link"
 msgstr "_കണ്ണി തുറക്കുക"
 
-#: src/terminal-window.c:2192
+#: src/terminal-window.c:2185
 msgid "_Copy Link Address"
 msgstr "കണ്ണി വിലാസം _പകര്‍ത്തുക"
 
-#: src/terminal-window.c:2196
+#: src/terminal-window.c:2189
 msgid "P_rofiles"
 msgstr "_പ്രൊഫൈലുകള്‍"
 
-#: src/terminal-window.c:2233
+#: src/terminal-window.c:2226
 msgid "L_eave Full Screen"
 msgstr "സ്ക്രീനിന്റെ പൂര്‍ണ്ണവലിപ്പത്തില്‍ നിന്നും പുറത്തു് _കടക്കുക"
 
-#: src/terminal-window.c:2237
+#: src/terminal-window.c:2230
 msgid "_Input Methods"
 msgstr "_ഇന്‍പുട്ട് മാര്‍ഗ്ഗങ്ങള്‍ "
 
-#: src/terminal-window.c:2244
+#: src/terminal-window.c:2237
 msgid "Show _Menubar"
 msgstr "_മെനു ബാര്‍ കാണിക്കുക "
 
-#: src/terminal-window.c:2250
+#: src/terminal-window.c:2243
 msgid "_Full Screen"
 msgstr "സ്ക്രീന്‍ പരാമവധി _വലിപ്പമുളളതാക്കുക "
 
-#: src/terminal-window.c:3705
+#: src/terminal-window.c:3721
 msgid ""
 "There are still processes running in some terminals in this window.\n"
 "Closing the window will kill all of them."
 msgstr ""
 
-#: src/terminal-window.c:3711
+#: src/terminal-window.c:3727
 msgid "There are multiple tabs open in this window."
 msgstr ""
 
-#: src/terminal-window.c:3721
+#: src/terminal-window.c:3737
 msgid "Close this terminal?"
 msgstr "ഈ ടെര്‍മിനല്‍ അടയ്ക്കണമോ?"
 
-#: src/terminal-window.c:3722
+#: src/terminal-window.c:3738
 msgid "C_lose Terminal"
 msgstr "ടെര്‍മിനല്‍ അ_ടയ്ക്കുക"
 
-#: src/terminal-window.c:3792
+#: src/terminal-window.c:3808
 msgid "Could not save contents"
 msgstr "ഉള്ളടക്കം സൂക്ഷിക്കുവാന്‍ സാധ്യമായില്ല"
 
-#: src/terminal-window.c:3816
+#: src/terminal-window.c:3832
 msgid "Save as..."
 msgstr "പുതിയ പേരില്‍ സൂക്ഷിക്കുക..."
 
-#: src/terminal-window.c:4511
+#: src/terminal-window.c:4526
 msgid "Contributors:"
 msgstr "സംഭാവനചെയ്തവര്‍:"
 
-#: src/terminal-window.c:4527
+#: src/terminal-window.c:4542
 #, c-format
 msgid ""
 "MATE Terminal is a terminal emulator for the MATE Desktop Environment.\n"
 "Powered by Virtual TErminal %d.%d.%d"
 msgstr ""
 
-#: src/terminal-window.c:4533
+#: src/terminal-window.c:4548
 msgid "About MATE Terminal"
 msgstr ""
 
-#: src/terminal-window.c:4534
+#: src/terminal-window.c:4549
 msgid ""
 "Copyright © 2002–2004 Havoc Pennington\n"
 "Copyright © 2003–2004, 2007 Mariano Suárez-Alvarez\n"
@@ -2911,7 +2823,7 @@ msgid ""
 "Copyright © 2012-2021 MATE developers"
 msgstr ""
 
-#: src/terminal-window.c:4546
+#: src/terminal-window.c:4561
 msgid "translator-credits"
 msgstr ""
 "അനി പീറ്റര്‍ <peter.ani@gmail.com>\n"
